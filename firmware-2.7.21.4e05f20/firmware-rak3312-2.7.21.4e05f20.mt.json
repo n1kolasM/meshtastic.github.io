@@ -1,0 +1,95 @@
+{
+  "version": "2.7.21.4e05f20",
+  "build_epoch": 1774915200,
+  "platformioTarget": "rak3312",
+  "mcu": "esp32s3",
+  "repo": "meshtastic/firmware",
+  "files": [
+    {
+      "name": "firmware-rak3312-2.7.21.4e05f20.elf",
+      "md5": "d4b924feae5505344d75c0372fba8ad4",
+      "bytes": 22248216
+    },
+    {
+      "name": "firmware-rak3312-2.7.21.4e05f20.bin",
+      "md5": "f671a41ad079c0f4e736c273d36e3600",
+      "bytes": 2097488,
+      "part_name": "app0"
+    },
+    {
+      "name": "firmware-rak3312-2.7.21.4e05f20.factory.bin",
+      "md5": "5f572cf782d52cfee7a2043b1d9dbbd0",
+      "bytes": 2163024
+    },
+    {
+      "name": "littlefs-rak3312-2.7.21.4e05f20.bin",
+      "md5": "ada10ba86edc14e072f8b66ba643e1fd",
+      "bytes": 1048576,
+      "part_name": "spiffs"
+    },
+    {
+      "name": "mt-esp32s3-ota.bin",
+      "md5": "497d3108c038f8a6b5f4e234a1156c8a",
+      "bytes": 636544,
+      "part_name": "app1"
+    }
+  ],
+  "has_mui": false,
+  "has_inkhud": false,
+  "part": [
+    {
+      "name": "nvs",
+      "type": "data",
+      "subtype": "nvs",
+      "offset": "0x009000",
+      "size": "0x005000",
+      "flags": ""
+    },
+    {
+      "name": "otadata",
+      "type": "data",
+      "subtype": "ota",
+      "offset": "0x00e000",
+      "size": "0x002000",
+      "flags": ""
+    },
+    {
+      "name": "app",
+      "type": "app",
+      "subtype": "ota_0",
+      "offset": "0x010000",
+      "size": "0x250000",
+      "flags": ""
+    },
+    {
+      "name": "flashApp",
+      "type": "app",
+      "subtype": "ota_1",
+      "offset": "0x260000",
+      "size": "0x0A0000",
+      "flags": ""
+    },
+    {
+      "name": "spiffs",
+      "type": "data",
+      "subtype": "spiffs",
+      "offset": "0x300000",
+      "size": "0x100000",
+      "flags": ""
+    }
+  ],
+  "hwModel": 106,
+  "hwModelSlug": "RAK3312",
+  "architecture": "esp32-s3",
+  "activelySupported": true,
+  "displayName": "RAK3312",
+  "supportLevel": 1,
+  "images": [
+    "rak_3312.svg"
+  ],
+  "tags": [
+    "RAK"
+  ],
+  "requiresDfu": false,
+  "partitionScheme": "16MB"
+}

@@ -1,0 +1,44 @@
+{
+  "version": "2.7.21.4e05f20",
+  "build_epoch": 1774915200,
+  "platformioTarget": "rak3401-1watt",
+  "mcu": "nrf52840",
+  "repo": "meshtastic/firmware",
+  "files": [
+    {
+      "name": "firmware-rak3401-1watt-2.7.21.4e05f20.elf",
+      "md5": "cb582052ad97e1c4fd0c4de64e7ef6b4",
+      "bytes": 1330412
+    },
+    {
+      "name": "firmware-rak3401-1watt-2.7.21.4e05f20.hex",
+      "md5": "d04ccc952c952175486993e662fd3044",
+      "bytes": 2011947
+    },
+    {
+      "name": "firmware-rak3401-1watt-2.7.21.4e05f20.uf2",
+      "md5": "0b290626c92c296d6c3d960ce9a510eb",
+      "bytes": 1431040
+    },
+    {
+      "name": "firmware-rak3401-1watt-2.7.21.4e05f20-ota.zip",
+      "md5": "dabee315ac1494f76d899536f3460a85",
+      "bytes": 716249
+    }
+  ],
+  "has_mui": false,
+  "has_inkhud": false,
+  "hwModel": 117,
+  "hwModelSlug": "RAK3401",
+  "architecture": "nrf52840",
+  "activelySupported": true,
+  "displayName": "RAK3401 1W",
+  "supportLevel": 1,
+  "images": [
+    "rak3401.svg"
+  ],
+  "tags": [
+    "RAK"
+  ],
+  "requiresDfu": true
+}

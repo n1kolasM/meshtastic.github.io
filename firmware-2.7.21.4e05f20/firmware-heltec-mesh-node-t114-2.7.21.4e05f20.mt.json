@@ -1,0 +1,45 @@
+{
+  "version": "2.7.21.4e05f20",
+  "build_epoch": 1774915200,
+  "platformioTarget": "heltec-mesh-node-t114",
+  "mcu": "nrf52840",
+  "repo": "meshtastic/firmware",
+  "files": [
+    {
+      "name": "firmware-heltec-mesh-node-t114-2.7.21.4e05f20.elf",
+      "md5": "86a2865bfaa9140612d0ce269d673a75",
+      "bytes": 1334924
+    },
+    {
+      "name": "firmware-heltec-mesh-node-t114-2.7.21.4e05f20.hex",
+      "md5": "0594825483d75ae317faae2c6500a8c0",
+      "bytes": 2021516
+    },
+    {
+      "name": "firmware-heltec-mesh-node-t114-2.7.21.4e05f20.uf2",
+      "md5": "31b775c64d23b7cf7c724dbf3d6599f0",
+      "bytes": 1437696
+    },
+    {
+      "name": "firmware-heltec-mesh-node-t114-2.7.21.4e05f20-ota.zip",
+      "md5": "9db9c9a8cace1906017d176786930151",
+      "bytes": 719697
+    }
+  ],
+  "has_mui": false,
+  "has_inkhud": false,
+  "hwModel": 69,
+  "hwModelSlug": "HELTEC_MESH_NODE_T114",
+  "architecture": "nrf52840",
+  "activelySupported": true,
+  "displayName": "Heltec Mesh Node T114",
+  "supportLevel": 1,
+  "images": [
+    "heltec-mesh-node-t114.svg",
+    "heltec-mesh-node-t114-case.svg"
+  ],
+  "tags": [
+    "Heltec"
+  ],
+  "requiresDfu": true
+}

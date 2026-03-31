@@ -1,0 +1,93 @@
+{
+  "version": "2.7.21.4e05f20",
+  "build_epoch": 1774915200,
+  "platformioTarget": "tbeam",
+  "mcu": "esp32",
+  "repo": "meshtastic/firmware",
+  "files": [
+    {
+      "name": "firmware-tbeam-2.7.21.4e05f20.elf",
+      "md5": "f0a576b301a16175142b0aad3cf289fb",
+      "bytes": 19862636
+    },
+    {
+      "name": "firmware-tbeam-2.7.21.4e05f20.bin",
+      "md5": "32dc27a2244ff686400145ce00e04352",
+      "bytes": 2165552,
+      "part_name": "app0"
+    },
+    {
+      "name": "firmware-tbeam-2.7.21.4e05f20.factory.bin",
+      "md5": "4d972ca2c56020cbc230703e7de257d2",
+      "bytes": 2231088
+    },
+    {
+      "name": "littlefs-tbeam-2.7.21.4e05f20.bin",
+      "md5": "eca099008ed5da6f2655c90bfcb9c3b4",
+      "bytes": 1048576,
+      "part_name": "spiffs"
+    },
+    {
+      "name": "mt-esp32-ota.bin",
+      "md5": "d7376153b9d0034ac5cf534bc0e17fc0",
+      "bytes": 642096,
+      "part_name": "app1"
+    }
+  ],
+  "has_mui": false,
+  "has_inkhud": false,
+  "part": [
+    {
+      "name": "nvs",
+      "type": "data",
+      "subtype": "nvs",
+      "offset": "0x009000",
+      "size": "0x005000",
+      "flags": ""
+    },
+    {
+      "name": "otadata",
+      "type": "data",
+      "subtype": "ota",
+      "offset": "0x00e000",
+      "size": "0x002000",
+      "flags": ""
+    },
+    {
+      "name": "app",
+      "type": "app",
+      "subtype": "ota_0",
+      "offset": "0x010000",
+      "size": "0x250000",
+      "flags": ""
+    },
+    {
+      "name": "flashApp",
+      "type": "app",
+      "subtype": "ota_1",
+      "offset": "0x260000",
+      "size": "0x0A0000",
+      "flags": ""
+    },
+    {
+      "name": "spiffs",
+      "type": "data",
+      "subtype": "spiffs",
+      "offset": "0x300000",
+      "size": "0x100000",
+      "flags": ""
+    }
+  ],
+  "hwModel": 4,
+  "hwModelSlug": "TBEAM",
+  "architecture": "esp32",
+  "activelySupported": true,
+  "displayName": "LILYGO T-Beam",
+  "supportLevel": 3,
+  "images": [
+    "tbeam.svg"
+  ],
+  "tags": [
+    "LilyGo"
+  ]
+}
