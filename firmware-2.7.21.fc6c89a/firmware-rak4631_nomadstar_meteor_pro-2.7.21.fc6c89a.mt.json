@@ -1,0 +1,44 @@
+{
+  "version": "2.7.21.fc6c89a",
+  "build_epoch": 1775001600,
+  "platformioTarget": "rak4631_nomadstar_meteor_pro",
+  "mcu": "nrf52840",
+  "repo": "meshtastic/firmware",
+  "files": [
+    {
+      "name": "firmware-rak4631_nomadstar_meteor_pro-2.7.21.fc6c89a.elf",
+      "md5": "626dc8978dac1f47da487637bf81dfa7",
+      "bytes": 1330960
+    },
+    {
+      "name": "firmware-rak4631_nomadstar_meteor_pro-2.7.21.fc6c89a.hex",
+      "md5": "eb664fff384624c93400c7865f007c74",
+      "bytes": 2007018
+    },
+    {
+      "name": "firmware-rak4631_nomadstar_meteor_pro-2.7.21.fc6c89a.uf2",
+      "md5": "02c87bcda253d8d38b1457e21af68f13",
+      "bytes": 1427456
+    },
+    {
+      "name": "firmware-rak4631_nomadstar_meteor_pro-2.7.21.fc6c89a-ota.zip",
+      "md5": "e5ad7677ffbc8d4899d53e9f0b1c6b54",
+      "bytes": 714583
+    }
+  ],
+  "has_mui": false,
+  "has_inkhud": false,
+  "hwModel": 96,
+  "hwModelSlug": "NOMADSTAR_METEOR_PRO",
+  "architecture": "nrf52840",
+  "activelySupported": true,
+  "displayName": "NomadStar Meteor Pro",
+  "supportLevel": 1,
+  "images": [
+    "meteor_pro.svg"
+  ],
+  "tags": [
+    "NomadStar"
+  ],
+  "requiresDfu": true
+}
