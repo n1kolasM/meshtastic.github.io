@@ -1,0 +1,90 @@
+{
+  "version": "2.7.21.1370b23",
+  "build_epoch": 1775347200,
+  "platformioTarget": "m5stack-core",
+  "mcu": "esp32",
+  "repo": "meshtastic/firmware",
+  "files": [
+    {
+      "name": "firmware-m5stack-core-2.7.21.1370b23.elf",
+      "md5": "b419049480ca4cb523f70ba83da4b36c",
+      "bytes": 20010328
+    },
+    {
+      "name": "firmware-m5stack-core-2.7.21.1370b23.bin",
+      "md5": "e13b05c004c7a81b4a82a81c84070817",
+      "bytes": 2163168,
+      "part_name": "app0"
+    },
+    {
+      "name": "firmware-m5stack-core-2.7.21.1370b23.factory.bin",
+      "md5": "d8dd75c7ec1a37e4097d76935b13cac3",
+      "bytes": 2228704
+    },
+    {
+      "name": "littlefs-m5stack-core-2.7.21.1370b23.bin",
+      "md5": "90d24e347cb37dfeb2cc98678eb037cd",
+      "bytes": 1048576,
+      "part_name": "spiffs"
+    },
+    {
+      "name": "mt-esp32-ota.bin",
+      "md5": "d7376153b9d0034ac5cf534bc0e17fc0",
+      "bytes": 642096,
+      "part_name": "app1"
+    }
+  ],
+  "has_mui": false,
+  "has_inkhud": false,
+  "part": [
+    {
+      "name": "nvs",
+      "type": "data",
+      "subtype": "nvs",
+      "offset": "0x009000",
+      "size": "0x005000",
+      "flags": ""
+    },
+    {
+      "name": "otadata",
+      "type": "data",
+      "subtype": "ota",
+      "offset": "0x00e000",
+      "size": "0x002000",
+      "flags": ""
+    },
+    {
+      "name": "app",
+      "type": "app",
+      "subtype": "ota_0",
+      "offset": "0x010000",
+      "size": "0x250000",
+      "flags": ""
+    },
+    {
+      "name": "flashApp",
+      "type": "app",
+      "subtype": "ota_1",
+      "offset": "0x260000",
+      "size": "0x0A0000",
+      "flags": ""
+    },
+    {
+      "name": "spiffs",
+      "type": "data",
+      "subtype": "spiffs",
+      "offset": "0x300000",
+      "size": "0x100000",
+      "flags": ""
+    }
+  ],
+  "hwModel": 42,
+  "hwModelSlug": "M5STACK",
+  "architecture": "esp32",
+  "activelySupported": true,
+  "displayName": "M5 Stack",
+  "supportLevel": 3,
+  "tags": [
+    "M5Stack"
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "version": "2.7.21.1370b23",
+  "build_epoch": 1775347200,
+  "platformioTarget": "rak_wismeshtap",
+  "mcu": "nrf52840",
+  "repo": "meshtastic/firmware",
+  "files": [
+    {
+      "name": "firmware-rak_wismeshtap-2.7.21.1370b23.elf",
+      "md5": "e16056abd5e20991790bc251adf13bf1",
+      "bytes": 1327796
+    },
+    {
+      "name": "firmware-rak_wismeshtap-2.7.21.1370b23.hex",
+      "md5": "ab0e1aa586f7750bd49667b423eda925",
+      "bytes": 2011968
+    },
+    {
+      "name": "firmware-rak_wismeshtap-2.7.21.1370b23.uf2",
+      "md5": "dbf3cffc12da879ac26b87d67cc1e7e1",
+      "bytes": 1431040
+    },
+    {
+      "name": "firmware-rak_wismeshtap-2.7.21.1370b23-ota.zip",
+      "md5": "354446c635ee59f19d61174aba6112d9",
+      "bytes": 716259
+    }
+  ],
+  "has_mui": false,
+  "has_inkhud": false,
+  "hwModel": 84,
+  "hwModelSlug": "WISMESH_TAP",
+  "architecture": "nrf52840",
+  "activelySupported": true,
+  "displayName": "RAK WisMesh Tap",
+  "supportLevel": 1,
+  "images": [
+    "rak-wismeshtap.svg"
+  ],
+  "tags": [
+    "RAK"
+  ],
+  "requiresDfu": true
+}

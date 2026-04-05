@@ -1,0 +1,35 @@
+{
+  "version": "2.7.21.1370b23",
+  "build_epoch": 1775347200,
+  "platformioTarget": "thinknode_m4",
+  "mcu": "nrf52840",
+  "repo": "meshtastic/firmware",
+  "files": [
+    {
+      "name": "firmware-thinknode_m4-2.7.21.1370b23.elf",
+      "md5": "3cb97e2cae0cd150616a3bc8d26224c6",
+      "bytes": 1328356
+    },
+    {
+      "name": "firmware-thinknode_m4-2.7.21.1370b23.hex",
+      "md5": "5d084757def8630bb10e513d344f856a",
+      "bytes": 1985643
+    },
+    {
+      "name": "firmware-thinknode_m4-2.7.21.1370b23.uf2",
+      "md5": "1646995310760aab39e25b901e4cf389",
+      "bytes": 1412096
+    },
+    {
+      "name": "firmware-thinknode_m4-2.7.21.1370b23-ota.zip",
+      "md5": "779fd89b3d56823865e571449ef8a1f9",
+      "bytes": 706887
+    }
+  ],
+  "has_mui": false,
+  "has_inkhud": false,
+  "architecture": "nrf52840",
+  "requiresDfu": true,
+  "displayName": "thinknode_m4",
+  "activelySupported": false
+}

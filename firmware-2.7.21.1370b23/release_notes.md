@@ -1,0 +1,193 @@
+## 🚀 Enhancements
+
+- T5-4.7-S3 Epaper Pro support by @mverch67 in https://github.com/meshtastic/firmware/pull/6625
+- Xiao NRF - define suitable i2c pins for the sub-variants by @NomDeTom in https://github.com/meshtastic/firmware/pull/8866
+- Fix(MQTT): Send first MapReport as soon as possible by @ndoo in https://github.com/meshtastic/firmware/pull/8872
+- Traffic Management Module for packet forwarding logic by @h3lix1 in https://github.com/meshtastic/firmware/pull/9358
+- Feat/add sfa30 by @oscgonfer in https://github.com/meshtastic/firmware/pull/9372
+- Deprecate/block packets with a missing/invalid hop_start value (pre-hop firmware) (related to issue #7369) by @Jord-JD in https://github.com/meshtastic/firmware/pull/9476
+- Improved Periodic class by @harry-iii-lord in https://github.com/meshtastic/firmware/pull/9501
+- InkHUD: Allow non-system applets to subscribe to input events by @Vortetty in https://github.com/meshtastic/firmware/pull/9514
+- Cardputer Kit by @caveman99 in https://github.com/meshtastic/firmware/pull/9540
+- Skip header items when enabling the InkHUD menu cursor by @zeropt in https://github.com/meshtastic/firmware/pull/9552
+- ExternalNotification and StatusLED now call AmbientLighting to update… by @jp-bennett in https://github.com/meshtastic/firmware/pull/9554
+- BaseUI: Favorite Screen Signal Quality improvement by @HarukiToreda in https://github.com/meshtastic/firmware/pull/9566
+- Add battery curve for T-Beam 1 watt by @jp-bennett in https://github.com/meshtastic/firmware/pull/9585
+- Add sdl libs for native builds by @jp-bennett in https://github.com/meshtastic/firmware/pull/9595
+- Log `rxBad` PacketHeaders with more info (`id`, `relay_node`) like `printPacket` by @compumike in https://github.com/meshtastic/firmware/pull/9614
+- Develop to master by @thebentern in https://github.com/meshtastic/firmware/pull/9618
+- Fix a lot of low level cppcheck warnings by @caveman99 in https://github.com/meshtastic/firmware/pull/9623
+- Convert `GPS*` global and some new in gps.cpp to `unique_ptr<GPS>` by @Jorropo in https://github.com/meshtastic/firmware/pull/9628
+- Replace delete in RedirectablePrint.cpp with std::unique_ptr by @Jorropo in https://github.com/meshtastic/firmware/pull/9642
+- Replace delete in EInkDynamicDisplay.{cpp,h} with std::unique_ptr by @Jorropo in https://github.com/meshtastic/firmware/pull/9643
+- Replace delete in RadioInterface.cpp with std::unique_ptr by @Jorropo in https://github.com/meshtastic/firmware/pull/9645
+- Replace delete in CryptoEngine.{cpp,h} with std::unique_ptr by @Jorropo in https://github.com/meshtastic/firmware/pull/9649
+- Replace delete in AudioThread.h with std::unique_ptr by @Jorropo in https://github.com/meshtastic/firmware/pull/9651
+- Scaling tweaks by @NomDeTom in https://github.com/meshtastic/firmware/pull/9653
+- InkHUD: Favorite Map Applet by @HarukiToreda in https://github.com/meshtastic/firmware/pull/9654
+- Fake IAQ values on Non-BSEC2 platforms like Platformio and the original ESP32 by @caveman99 in https://github.com/meshtastic/firmware/pull/9663
+- #9623 resolved a local shadow of next_key by converting it to int. by @caveman99 in https://github.com/meshtastic/firmware/pull/9665
+- Zip a few gitrefs down by @caveman99 in https://github.com/meshtastic/firmware/pull/9672
+- Limit http connections and add free heap check before allocating for SSL by @thebentern in https://github.com/meshtastic/firmware/pull/9693
+- Split module includes for AQ module by @oscgonfer in https://github.com/meshtastic/firmware/pull/9711
+- Align telemetry broadcast want_response behavior with traceroute by @thebentern in https://github.com/meshtastic/firmware/pull/9717
+- InkHUD: Nodelist cleanup by @HarukiToreda in https://github.com/meshtastic/firmware/pull/9737
+- Add GPIO_DETECT_PA portduino config, and support 13302 detection with it by @jp-bennett in https://github.com/meshtastic/firmware/pull/9741
+- Remove unused global rIf that shadows locals and fails cppcheck by @weebl2000 in https://github.com/meshtastic/firmware/pull/9743
+- Add Transmit history persistence for respecting traffic intervals between reboots by @thebentern in https://github.com/meshtastic/firmware/pull/9748
+- Add new configuration files for LR11xx variants by @NomDeTom in https://github.com/meshtastic/firmware/pull/9761
+- Unlock 0x8B5 register macro guard for SX162 by @thebentern in https://github.com/meshtastic/firmware/pull/9777
+- Enhancement(mesh): remove late packets from tx queue when full by @m1nl in https://github.com/meshtastic/firmware/pull/9779
+- Add json file rotation option by @jp-bennett in https://github.com/meshtastic/firmware/pull/9783
+- PPA: Remove Ubuntu 25.04, Add 26.04 by @vidplace7 in https://github.com/meshtastic/firmware/pull/9789
+- Deb: Handle offline builds more gracefully by @vidplace7 in https://github.com/meshtastic/firmware/pull/9791
+- Remove "x" permission bits from some source files by @ldoolitt in https://github.com/meshtastic/firmware/pull/9794
+- Add some lora parameter clamping logic to coalesce to defaults and enforce some bounds by @thebentern in https://github.com/meshtastic/firmware/pull/9808
+- Add back FEM LNA mode configuration for LoRa by @thebentern in https://github.com/meshtastic/firmware/pull/9809
+- More RAK6421 work by @jp-bennett in https://github.com/meshtastic/firmware/pull/9813
+- Add ROUTER_LATE and TAK_TRACKER to congestion scaling exemption by @h3lix1 in https://github.com/meshtastic/firmware/pull/9818
+- Add ROUTER_LATE to telemetry impolite role check by @h3lix1 in https://github.com/meshtastic/firmware/pull/9819
+- Add ROUTER_LATE to infrastructure init and config preservation by @h3lix1 in https://github.com/meshtastic/firmware/pull/9820
+- Update Heltec Tracker v2 to version KCT8103L. by @Quency-D in https://github.com/meshtastic/firmware/pull/9822
+- Align 920–925 MHz limits as per NBTC regulations in Thailand (27 dBm, 10% duty cycle) by @hereismeaw in https://github.com/meshtastic/firmware/pull/9827
+- Add APIPort to native config by @pdxlocations in https://github.com/meshtastic/firmware/pull/9840
+- T-mini Eink S3 Support for both InkHUD and BaseUI by @HarukiToreda in https://github.com/meshtastic/firmware/pull/9856
+- Consolidate SHTs into one class by @oscgonfer in https://github.com/meshtastic/firmware/pull/9859
+- Experiment: C++17 support by @thebentern in https://github.com/meshtastic/firmware/pull/9874
+- Lora settings expansion and validation logic improvement by @NomDeTom in https://github.com/meshtastic/firmware/pull/9878
+- Remove a bunch of warnings in SEN5X by @oscgonfer in https://github.com/meshtastic/firmware/pull/9884
+- BaseUI: Emote Refactoring by @HarukiToreda in https://github.com/meshtastic/firmware/pull/9896
+- Add spoof detection for UDP packets in UdpMulticastHandler by @NomDeTom in https://github.com/meshtastic/firmware/pull/9905
+- Heltec v4.3: enable LNA by default by @weebl2000 in https://github.com/meshtastic/firmware/pull/9906
+- Heltec V4 + TFT expansion kit: rotated MUI by @mverch67 in https://github.com/meshtastic/firmware/pull/9938
+- HexDump: Add const to the buf parameter in hexDump. by @fw190d13 in https://github.com/meshtastic/firmware/pull/9944
+- Apply all LoRa config changes live without rebooting by @Elwimen in https://github.com/meshtastic/firmware/pull/9962
+- Add meshtasticd config metadata by @vidplace7 in https://github.com/meshtastic/firmware/pull/10001
+- Exclude accelerometer on new MESHTASTIC_EXCLUDE_ACCELEROMETER flag by @thebentern in https://github.com/meshtastic/firmware/pull/10004
+- MUI: WiFi map tile download: heltec V4 adaptations by @mverch67 in https://github.com/meshtastic/firmware/pull/10011
+- Mesh-tab wifi map + exclude screen fix by @mverch67 in https://github.com/meshtastic/firmware/pull/10038
+- Thinknode_m5 minor fixes by @jp-bennett in https://github.com/meshtastic/firmware/pull/10049
+- Add a hardfault handler so it's more obvious when STM32 crashes. by @Stary2001 in https://github.com/meshtastic/firmware/pull/10071
+
+## 🐛 Bug fixes and maintenance
+
+- Add agc reset attempt by @jp-bennett in https://github.com/meshtastic/firmware/pull/8163
+- Improved manual build flow to make it easier by @NomDeTom in https://github.com/meshtastic/firmware/pull/8839
+- Support mini ePaper S3 Kit by @mverch67 in https://github.com/meshtastic/firmware/pull/9335
+- Remove GPS Baudrate locking for Seeed Xiao S3 Kit by @fifieldt in https://github.com/meshtastic/firmware/pull/9374
+- Fix heltec v4 tft dependency by @Quency-D in https://github.com/meshtastic/firmware/pull/9507
+- Apply SX1262 register 0x8B5 patch for improved GC1109 RX sensitivity by @weebl2000 in https://github.com/meshtastic/firmware/pull/9571
+- Hold GC1109 FEM power during deep sleep for LNA RX wake by @weebl2000 in https://github.com/meshtastic/firmware/pull/9572
+- Fix some random compiler warnings by @caveman99 in https://github.com/meshtastic/firmware/pull/9596
+- Add missing openocd_target to custom nrf52 boards by @Stary2001 in https://github.com/meshtastic/firmware/pull/9603
+- Fixes on SCD4X admin comands by @oscgonfer in https://github.com/meshtastic/firmware/pull/9607
+- Feat/add scd30 by @oscgonfer in https://github.com/meshtastic/firmware/pull/9609
+- Zero entire public key array instead of only first byte by @weebl2000 in https://github.com/meshtastic/firmware/pull/9619
+- Respect DontMqttMeBro flag regardless of channel PSK by @weebl2000 in https://github.com/meshtastic/firmware/pull/9626
+- Undefine LED_BUILTIN for Heltec v2 variant by @ericbarch in https://github.com/meshtastic/firmware/pull/9647
+- Fix typo in PIN_GPS_SWITCH by @Jorropo in https://github.com/meshtastic/firmware/pull/9648
+- Workaround NCP5623 and LP5562 I2C builds by @Jorropo in https://github.com/meshtastic/firmware/pull/9652
+- RadioLib edge-triggered interrupts robustness by @compumike in https://github.com/meshtastic/firmware/pull/9658
+- Add USB_MODE=1 for Station G2 - Solving all my serial issues. by @h3lix1 in https://github.com/meshtastic/firmware/pull/9660
+- Fix detection of SCD30 by checking if the size of the return from a 2 byte register read is correct by @caveman99 in https://github.com/meshtastic/firmware/pull/9664
+- Fix/rak3401 button by @LN4CY in https://github.com/meshtastic/firmware/pull/9668
+- Undefine LED_BUILTIN for 9m2ibr_aprs_lora_tracker by @mrekin in https://github.com/meshtastic/firmware/pull/9685
+- BLE Pairing fix by @HarukiToreda in https://github.com/meshtastic/firmware/pull/9701
+- Implement 'agc' reset for SX126x & LR11x0 chip families by @weebl2000 in https://github.com/meshtastic/firmware/pull/9705
+- Add explicit dependency on mklittlefs. by @cpatulea in https://github.com/meshtastic/firmware/pull/9708
+- Platform: nrf52: Fix typo in BLEDfuSecure filename by @KokoSoft in https://github.com/meshtastic/firmware/pull/9709
+- Meshtasticd: Add Luckfox Lyra Hat pinmaps by @vidplace7 in https://github.com/meshtastic/firmware/pull/9730
+- Fix WisMesh Tap V2 env mess by @thebentern in https://github.com/meshtastic/firmware/pull/9734
+- Hopefully fix remaining cppcheck issues by @caveman99 in https://github.com/meshtastic/firmware/pull/9745
+- Add heltec-v4.3 board by @Quency-D in https://github.com/meshtastic/firmware/pull/9753
+- Fix RAK4631 Ethernet gateway API connection loss after W5100S brownout by @PhilipLykov in https://github.com/meshtastic/firmware/pull/9754
+- Fix Bluetooth on RAK Ethernet Gateway by removing MESHTASTIC_EXCLUDE_… by @thebentern in https://github.com/meshtastic/firmware/pull/9755
+- Increase PSRAM malloc threshold from 256 bytes to 2048 bytes by @thebentern in https://github.com/meshtastic/firmware/pull/9758
+- Don't launch canned message when waking screen or silencing notification by @jp-bennett in https://github.com/meshtastic/firmware/pull/9762
+- Fix nRF52 AsyncUDP multicast TX/RX race on W5100S by @PhilipLykov in https://github.com/meshtastic/firmware/pull/9765
+- Fix W5100S socket exhaustion blocking MQTT and additional TCP clients by @PhilipLykov in https://github.com/meshtastic/firmware/pull/9770
+- Avoid memory leak when possibly malformed packet is received by @m1nl in https://github.com/meshtastic/firmware/pull/9781
+- Add ADS1115 ADC to recognition as used on RAK6421 Hat by @caveman99 in https://github.com/meshtastic/firmware/pull/9790
+- Traceroute through MQTT misses uplink node if MQTT is encrypted by @domusonline in https://github.com/meshtastic/firmware/pull/9798
+- Improve resource cleanup on connection close (and make server API a unique pointer) by @thebentern in https://github.com/meshtastic/firmware/pull/9799
+- Spelling fixes by @ldoolitt in https://github.com/meshtastic/firmware/pull/9801
+- Spelling fixes in .md files by @ldoolitt in https://github.com/meshtastic/firmware/pull/9810
+- Treat ROUTER_LATE like ROUTER for power management and defaults by @h3lix1 in https://github.com/meshtastic/firmware/pull/9815
+- Add ROUTER_LATE  use the same rebroadcast rules as ROUTER by @h3lix1 in https://github.com/meshtastic/firmware/pull/9816
+- Prevent router-like roles from auto-favoriting DM peers by @h3lix1 in https://github.com/meshtastic/firmware/pull/9821
+- Fix(t1000e): reclassify P0.04 as sensor power enable GPIO by @weebl2000 in https://github.com/meshtastic/firmware/pull/9826
+- Don't double-blink Thinknode-M1 Power LED while charging by @jp-bennett in https://github.com/meshtastic/firmware/pull/9829
+- Debian: Extend sourcedeb cache expiration by @vidplace7 in https://github.com/meshtastic/firmware/pull/9858
+- Fix(tlora-pager): Remove SDCARD_USE_SPI1 so SX1262 and SD can share bus by @ndoo in https://github.com/meshtastic/firmware/pull/9870
+- Update ESP8266Audio dependency to Meshtastic fork for compatibility by @thebentern in https://github.com/meshtastic/firmware/pull/9872
+- Pioarduino Heltec v4: fix build due to LED_BUILTIN compile error. by @cpatulea in https://github.com/meshtastic/firmware/pull/9875
+- Fix rak_wismeshtag low‑voltage reboot hang after App configuration by @Ethan-chen1234-zy in https://github.com/meshtastic/firmware/pull/9897
+- Fix for preserving pki_encrypted and public_key when relaying UDP multicast packets to radio. by @niklaswall in https://github.com/meshtastic/firmware/pull/9916
+- Add new RAK 13302 power curve by @jp-bennett in https://github.com/meshtastic/firmware/pull/9929
+- MQTT settings silently fail to persist when broker is unreachable by @rcatal01 in https://github.com/meshtastic/firmware/pull/9934
+- Remove early return during scan of BME address for BMP sensors by @NomDeTom in https://github.com/meshtastic/firmware/pull/9935
+- Ensure infrastructure role-based minimums are coerced since they don't have scaling by @thebentern in https://github.com/meshtastic/firmware/pull/9937
+- Fixes #9792 : Hop with Meshtastic ffff and ?dB is added to missing hop in traceroute by @domusonline in https://github.com/meshtastic/firmware/pull/9945
+- Fix NodeInfo suppression logic to ensure suppression only applies to external requests by @thebentern in https://github.com/meshtastic/firmware/pull/9947
+- Enable touch-to-backlight on T-Echo (not just T-Echo Plus) by @okturan in https://github.com/meshtastic/firmware/pull/9953
+- Fix TFTDisplay::display to align pixels at 32-bit boundary by @notmasteryet in https://github.com/meshtastic/firmware/pull/9956
+- Fix(routing): prevent licensed users from rebroadcasting packets to or from unlicensed users by @NomDeTom in https://github.com/meshtastic/firmware/pull/9958
+- Add heltec_mesh_node_t096 board. by @Quency-D in https://github.com/meshtastic/firmware/pull/9960
+- Cardputer-Adv I2S sound by @mverch67 in https://github.com/meshtastic/firmware/pull/9963
+- Fixes #9850: Double space issue with Cyrillic OLED font by @dev-nightcore in https://github.com/meshtastic/firmware/pull/9971
+- Add LED_BUILTIN for variant tlora_v1 by @RobertSasak in https://github.com/meshtastic/firmware/pull/9973
+- Add timeout to PPA uploads by @vidplace7 in https://github.com/meshtastic/firmware/pull/9989
+- Exclude web server, paxcounter and few others from original ESP32 generation to fix IRAM overflow by @thebentern in https://github.com/meshtastic/firmware/pull/10005
+- Update External Notifications with a full redo of logic gates by @Xaositek in https://github.com/meshtastic/firmware/pull/10006
+- Supporting STM32WL is like squeezing blood from a stone by @Stary2001 in https://github.com/meshtastic/firmware/pull/10015
+- Configure NFC pins as GPIO for older bootloaders by @NomDeTom in https://github.com/meshtastic/firmware/pull/10016
+- Fix TransmitHistory to improve epoch handling by @thebentern in https://github.com/meshtastic/firmware/pull/10017
+- Wio-sdk-wm1110: inherit build_unflags by @vidplace7 in https://github.com/meshtastic/firmware/pull/10034
+- ESP32: Take away "tbeam" boards PSRAM to reclaim iram by @vidplace7 in https://github.com/meshtastic/firmware/pull/10036
+- Set t5s3_epaper_inkhud to `extra` by @vidplace7 in https://github.com/meshtastic/firmware/pull/10037
+- Prevent division by zero in wind sensor averaging by @Patrickschell609 in https://github.com/meshtastic/firmware/pull/10059
+- Redact MQTT password from log output by @Patrickschell609 in https://github.com/meshtastic/firmware/pull/10064
+- Fix zero CR and add unit tests for applyModemConfig coding rate behavior by @thebentern in https://github.com/meshtastic/firmware/pull/10070
+
+## ⚙️ Dependencies
+
+- Update adafruit mpu6050 to v2.2.9 by @app/renovate in https://github.com/meshtastic/firmware/pull/9611
+- Update Sensirion Core to v0.7.3 by @app/renovate in https://github.com/meshtastic/firmware/pull/9613
+- Update neopixel to v1.15.4 by @app/renovate in https://github.com/meshtastic/firmware/pull/9616
+- Update actions/stale action to v10.2.0 by @app/renovate in https://github.com/meshtastic/firmware/pull/9669
+- Update meshtastic-GxEPD2 digest to c7eb4c3 by @app/renovate in https://github.com/meshtastic/firmware/pull/9694
+- Update radiolib to v7.6.0 by @app/renovate in https://github.com/meshtastic/firmware/pull/9695
+- Update sensorlib to v0.3.4 by @app/renovate in https://github.com/meshtastic/firmware/pull/9727
+- Update meshtastic-st7789 digest to 9ee76d6 by @app/renovate in https://github.com/meshtastic/firmware/pull/9729
+- Update adafruit mlx90614 to v2.1.6 by @app/renovate in https://github.com/meshtastic/firmware/pull/9756
+- Update adafruit_tsl2561 to v1.1.3 by @app/renovate in https://github.com/meshtastic/firmware/pull/9757
+- Update platformio/espressif32 to v6.13.0 by @app/renovate in https://github.com/meshtastic/firmware/pull/9759
+- Update platformio/nordicnrf52 to v10.11.0 by @app/renovate in https://github.com/meshtastic/firmware/pull/9760
+- Update adafruit dps310 to v1.1.6 by @app/renovate in https://github.com/meshtastic/firmware/pull/9763
+- Update platformio/ststm32 to v19.5.0 by @app/renovate in https://github.com/meshtastic/firmware/pull/9764
+- Update adafruit ahtx0 to v2.0.6 by @app/renovate in https://github.com/meshtastic/firmware/pull/9766
+- Update github artifact actions (major) by @app/renovate in https://github.com/meshtastic/firmware/pull/9767
+- Update crazy-max/ghaction-import-gpg action to v7 by @app/renovate in https://github.com/meshtastic/firmware/pull/9787
+- Update arduinojson to v6.21.6 by @app/renovate in https://github.com/meshtastic/firmware/pull/9788
+- Update dorny/test-reporter action to v2.6.0 by @app/renovate in https://github.com/meshtastic/firmware/pull/9796
+- Update docker/login-action action to v4 by @app/renovate in https://github.com/meshtastic/firmware/pull/9806
+- Update docker/setup-qemu-action action to v4 by @app/renovate in https://github.com/meshtastic/firmware/pull/9807
+- Update docker/setup-buildx-action action to v4 by @app/renovate in https://github.com/meshtastic/firmware/pull/9824
+- Update docker/build-push-action action to v7 by @app/renovate in https://github.com/meshtastic/firmware/pull/9832
+- Update docker/metadata-action action to v6 by @app/renovate in https://github.com/meshtastic/firmware/pull/9833
+- Update neopixel to v1.15.4 by @app/renovate in https://github.com/meshtastic/firmware/pull/9839
+- Update meshtastic-esp32_https_server digest to b78f12c by @app/renovate in https://github.com/meshtastic/firmware/pull/9851
+- Update meshtastic/device-ui digest to 622b034 by @app/renovate in https://github.com/meshtastic/firmware/pull/9864
+- Update GxEPD2 to v1.6.8 by @app/renovate in https://github.com/meshtastic/firmware/pull/9918
+- Update pnpm/action-setup action to v5 by @app/renovate in https://github.com/meshtastic/firmware/pull/9926
+- Update meshtastic/device-ui digest to f36d2a9 by @app/renovate in https://github.com/meshtastic/firmware/pull/9940
+- Update dorny/test-reporter action to v3 by @app/renovate in https://github.com/meshtastic/firmware/pull/9981
+- Deps: Cleanup LewisHe library references by @vidplace7 in https://github.com/meshtastic/firmware/pull/10007
+- Dependencies: Remove all fuzzy-matches, spot-add renovate by @vidplace7 in https://github.com/meshtastic/firmware/pull/10008
+- Update Adafruit_BME680 to v2.0.6 by @app/renovate in https://github.com/meshtastic/firmware/pull/10009
+- Update meshtastic/device-ui digest to 7b1485b by @app/renovate in https://github.com/meshtastic/firmware/pull/10023
+- Renovate: Don't update branches outside the schedule (daily) by @vidplace7 in https://github.com/meshtastic/firmware/pull/10039
+- Update meshtastic/device-ui digest to 7b1485b by @app/renovate in https://github.com/meshtastic/firmware/pull/10044
+- Update meshtastic/device-ui digest to 1897dd1 by @app/renovate in https://github.com/meshtastic/firmware/pull/10050
+
+**Full Changelog**: https://github.com/meshtastic/firmware/compare/v2.7.19.bb3d6d5...v2.7.21.1370b23
