@@ -1,11 +1,13 @@
+> [!WARNING]
+> Due to resource constraints the HTTP server is deprecated on original-generation ESP32 devices and should not be relied on going forward.
+> Support continues to be available on ESP32-S3 and other newer ESP32 generations.
+
 ## 🚀 Enhancements
 
 - T5-4.7-S3 Epaper Pro support by @mverch67 in https://github.com/meshtastic/firmware/pull/6625
 - Xiao NRF - define suitable i2c pins for the sub-variants by @NomDeTom in https://github.com/meshtastic/firmware/pull/8866
 - Fix(MQTT): Send first MapReport as soon as possible by @ndoo in https://github.com/meshtastic/firmware/pull/8872
-- Traffic Management Module for packet forwarding logic by @h3lix1 in https://github.com/meshtastic/firmware/pull/9358
 - Feat/add sfa30 by @oscgonfer in https://github.com/meshtastic/firmware/pull/9372
-- Deprecate/block packets with a missing/invalid hop_start value (pre-hop firmware) (related to issue #7369) by @Jord-JD in https://github.com/meshtastic/firmware/pull/9476
 - Improved Periodic class by @harry-iii-lord in https://github.com/meshtastic/firmware/pull/9501
 - InkHUD: Allow non-system applets to subscribe to input events by @Vortetty in https://github.com/meshtastic/firmware/pull/9514
 - Cardputer Kit by @caveman99 in https://github.com/meshtastic/firmware/pull/9540
@@ -54,14 +56,12 @@
 - T-mini Eink S3 Support for both InkHUD and BaseUI by @HarukiToreda in https://github.com/meshtastic/firmware/pull/9856
 - Consolidate SHTs into one class by @oscgonfer in https://github.com/meshtastic/firmware/pull/9859
 - Experiment: C++17 support by @thebentern in https://github.com/meshtastic/firmware/pull/9874
-- Lora settings expansion and validation logic improvement by @NomDeTom in https://github.com/meshtastic/firmware/pull/9878
 - Remove a bunch of warnings in SEN5X by @oscgonfer in https://github.com/meshtastic/firmware/pull/9884
 - BaseUI: Emote Refactoring by @HarukiToreda in https://github.com/meshtastic/firmware/pull/9896
 - Add spoof detection for UDP packets in UdpMulticastHandler by @NomDeTom in https://github.com/meshtastic/firmware/pull/9905
 - Heltec v4.3: enable LNA by default by @weebl2000 in https://github.com/meshtastic/firmware/pull/9906
 - Heltec V4 + TFT expansion kit: rotated MUI by @mverch67 in https://github.com/meshtastic/firmware/pull/9938
 - HexDump: Add const to the buf parameter in hexDump. by @fw190d13 in https://github.com/meshtastic/firmware/pull/9944
-- Apply all LoRa config changes live without rebooting by @Elwimen in https://github.com/meshtastic/firmware/pull/9962
 - Add meshtasticd config metadata by @vidplace7 in https://github.com/meshtastic/firmware/pull/10001
 - Exclude accelerometer on new MESHTASTIC_EXCLUDE_ACCELEROMETER flag by @thebentern in https://github.com/meshtastic/firmware/pull/10004
 - MUI: WiFi map tile download: heltec V4 adaptations by @mverch67 in https://github.com/meshtastic/firmware/pull/10011
@@ -190,4 +190,4 @@
 - Update meshtastic/device-ui digest to 7b1485b by @app/renovate in https://github.com/meshtastic/firmware/pull/10044
 - Update meshtastic/device-ui digest to 1897dd1 by @app/renovate in https://github.com/meshtastic/firmware/pull/10050
 
-**Full Changelog**: https://github.com/meshtastic/firmware/compare/v2.7.19.bb3d6d5...v2.7.21.1370b23
+**Full Changelog**: https://github.com/meshtastic/firmware/compare/v2.7.20.6658ec2...v2.7.21.1370b23
