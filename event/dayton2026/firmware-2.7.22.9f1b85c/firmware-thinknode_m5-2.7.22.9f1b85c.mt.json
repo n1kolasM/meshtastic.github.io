@@ -1,0 +1,94 @@
+{
+  "version": "2.7.22.9f1b85c",
+  "build_epoch": 1777334400,
+  "platformioTarget": "thinknode_m5",
+  "mcu": "esp32s3",
+  "repo": "meshtastic/firmware",
+  "files": [
+    {
+      "name": "firmware-thinknode_m5-2.7.22.9f1b85c.elf",
+      "md5": "ca30fa223868a190d4659eb0a5fa30b4",
+      "bytes": 22271536
+    },
+    {
+      "name": "firmware-thinknode_m5-2.7.22.9f1b85c.bin",
+      "md5": "bc02f5bbbad8f4245d4fe7ac6649568e",
+      "bytes": 2109824,
+      "part_name": "app0"
+    },
+    {
+      "name": "firmware-thinknode_m5-2.7.22.9f1b85c.factory.bin",
+      "md5": "2210811e0a07b509134f21c59e64e0f0",
+      "bytes": 2175360
+    },
+    {
+      "name": "littlefs-thinknode_m5-2.7.22.9f1b85c.bin",
+      "md5": "76e5b726b4e4646d204d949cd636a163",
+      "bytes": 1048576,
+      "part_name": "spiffs"
+    },
+    {
+      "name": "mt-esp32s3-ota.bin",
+      "md5": "497d3108c038f8a6b5f4e234a1156c8a",
+      "bytes": 636544,
+      "part_name": "app1"
+    }
+  ],
+  "has_mui": false,
+  "has_inkhud": false,
+  "part": [
+    {
+      "name": "nvs",
+      "type": "data",
+      "subtype": "nvs",
+      "offset": "0x009000",
+      "size": "0x005000",
+      "flags": ""
+    },
+    {
+      "name": "otadata",
+      "type": "data",
+      "subtype": "ota",
+      "offset": "0x00e000",
+      "size": "0x002000",
+      "flags": ""
+    },
+    {
+      "name": "app",
+      "type": "app",
+      "subtype": "ota_0",
+      "offset": "0x010000",
+      "size": "0x250000",
+      "flags": ""
+    },
+    {
+      "name": "flashApp",
+      "type": "app",
+      "subtype": "ota_1",
+      "offset": "0x260000",
+      "size": "0x0A0000",
+      "flags": ""
+    },
+    {
+      "name": "spiffs",
+      "type": "data",
+      "subtype": "spiffs",
+      "offset": "0x300000",
+      "size": "0x100000",
+      "flags": ""
+    }
+  ],
+  "hwModel": 107,
+  "hwModelSlug": "THINKNODE_M5",
+  "architecture": "esp32-s3",
+  "activelySupported": true,
+  "displayName": "ThinkNode M5",
+  "supportLevel": 1,
+  "images": [
+    "thinknode_m1.svg"
+  ],
+  "tags": [
+    "Elecrow"
+  ],
+  "requiresDfu": false
+}

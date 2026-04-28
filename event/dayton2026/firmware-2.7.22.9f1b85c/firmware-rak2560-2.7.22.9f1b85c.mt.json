@@ -1,0 +1,44 @@
+{
+  "version": "2.7.22.9f1b85c",
+  "build_epoch": 1777334400,
+  "platformioTarget": "rak2560",
+  "mcu": "nrf52840",
+  "repo": "meshtastic/firmware",
+  "files": [
+    {
+      "name": "firmware-rak2560-2.7.22.9f1b85c.elf",
+      "md5": "1142a0274b43e079a7c65c2d378c9017",
+      "bytes": 1447136
+    },
+    {
+      "name": "firmware-rak2560-2.7.22.9f1b85c.hex",
+      "md5": "6881766a8fa3a68275748aa1aa2b1109",
+      "bytes": 2039516
+    },
+    {
+      "name": "firmware-rak2560-2.7.22.9f1b85c.uf2",
+      "md5": "251594e5fea30e7ebc1b7100aa866859",
+      "bytes": 1450496
+    },
+    {
+      "name": "firmware-rak2560-2.7.22.9f1b85c-ota.zip",
+      "md5": "d71aa4187da7a64396b52974ad7e720c",
+      "bytes": 726013
+    }
+  ],
+  "has_mui": false,
+  "has_inkhud": false,
+  "hwModel": 22,
+  "hwModelSlug": "WISMESH_HUB",
+  "architecture": "nrf52840",
+  "activelySupported": true,
+  "displayName": "RAK WisMesh Repeater",
+  "supportLevel": 1,
+  "images": [
+    "rak2560.svg"
+  ],
+  "tags": [
+    "RAK"
+  ],
+  "requiresDfu": true
+}

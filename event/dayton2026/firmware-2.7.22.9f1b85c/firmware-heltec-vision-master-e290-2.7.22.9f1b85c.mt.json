@@ -1,0 +1,103 @@
+{
+  "version": "2.7.22.9f1b85c",
+  "build_epoch": 1777334400,
+  "platformioTarget": "heltec-vision-master-e290",
+  "mcu": "esp32s3",
+  "repo": "meshtastic/firmware",
+  "files": [
+    {
+      "name": "firmware-heltec-vision-master-e290-2.7.22.9f1b85c.elf",
+      "md5": "5c6a68d169b8af86d76181118775cfe2",
+      "bytes": 22813020
+    },
+    {
+      "name": "firmware-heltec-vision-master-e290-2.7.22.9f1b85c.bin",
+      "md5": "e0220ee83eb498524d2b25c7cc429b3b",
+      "bytes": 2141504,
+      "part_name": "app0"
+    },
+    {
+      "name": "firmware-heltec-vision-master-e290-2.7.22.9f1b85c.factory.bin",
+      "md5": "3f841010bd86fae65ed955185a1856ac",
+      "bytes": 2207040
+    },
+    {
+      "name": "littlefs-heltec-vision-master-e290-2.7.22.9f1b85c.bin",
+      "md5": "e3b74f58693dd27f3bb0658608649f9b",
+      "bytes": 1572864,
+      "part_name": "spiffs"
+    },
+    {
+      "name": "mt-esp32s3-ota.bin",
+      "md5": "497d3108c038f8a6b5f4e234a1156c8a",
+      "bytes": 636544,
+      "part_name": "app1"
+    }
+  ],
+  "has_mui": false,
+  "has_inkhud": false,
+  "part": [
+    {
+      "name": "nvs",
+      "type": "data",
+      "subtype": "nvs",
+      "offset": "0x9000",
+      "size": "0x5000",
+      "flags": ""
+    },
+    {
+      "name": "otadata",
+      "type": "data",
+      "subtype": "ota",
+      "offset": "0xe000",
+      "size": "0x2000",
+      "flags": ""
+    },
+    {
+      "name": "app0",
+      "type": "app",
+      "subtype": "ota_0",
+      "offset": "0x10000",
+      "size": "0x330000",
+      "flags": ""
+    },
+    {
+      "name": "app1",
+      "type": "app",
+      "subtype": "ota_1",
+      "offset": "0x340000",
+      "size": "0x330000",
+      "flags": ""
+    },
+    {
+      "name": "spiffs",
+      "type": "data",
+      "subtype": "spiffs",
+      "offset": "0x670000",
+      "size": "0x180000",
+      "flags": ""
+    },
+    {
+      "name": "coredump",
+      "type": "data",
+      "subtype": "coredump",
+      "offset": "0x7F0000",
+      "size": "0x10000",
+      "flags": ""
+    }
+  ],
+  "hwModel": 68,
+  "hwModelSlug": "HELTEC_VISION_MASTER_E290",
+  "architecture": "esp32-s3",
+  "activelySupported": true,
+  "displayName": "Heltec Vision Master E290",
+  "supportLevel": 1,
+  "images": [
+    "heltec-vision-master-e290.svg"
+  ],
+  "tags": [
+    "Heltec"
+  ],
+  "requiresDfu": true,
+  "partitionScheme": "8MB"
+}
