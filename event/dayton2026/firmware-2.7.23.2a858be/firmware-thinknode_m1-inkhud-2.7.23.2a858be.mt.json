@@ -1,0 +1,35 @@
+{
+  "version": "2.7.23.2a858be",
+  "build_epoch": 1777420800,
+  "platformioTarget": "thinknode_m1-inkhud",
+  "mcu": "nrf52840",
+  "repo": "meshtastic/firmware",
+  "files": [
+    {
+      "name": "firmware-thinknode_m1-inkhud-2.7.23.2a858be.elf",
+      "md5": "5b0039137afdd3e324b7818f211c66fe",
+      "bytes": 1282400
+    },
+    {
+      "name": "firmware-thinknode_m1-inkhud-2.7.23.2a858be.hex",
+      "md5": "93a4beb29bb49862ee3b8db6a708fb3a",
+      "bytes": 1881586
+    },
+    {
+      "name": "firmware-thinknode_m1-inkhud-2.7.23.2a858be.uf2",
+      "md5": "c92b0bc301703466a66953ee54b9c5c7",
+      "bytes": 1337856
+    },
+    {
+      "name": "firmware-thinknode_m1-inkhud-2.7.23.2a858be-ota.zip",
+      "md5": "03160508b50b8efec4d8ee7596b2c5bc",
+      "bytes": 669937
+    }
+  ],
+  "has_mui": false,
+  "has_inkhud": true,
+  "architecture": "nrf52840",
+  "requiresDfu": true,
+  "displayName": "thinknode_m1-inkhud",
+  "activelySupported": false
+}
