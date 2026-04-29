@@ -1,0 +1,44 @@
+{
+  "version": "2.7.23.7be5426",
+  "build_epoch": 1777420800,
+  "platformioTarget": "t-echo-plus",
+  "mcu": "nrf52840",
+  "repo": "meshtastic/firmware",
+  "files": [
+    {
+      "name": "firmware-t-echo-plus-2.7.23.7be5426.elf",
+      "md5": "d3c34af20e733acb0310e38c2456040e",
+      "bytes": 1408780
+    },
+    {
+      "name": "firmware-t-echo-plus-2.7.23.7be5426.hex",
+      "md5": "48fa81611ff38a5ce621285674c0849e",
+      "bytes": 2049527
+    },
+    {
+      "name": "firmware-t-echo-plus-2.7.23.7be5426.uf2",
+      "md5": "c5f15f231fa39935f288f4b631b3b755",
+      "bytes": 1457664
+    },
+    {
+      "name": "firmware-t-echo-plus-2.7.23.7be5426-ota.zip",
+      "md5": "79d062728f31e6eddf64fe3b1ee35443",
+      "bytes": 729593
+    }
+  ],
+  "has_mui": false,
+  "has_inkhud": false,
+  "hwModel": 33,
+  "hwModelSlug": "T_ECHO_PLUS",
+  "architecture": "nrf52840",
+  "activelySupported": true,
+  "displayName": "LILYGO T-Echo Plus",
+  "supportLevel": 1,
+  "images": [
+    "t-echo_plus.svg"
+  ],
+  "tags": [
+    "LilyGo"
+  ],
+  "requiresDfu": true
+}
