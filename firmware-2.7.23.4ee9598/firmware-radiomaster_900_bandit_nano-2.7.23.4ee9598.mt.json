@@ -1,0 +1,90 @@
+{
+  "version": "2.7.23.4ee9598",
+  "build_epoch": 1777507200,
+  "platformioTarget": "radiomaster_900_bandit_nano",
+  "mcu": "esp32",
+  "repo": "meshtastic/firmware",
+  "files": [
+    {
+      "name": "firmware-radiomaster_900_bandit_nano-2.7.23.4ee9598.elf",
+      "md5": "affb47853e69769cfc165b2a29aa238e",
+      "bytes": 19919560
+    },
+    {
+      "name": "firmware-radiomaster_900_bandit_nano-2.7.23.4ee9598.bin",
+      "md5": "7cd93aa7111a8f4bacd7afc12912e572",
+      "bytes": 2115424,
+      "part_name": "app0"
+    },
+    {
+      "name": "firmware-radiomaster_900_bandit_nano-2.7.23.4ee9598.factory.bin",
+      "md5": "97806de79a73a35c97cd4620a0ad2727",
+      "bytes": 2180960
+    },
+    {
+      "name": "littlefs-radiomaster_900_bandit_nano-2.7.23.4ee9598.bin",
+      "md5": "69cfdfa3de0b7de861bbd0c802f56bd2",
+      "bytes": 1048576,
+      "part_name": "spiffs"
+    },
+    {
+      "name": "mt-esp32-ota.bin",
+      "md5": "d7376153b9d0034ac5cf534bc0e17fc0",
+      "bytes": 642096,
+      "part_name": "app1"
+    }
+  ],
+  "has_mui": false,
+  "has_inkhud": false,
+  "part": [
+    {
+      "name": "nvs",
+      "type": "data",
+      "subtype": "nvs",
+      "offset": "0x009000",
+      "size": "0x005000",
+      "flags": ""
+    },
+    {
+      "name": "otadata",
+      "type": "data",
+      "subtype": "ota",
+      "offset": "0x00e000",
+      "size": "0x002000",
+      "flags": ""
+    },
+    {
+      "name": "app",
+      "type": "app",
+      "subtype": "ota_0",
+      "offset": "0x010000",
+      "size": "0x250000",
+      "flags": ""
+    },
+    {
+      "name": "flashApp",
+      "type": "app",
+      "subtype": "ota_1",
+      "offset": "0x260000",
+      "size": "0x0A0000",
+      "flags": ""
+    },
+    {
+      "name": "spiffs",
+      "type": "data",
+      "subtype": "spiffs",
+      "offset": "0x300000",
+      "size": "0x100000",
+      "flags": ""
+    }
+  ],
+  "hwModel": 64,
+  "hwModelSlug": "RADIOMASTER_900_BANDIT_NANO",
+  "architecture": "esp32",
+  "activelySupported": true,
+  "displayName": "RadioMaster 900 Bandit Nano",
+  "supportLevel": 2,
+  "tags": [
+    "RadioMaster"
+  ]
+}
