@@ -1,0 +1,44 @@
+{
+  "version": "2.7.23.6e81074",
+  "build_epoch": 1777939200,
+  "platformioTarget": "r1-neo",
+  "mcu": "nrf52840",
+  "repo": "meshtastic/firmware",
+  "files": [
+    {
+      "name": "firmware-r1-neo-2.7.23.6e81074.elf",
+      "md5": "a30d2cd938b2bfe88d0943165f97e44e",
+      "bytes": 1087224
+    },
+    {
+      "name": "firmware-r1-neo-2.7.23.6e81074.hex",
+      "md5": "b49584042c97434b9a7205df9cfc2d35",
+      "bytes": 1612506
+    },
+    {
+      "name": "firmware-r1-neo-2.7.23.6e81074.uf2",
+      "md5": "a8481eae3ca30c1ed13d32eb780e9e19",
+      "bytes": 1146880
+    },
+    {
+      "name": "firmware-r1-neo-2.7.23.6e81074-ota.zip",
+      "md5": "dcfa67325057da10d86a50c1c0e3783f",
+      "bytes": 574191
+    }
+  ],
+  "has_mui": false,
+  "has_inkhud": false,
+  "hwModel": 101,
+  "hwModelSlug": "MUZI_R1_NEO",
+  "architecture": "nrf52840",
+  "activelySupported": true,
+  "displayName": "muzi R1 Neo",
+  "supportLevel": 1,
+  "images": [
+    "muzi_r1_neo.svg"
+  ],
+  "tags": [
+    "muzi"
+  ],
+  "requiresDfu": true
+}
