@@ -1,0 +1,102 @@
+{
+  "version": "2.7.25.41a558c",
+  "build_epoch": 1780704000,
+  "platformioTarget": "heltec-wsl-v3",
+  "mcu": "esp32s3",
+  "repo": "meshtastic/firmware",
+  "files": [
+    {
+      "name": "firmware-heltec-wsl-v3-2.7.25.41a558c.elf",
+      "md5": "6f168b15ab7bc1d7475f1c233b62e7da",
+      "bytes": 22267360
+    },
+    {
+      "name": "firmware-heltec-wsl-v3-2.7.25.41a558c.bin",
+      "md5": "ec9ba641a5088c9222c7c67402e597a4",
+      "bytes": 2107408,
+      "part_name": "app0"
+    },
+    {
+      "name": "firmware-heltec-wsl-v3-2.7.25.41a558c.factory.bin",
+      "md5": "90945d9ae087eac4feafd7180b8f7ae8",
+      "bytes": 2172944
+    },
+    {
+      "name": "littlefs-heltec-wsl-v3-2.7.25.41a558c.bin",
+      "md5": "262e8490fae6b34bf077a228a19ca092",
+      "bytes": 1572864,
+      "part_name": "spiffs"
+    },
+    {
+      "name": "mt-esp32s3-ota.bin",
+      "md5": "497d3108c038f8a6b5f4e234a1156c8a",
+      "bytes": 636544,
+      "part_name": "app1"
+    }
+  ],
+  "has_mui": false,
+  "has_inkhud": false,
+  "part": [
+    {
+      "name": "nvs",
+      "type": "data",
+      "subtype": "nvs",
+      "offset": "0x9000",
+      "size": "0x5000",
+      "flags": ""
+    },
+    {
+      "name": "otadata",
+      "type": "data",
+      "subtype": "ota",
+      "offset": "0xe000",
+      "size": "0x2000",
+      "flags": ""
+    },
+    {
+      "name": "app0",
+      "type": "app",
+      "subtype": "ota_0",
+      "offset": "0x10000",
+      "size": "0x330000",
+      "flags": ""
+    },
+    {
+      "name": "app1",
+      "type": "app",
+      "subtype": "ota_1",
+      "offset": "0x340000",
+      "size": "0x330000",
+      "flags": ""
+    },
+    {
+      "name": "spiffs",
+      "type": "data",
+      "subtype": "spiffs",
+      "offset": "0x670000",
+      "size": "0x180000",
+      "flags": ""
+    },
+    {
+      "name": "coredump",
+      "type": "data",
+      "subtype": "coredump",
+      "offset": "0x7F0000",
+      "size": "0x10000",
+      "flags": ""
+    }
+  ],
+  "hwModel": 44,
+  "hwModelSlug": "HELTEC_WSL_V3",
+  "architecture": "esp32-s3",
+  "activelySupported": true,
+  "displayName": "Heltec Wireless Stick Lite V3",
+  "supportLevel": 1,
+  "images": [
+    "heltec-wsl-v3.svg"
+  ],
+  "tags": [
+    "Heltec"
+  ],
+  "partitionScheme": "8MB"
+}

@@ -1,0 +1,92 @@
+{
+  "version": "2.7.25.41a558c",
+  "build_epoch": 1780704000,
+  "platformioTarget": "heltec-vision-master-e213-inkhud",
+  "mcu": "esp32s3",
+  "repo": "meshtastic/firmware",
+  "files": [
+    {
+      "name": "firmware-heltec-vision-master-e213-inkhud-2.7.25.41a558c.elf",
+      "md5": "212d3ed920e87344139b7d048091fca6",
+      "bytes": 22647568
+    },
+    {
+      "name": "firmware-heltec-vision-master-e213-inkhud-2.7.25.41a558c.bin",
+      "md5": "30387b9554779c7084b73b9d6e625595",
+      "bytes": 2081424,
+      "part_name": "app0"
+    },
+    {
+      "name": "firmware-heltec-vision-master-e213-inkhud-2.7.25.41a558c.factory.bin",
+      "md5": "c467b62d6918cb0b15f3ff026f567b3e",
+      "bytes": 2146960
+    },
+    {
+      "name": "littlefs-heltec-vision-master-e213-inkhud-2.7.25.41a558c.bin",
+      "md5": "fe1237d20cda6e36e9d10a664ff575d2",
+      "bytes": 1572864,
+      "part_name": "spiffs"
+    },
+    {
+      "name": "mt-esp32s3-ota.bin",
+      "md5": "497d3108c038f8a6b5f4e234a1156c8a",
+      "bytes": 636544,
+      "part_name": "app1"
+    }
+  ],
+  "has_mui": false,
+  "has_inkhud": true,
+  "part": [
+    {
+      "name": "nvs",
+      "type": "data",
+      "subtype": "nvs",
+      "offset": "0x9000",
+      "size": "0x5000",
+      "flags": ""
+    },
+    {
+      "name": "otadata",
+      "type": "data",
+      "subtype": "ota",
+      "offset": "0xe000",
+      "size": "0x2000",
+      "flags": ""
+    },
+    {
+      "name": "app0",
+      "type": "app",
+      "subtype": "ota_0",
+      "offset": "0x10000",
+      "size": "0x330000",
+      "flags": ""
+    },
+    {
+      "name": "app1",
+      "type": "app",
+      "subtype": "ota_1",
+      "offset": "0x340000",
+      "size": "0x330000",
+      "flags": ""
+    },
+    {
+      "name": "spiffs",
+      "type": "data",
+      "subtype": "spiffs",
+      "offset": "0x670000",
+      "size": "0x180000",
+      "flags": ""
+    },
+    {
+      "name": "coredump",
+      "type": "data",
+      "subtype": "coredump",
+      "offset": "0x7F0000",
+      "size": "0x10000",
+      "flags": ""
+    }
+  ],
+  "architecture": "esp32-s3",
+  "displayName": "heltec-vision-master-e213-inkhud",
+  "activelySupported": false
+}
