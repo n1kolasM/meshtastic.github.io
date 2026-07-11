@@ -1,5 +1,3 @@
-# 2.8 Changes
-
 # Help Test 2.8 - Flash a Nightly, Send Feedback
 
 We're preparing the **2.8** release, and we need your help shaking it out on real hardware. The web flasher now has a **built-in feedback form**. Flash a nightly, use your node like you normally would, and tell us what you find. Every report on a real board moves the release forward.
