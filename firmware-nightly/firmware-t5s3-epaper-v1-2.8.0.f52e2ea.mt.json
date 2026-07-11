@@ -1,0 +1,86 @@
+{
+  "version": "2.8.0.f52e2ea",
+  "build_epoch": 1783728000,
+  "platformioTarget": "t5s3-epaper-v1",
+  "mcu": "esp32s3",
+  "repo": "meshtastic/firmware",
+  "files": [
+    {
+      "name": "firmware-t5s3-epaper-v1-2.8.0.f52e2ea.elf",
+      "md5": "c433e2ef574d4f7dc0eae0a3445ef2d7",
+      "bytes": 47768156
+    },
+    {
+      "name": "firmware-t5s3-epaper-v1-2.8.0.f52e2ea.bin",
+      "md5": "53c94278b38f18be176534c5103e7173",
+      "bytes": 2371424,
+      "part_name": "app0"
+    },
+    {
+      "name": "firmware-t5s3-epaper-v1-2.8.0.f52e2ea.factory.bin",
+      "md5": "0393d82ba3842b4f7495f3fe4f92fccd",
+      "bytes": 2436960
+    },
+    {
+      "name": "littlefs-t5s3-epaper-v1-2.8.0.f52e2ea.bin",
+      "md5": "7dca1ea2fbf479d47ac24e9dbc59a9fd",
+      "bytes": 1048576,
+      "part_name": "spiffs"
+    },
+    {
+      "name": "mt-esp32s3-ota.bin",
+      "md5": "497d3108c038f8a6b5f4e234a1156c8a",
+      "bytes": 636544,
+      "part_name": "app1"
+    }
+  ],
+  "has_mui": false,
+  "has_inkhud": false,
+  "ram_bytes": 106120,
+  "flash_bytes": 2394680,
+  "part": [
+    {
+      "name": "nvs",
+      "type": "data",
+      "subtype": "nvs",
+      "offset": "0x009000",
+      "size": "0x005000",
+      "flags": ""
+    },
+    {
+      "name": "otadata",
+      "type": "data",
+      "subtype": "ota",
+      "offset": "0x00e000",
+      "size": "0x002000",
+      "flags": ""
+    },
+    {
+      "name": "app",
+      "type": "app",
+      "subtype": "ota_0",
+      "offset": "0x010000",
+      "size": "0x250000",
+      "flags": ""
+    },
+    {
+      "name": "flashApp",
+      "type": "app",
+      "subtype": "ota_1",
+      "offset": "0x260000",
+      "size": "0x0A0000",
+      "flags": ""
+    },
+    {
+      "name": "spiffs",
+      "type": "data",
+      "subtype": "spiffs",
+      "offset": "0x300000",
+      "size": "0x100000",
+      "flags": ""
+    }
+  ],
+  "architecture": "esp32-s3",
+  "displayName": "t5s3-epaper-v1",
+  "activelySupported": false
+}

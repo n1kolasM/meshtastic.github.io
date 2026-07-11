@@ -1,0 +1,46 @@
+{
+  "version": "2.8.0.f52e2ea",
+  "build_epoch": 1783728000,
+  "platformioTarget": "thinknode_m3",
+  "mcu": "nrf52840",
+  "repo": "meshtastic/firmware",
+  "files": [
+    {
+      "name": "firmware-thinknode_m3-2.8.0.f52e2ea.elf",
+      "md5": "65ff7ae8f93f24601612df684826983c",
+      "bytes": 1278740
+    },
+    {
+      "name": "firmware-thinknode_m3-2.8.0.f52e2ea.hex",
+      "md5": "7ca24b197f02a0e8251e679ce8c1bead",
+      "bytes": 2061566
+    },
+    {
+      "name": "firmware-thinknode_m3-2.8.0.f52e2ea.uf2",
+      "md5": "85b09a61853330b94e9f7b95bd0f619a",
+      "bytes": 1465856
+    },
+    {
+      "name": "firmware-thinknode_m3-2.8.0.f52e2ea-ota.zip",
+      "md5": "db67da43acc32912f4de4072709e33c5",
+      "bytes": 733877
+    }
+  ],
+  "has_mui": false,
+  "has_inkhud": false,
+  "ram_bytes": 93108,
+  "flash_bytes": 732912,
+  "hwModel": 115,
+  "hwModelSlug": "THINKNODE_M3",
+  "architecture": "nrf52840",
+  "activelySupported": true,
+  "displayName": "Elecrow ThinkNode M3",
+  "supportLevel": 1,
+  "images": [
+    "thinknode_m3.svg"
+  ],
+  "tags": [
+    "Elecrow"
+  ],
+  "requiresDfu": true
+}
