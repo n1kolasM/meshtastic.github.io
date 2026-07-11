@@ -2,10 +2,9 @@
 
 # Help Test 2.8 - Flash a Nightly, Send Feedback
 
-We're preparing the **2.8** release and we need your help shaking it out on real hardware. The web flasher now has a **built-in feedback form** - flash a nightly, use your node like you normally would, and tell us what you find. Every report on a real board moves the release forward.
+We're preparing the **2.8** release, and we need your help shaking it out on real hardware. The web flasher now has a **built-in feedback form**. Flash a nightly, use your node like you normally would, and tell us what you find. Every report on a real board moves the release forward.
 
-> [!WARNING]
-> 2.8 nightlies are **experimental, pre-release builds** and can be unstable. Please read the warnings and only flash hardware you can afford to fully erase. Back up your config first.
+⚠️ 2.8 nightlies are **experimental, pre-release builds** and can be unstable. Please read the warnings and only flash hardware you can afford to fully erase. Back up your config first.
 
 ---
 
@@ -22,15 +21,12 @@ We're preparing the **2.8** release and we need your help shaking it out on real
 
 The more different boards and setups we hear from, the better. Especially valuable:
 
-- **A variety of supported boards** - nRF52 (RAK, T1000-E), ESP32/ESP32-S3 (Heltec, T-Deck, T3-S3), RP2040/RP2350, and Linux/native.
+- **A variety of supported boards**
 - **Both radios and roles** - routers, clients, repeaters, and low-power/sleep configurations.
 - **Different regions** and channel/modem-preset combinations.
 - **Bluetooth pairing and reconnection** from Android and iOS.
 - **Upgrade paths** - flashing 2.8 over an existing 2.x install and confirming your config/keys survive.
 - **Peripherals** - GPS, screens (OLED/E-Ink/TFT), sensors, and buttons.
-
-If your board isn't in the list above but is supported by the flasher, we still want to hear from you.
-
 ---
 
 ## What makes a feedback report actionable
