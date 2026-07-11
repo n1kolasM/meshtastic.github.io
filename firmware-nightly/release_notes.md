@@ -69,6 +69,8 @@ The feedback form captures a lot automatically, but the more of the following yo
 > Thank you for testing. Reports from real hardware - including the boring "everything works" ones - are exactly what let us promote 2.8 from nightly preview to a stable release with confidence.
 
 
+# Changes
+
 ### Radio & mesh protocol
 - **Packet Signing via XEdDSA** (#10478) plus a **BaseUI signing status UI** (#10841), unsigned-packet policy hardening with test coverage (#10858), and runtime-toggleable `MESHTASTIC_LOCKDOWN` hardening for nRF52 (#10349, opt-in via #10712).
 - **Traffic Management Module** for packet forwarding — dedup, rate limiting, role-aware policing (#9358 base, #10706 dedup/rate-limit expansion, #10745 next-hop cache overflow store, #9921 congestion-aware position interval/hop-exhaustion tuning).
