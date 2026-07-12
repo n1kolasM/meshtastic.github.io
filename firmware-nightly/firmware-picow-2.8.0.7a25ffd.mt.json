@@ -1,0 +1,43 @@
+{
+  "version": "2.8.0.7a25ffd",
+  "build_epoch": 1783814400,
+  "platformioTarget": "picow",
+  "mcu": "rp2040",
+  "repo": "meshtastic/firmware",
+  "files": [
+    {
+      "name": "firmware-picow-2.8.0.7a25ffd.elf",
+      "md5": "7c19f4a80a7149a8be645557ab9f7563",
+      "bytes": 4743828
+    },
+    {
+      "name": "firmware-picow-2.8.0.7a25ffd.bin",
+      "md5": "ffb2bcfae7ff22c8171670f8132f7acb",
+      "bytes": 1276352,
+      "part_name": "app0"
+    },
+    {
+      "name": "firmware-picow-2.8.0.7a25ffd.uf2",
+      "md5": "e5bd21bbe294eace8e9a8c7be6736d33",
+      "bytes": 2552832
+    }
+  ],
+  "has_mui": false,
+  "has_inkhud": false,
+  "ram_bytes": 152508,
+  "flash_bytes": 1387804,
+  "hwModel": 47,
+  "hwModelSlug": "RPI_PICO",
+  "architecture": "rp2040",
+  "activelySupported": true,
+  "displayName": "Raspberry Pi Pico W",
+  "supportLevel": 3,
+  "images": [
+    "rpipicow.svg"
+  ],
+  "tags": [
+    "RPi",
+    "DIY"
+  ],
+  "requiresDfu": true
+}
