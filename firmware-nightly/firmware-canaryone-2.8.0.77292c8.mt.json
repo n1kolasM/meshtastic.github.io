@@ -1,0 +1,43 @@
+{
+  "version": "2.8.0.77292c8",
+  "build_epoch": 1783900800,
+  "platformioTarget": "canaryone",
+  "mcu": "nrf52840",
+  "repo": "meshtastic/firmware",
+  "files": [
+    {
+      "name": "firmware-canaryone-2.8.0.77292c8.elf",
+      "md5": "506b5a1bfdc75bbfb63947377ee141be",
+      "bytes": 1278808
+    },
+    {
+      "name": "firmware-canaryone-2.8.0.77292c8.hex",
+      "md5": "593effee37baaf6d8e9ec28d8275c03f",
+      "bytes": 2024637
+    },
+    {
+      "name": "firmware-canaryone-2.8.0.77292c8.uf2",
+      "md5": "9a56e2a0a719860d02096aedc389a9c2",
+      "bytes": 1439744
+    },
+    {
+      "name": "firmware-canaryone-2.8.0.77292c8-ota.zip",
+      "md5": "7832bad7e485210417453a516afa06c1",
+      "bytes": 720731
+    }
+  ],
+  "has_mui": false,
+  "has_inkhud": false,
+  "ram_bytes": 93212,
+  "flash_bytes": 719784,
+  "hwModel": 29,
+  "hwModelSlug": "CANARYONE",
+  "architecture": "nrf52840",
+  "activelySupported": true,
+  "displayName": "Canary One",
+  "supportLevel": 3,
+  "tags": [
+    "Canary"
+  ],
+  "requiresDfu": true
+}
