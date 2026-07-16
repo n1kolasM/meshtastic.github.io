@@ -4,6 +4,16 @@ We're preparing the **2.8** release, and we need your help shaking it out on rea
 
 ⚠️ 2.8 nightlies are **experimental, pre-release builds** and can be unstable. Please read the warnings and only flash hardware you can afford to fully erase. Back up your config first.
 
+## Big changes
+
+There are a number of fundamental changes to 2.8 that require a heads-up. Please review some of these higher profile changes so that you are aware of them before installing:
+* XEdDSA based packet signing
+* Reduction of long-name to 25 bytes
+* Precise position no longer allowed on known-keys (public mesh. Please use private channels for this)
+* Telemetry and position are off-by-default and must be opted into
+* Ground-up redesigned NodeDB storage and traffic management
+* Completely new allocation of LoRa Regions and presets, including ham specific carve-outs
+
 ---
 
 ## How to help in 3 steps
