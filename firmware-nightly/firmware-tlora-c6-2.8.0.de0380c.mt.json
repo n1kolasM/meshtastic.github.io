@@ -1,0 +1,95 @@
+{
+  "version": "2.8.0.de0380c",
+  "build_epoch": 1784160000,
+  "platformioTarget": "tlora-c6",
+  "mcu": "esp32c6",
+  "repo": "meshtastic/firmware",
+  "files": [
+    {
+      "name": "firmware-tlora-c6-2.8.0.de0380c.elf",
+      "md5": "51d3e408093d9b36d3d898baa501bdf7",
+      "bytes": 40472500
+    },
+    {
+      "name": "firmware-tlora-c6-2.8.0.de0380c.bin",
+      "md5": "2ec16e181b71b57053f3d79dc4e28070",
+      "bytes": 2375488,
+      "part_name": "app0"
+    },
+    {
+      "name": "firmware-tlora-c6-2.8.0.de0380c.factory.bin",
+      "md5": "eb4f244bf5b3879b8e6487e5dd5ed7c4",
+      "bytes": 2441024
+    },
+    {
+      "name": "littlefs-tlora-c6-2.8.0.de0380c.bin",
+      "md5": "233ffdd1ad3162120451363be207d19f",
+      "bytes": 1048576,
+      "part_name": "spiffs"
+    },
+    {
+      "name": "bleota-c3.bin",
+      "md5": "6e996c193fc425d9d2f18a47a6006305",
+      "bytes": 509776,
+      "part_name": "app1"
+    }
+  ],
+  "has_mui": false,
+  "has_inkhud": false,
+  "ram_bytes": 102780,
+  "flash_bytes": 2409505,
+  "part": [
+    {
+      "name": "nvs",
+      "type": "data",
+      "subtype": "nvs",
+      "offset": "0x009000",
+      "size": "0x005000",
+      "flags": ""
+    },
+    {
+      "name": "otadata",
+      "type": "data",
+      "subtype": "ota",
+      "offset": "0x00e000",
+      "size": "0x002000",
+      "flags": ""
+    },
+    {
+      "name": "app",
+      "type": "app",
+      "subtype": "ota_0",
+      "offset": "0x010000",
+      "size": "0x250000",
+      "flags": ""
+    },
+    {
+      "name": "flashApp",
+      "type": "app",
+      "subtype": "ota_1",
+      "offset": "0x260000",
+      "size": "0x0A0000",
+      "flags": ""
+    },
+    {
+      "name": "spiffs",
+      "type": "data",
+      "subtype": "spiffs",
+      "offset": "0x300000",
+      "size": "0x100000",
+      "flags": ""
+    }
+  ],
+  "hwModel": 83,
+  "hwModelSlug": "TLORA_C6",
+  "architecture": "esp32-c6",
+  "activelySupported": true,
+  "displayName": "LilyGo T3-C6",
+  "supportLevel": 1,
+  "images": [
+    "tlora-c6.svg"
+  ],
+  "tags": [
+    "LilyGo"
+  ]
+}
