@@ -1,0 +1,106 @@
+{
+  "version": "2.8.0.d4aa776",
+  "build_epoch": 1784332800,
+  "platformioTarget": "elecrow-adv-24-28-tft",
+  "mcu": "esp32s3",
+  "repo": "meshtastic/firmware",
+  "files": [
+    {
+      "name": "firmware-elecrow-adv-24-28-tft-2.8.0.d4aa776.elf",
+      "md5": "b3298843a9665fdff26174c0c42f0447",
+      "bytes": 52462984
+    },
+    {
+      "name": "firmware-elecrow-adv-24-28-tft-2.8.0.d4aa776.bin",
+      "md5": "5f915503bb32b365f3da575d199de5ae",
+      "bytes": 3450368,
+      "part_name": "app0"
+    },
+    {
+      "name": "firmware-elecrow-adv-24-28-tft-2.8.0.d4aa776.factory.bin",
+      "md5": "3cc16f42d4c2bd095daa937d5f6e7fcd",
+      "bytes": 3515904
+    },
+    {
+      "name": "littlefs-elecrow-adv-24-28-tft-2.8.0.d4aa776.bin",
+      "md5": "d78e50341907cf853efbdd88bbca9603",
+      "bytes": 3538944,
+      "part_name": "spiffs"
+    },
+    {
+      "name": "mt-esp32s3-ota.bin",
+      "md5": "497d3108c038f8a6b5f4e234a1156c8a",
+      "bytes": 636544,
+      "part_name": "app1"
+    }
+  ],
+  "has_mui": true,
+  "has_inkhud": false,
+  "ram_bytes": 94688,
+  "flash_bytes": 3473636,
+  "part": [
+    {
+      "name": "nvs",
+      "type": "data",
+      "subtype": "nvs",
+      "offset": "0x9000",
+      "size": "0x5000",
+      "flags": ""
+    },
+    {
+      "name": "otadata",
+      "type": "data",
+      "subtype": "ota",
+      "offset": "0xe000",
+      "size": "0x2000",
+      "flags": ""
+    },
+    {
+      "name": "app0",
+      "type": "app",
+      "subtype": "ota_0",
+      "offset": "0x10000",
+      "size": "0x640000",
+      "flags": ""
+    },
+    {
+      "name": "app1",
+      "type": "app",
+      "subtype": "ota_1",
+      "offset": "0x650000",
+      "size": "0x640000",
+      "flags": ""
+    },
+    {
+      "name": "spiffs",
+      "type": "data",
+      "subtype": "spiffs",
+      "offset": "0xc90000",
+      "size": "0x360000",
+      "flags": ""
+    },
+    {
+      "name": "coredump",
+      "type": "data",
+      "subtype": "coredump",
+      "offset": "0xFF0000",
+      "size": "0x10000",
+      "flags": ""
+    }
+  ],
+  "hwModel": 97,
+  "hwModelSlug": "CROWPANEL",
+  "architecture": "esp32-s3",
+  "activelySupported": true,
+  "displayName": "Crowpanel Adv 2.4/2.8 TFT",
+  "supportLevel": 1,
+  "images": [
+    "crowpanel_2_4.svg",
+    "crowpanel_2_8.svg"
+  ],
+  "tags": [
+    "Elecrow"
+  ],
+  "requiresDfu": true,
+  "partitionScheme": "16MB"
+}

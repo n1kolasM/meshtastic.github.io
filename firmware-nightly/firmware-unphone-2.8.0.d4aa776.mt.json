@@ -1,0 +1,91 @@
+{
+  "version": "2.8.0.d4aa776",
+  "build_epoch": 1784332800,
+  "platformioTarget": "unphone",
+  "mcu": "esp32s3",
+  "repo": "meshtastic/firmware",
+  "files": [
+    {
+      "name": "firmware-unphone-2.8.0.d4aa776.elf",
+      "md5": "bc329a33e570bd4c23cccf8a3ab31866",
+      "bytes": 48349392
+    },
+    {
+      "name": "firmware-unphone-2.8.0.d4aa776.bin",
+      "md5": "bbcc8e8ba3975097c716e5d6508002b9",
+      "bytes": 2303936,
+      "part_name": "app0"
+    },
+    {
+      "name": "firmware-unphone-2.8.0.d4aa776.factory.bin",
+      "md5": "e4523e1023abce13206f8c6a9d2a5022",
+      "bytes": 2369472
+    },
+    {
+      "name": "littlefs-unphone-2.8.0.d4aa776.bin",
+      "md5": "d7a07dd6a3ebf9d0b3be99fb882bccab",
+      "bytes": 1572864,
+      "part_name": "spiffs"
+    },
+    {
+      "name": "mt-esp32s3-ota.bin",
+      "md5": "497d3108c038f8a6b5f4e234a1156c8a",
+      "bytes": 636544,
+      "part_name": "app1"
+    }
+  ],
+  "has_mui": false,
+  "has_inkhud": false,
+  "ram_bytes": 102192,
+  "flash_bytes": 2327192,
+  "part": [
+    {
+      "name": "nvs",
+      "type": "data",
+      "subtype": "nvs",
+      "offset": "0x9000",
+      "size": "0x5000",
+      "flags": ""
+    },
+    {
+      "name": "otadata",
+      "type": "data",
+      "subtype": "ota",
+      "offset": "0xe000",
+      "size": "0x2000",
+      "flags": ""
+    },
+    {
+      "name": "app0",
+      "type": "app",
+      "subtype": "ota_0",
+      "offset": "0x10000",
+      "size": "0x5C0000",
+      "flags": ""
+    },
+    {
+      "name": "flashApp",
+      "type": "app",
+      "subtype": "ota_1",
+      "offset": "0x5D0000",
+      "size": "0x0A0000",
+      "flags": ""
+    },
+    {
+      "name": "spiffs",
+      "type": "data",
+      "subtype": "spiffs",
+      "offset": "0x670000",
+      "size": "0x180000",
+      "flags": null
+    }
+  ],
+  "hwModel": 59,
+  "hwModelSlug": "UNPHONE",
+  "architecture": "esp32-s3",
+  "activelySupported": true,
+  "displayName": "unPhone",
+  "supportLevel": 3,
+  "requiresDfu": true,
+  "partitionScheme": "8MB"
+}

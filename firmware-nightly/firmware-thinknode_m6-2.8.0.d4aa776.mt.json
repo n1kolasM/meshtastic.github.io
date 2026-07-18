@@ -1,0 +1,46 @@
+{
+  "version": "2.8.0.d4aa776",
+  "build_epoch": 1784332800,
+  "platformioTarget": "thinknode_m6",
+  "mcu": "nrf52840",
+  "repo": "meshtastic/firmware",
+  "files": [
+    {
+      "name": "firmware-thinknode_m6-2.8.0.d4aa776.elf",
+      "md5": "d39692f7626c755bd24ddadfe08458ff",
+      "bytes": 1284912
+    },
+    {
+      "name": "firmware-thinknode_m6-2.8.0.d4aa776.hex",
+      "md5": "ac7197953e1246317f2a7f43600a13cf",
+      "bytes": 2104017
+    },
+    {
+      "name": "firmware-thinknode_m6-2.8.0.d4aa776.uf2",
+      "md5": "cb6ac4aa31f5565d28c8a67864374af5",
+      "bytes": 1496064
+    },
+    {
+      "name": "firmware-thinknode_m6-2.8.0.d4aa776-ota.zip",
+      "md5": "8c7cc63791f2406a6a07f8cffcb15497",
+      "bytes": 748973
+    }
+  ],
+  "has_mui": false,
+  "has_inkhud": false,
+  "ram_bytes": 102084,
+  "flash_bytes": 748008,
+  "hwModel": 120,
+  "hwModelSlug": "THINKNODE_M6",
+  "architecture": "nrf52840",
+  "activelySupported": false,
+  "displayName": "ThinkNode M6",
+  "supportLevel": 1,
+  "images": [
+    "thinknode_m6.svg"
+  ],
+  "tags": [
+    "Elecrow"
+  ],
+  "requiresDfu": true
+}
