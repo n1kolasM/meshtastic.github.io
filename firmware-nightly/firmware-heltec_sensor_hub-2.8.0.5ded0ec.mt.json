@@ -1,0 +1,86 @@
+{
+  "version": "2.8.0.5ded0ec",
+  "build_epoch": 1784505600,
+  "platformioTarget": "heltec_sensor_hub",
+  "mcu": "esp32s3",
+  "repo": "meshtastic/firmware",
+  "files": [
+    {
+      "name": "firmware-heltec_sensor_hub-2.8.0.5ded0ec.elf",
+      "md5": "2889ce480aefa86e0785751481b72789",
+      "bytes": 41611092
+    },
+    {
+      "name": "firmware-heltec_sensor_hub-2.8.0.5ded0ec.bin",
+      "md5": "023b512c14ba75670846f00912f1c4ac",
+      "bytes": 2094480,
+      "part_name": "app0"
+    },
+    {
+      "name": "firmware-heltec_sensor_hub-2.8.0.5ded0ec.factory.bin",
+      "md5": "9823055101f34e04868cc7157f739288",
+      "bytes": 2160016
+    },
+    {
+      "name": "littlefs-heltec_sensor_hub-2.8.0.5ded0ec.bin",
+      "md5": "1a36cc46cb6ae379467b8be34506ee58",
+      "bytes": 1048576,
+      "part_name": "spiffs"
+    },
+    {
+      "name": "mt-esp32s3-ota.bin",
+      "md5": "497d3108c038f8a6b5f4e234a1156c8a",
+      "bytes": 636544,
+      "part_name": "app1"
+    }
+  ],
+  "has_mui": false,
+  "has_inkhud": false,
+  "ram_bytes": 120664,
+  "flash_bytes": 2117740,
+  "part": [
+    {
+      "name": "nvs",
+      "type": "data",
+      "subtype": "nvs",
+      "offset": "0x009000",
+      "size": "0x005000",
+      "flags": ""
+    },
+    {
+      "name": "otadata",
+      "type": "data",
+      "subtype": "ota",
+      "offset": "0x00e000",
+      "size": "0x002000",
+      "flags": ""
+    },
+    {
+      "name": "app",
+      "type": "app",
+      "subtype": "ota_0",
+      "offset": "0x010000",
+      "size": "0x250000",
+      "flags": ""
+    },
+    {
+      "name": "flashApp",
+      "type": "app",
+      "subtype": "ota_1",
+      "offset": "0x260000",
+      "size": "0x0A0000",
+      "flags": ""
+    },
+    {
+      "name": "spiffs",
+      "type": "data",
+      "subtype": "spiffs",
+      "offset": "0x300000",
+      "size": "0x100000",
+      "flags": ""
+    }
+  ],
+  "architecture": "esp32-s3",
+  "displayName": "heltec_sensor_hub",
+  "activelySupported": false
+}
