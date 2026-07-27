@@ -1,0 +1,99 @@
+{
+  "version": "2.8.0.b00d76f",
+  "build_epoch": 1785110400,
+  "platformioTarget": "meshnology_w12",
+  "mcu": "esp32s3",
+  "repo": "meshtastic/firmware",
+  "files": [
+    {
+      "name": "firmware-meshnology_w12-2.8.0.b00d76f.elf",
+      "md5": "118552c1be582160410fb40121dbe460",
+      "bytes": 46357276
+    },
+    {
+      "name": "firmware-meshnology_w12-2.8.0.b00d76f.bin",
+      "md5": "28ec13364f5b0c5c44b2a10e4a3d5fc9",
+      "bytes": 2292432,
+      "part_name": "app0"
+    },
+    {
+      "name": "firmware-meshnology_w12-2.8.0.b00d76f.factory.bin",
+      "md5": "c06a95289d346ba8b6bbc3a801f10b03",
+      "bytes": 2357968
+    },
+    {
+      "name": "littlefs-meshnology_w12-2.8.0.b00d76f.bin",
+      "md5": "c9b241f5cdf87325243dc51fbf9be783",
+      "bytes": 3538944,
+      "part_name": "spiffs"
+    },
+    {
+      "name": "mt-esp32s3-ota.bin",
+      "md5": "497d3108c038f8a6b5f4e234a1156c8a",
+      "bytes": 636544,
+      "part_name": "app1"
+    }
+  ],
+  "has_mui": false,
+  "has_inkhud": false,
+  "ram_bytes": 130944,
+  "flash_bytes": 2315692,
+  "part": [
+    {
+      "name": "nvs",
+      "type": "data",
+      "subtype": "nvs",
+      "offset": "0x9000",
+      "size": "0x5000",
+      "flags": ""
+    },
+    {
+      "name": "otadata",
+      "type": "data",
+      "subtype": "ota",
+      "offset": "0xe000",
+      "size": "0x2000",
+      "flags": ""
+    },
+    {
+      "name": "app0",
+      "type": "app",
+      "subtype": "ota_0",
+      "offset": "0x10000",
+      "size": "0x640000",
+      "flags": ""
+    },
+    {
+      "name": "app1",
+      "type": "app",
+      "subtype": "ota_1",
+      "offset": "0x650000",
+      "size": "0x640000",
+      "flags": ""
+    },
+    {
+      "name": "spiffs",
+      "type": "data",
+      "subtype": "spiffs",
+      "offset": "0xc90000",
+      "size": "0x360000",
+      "flags": ""
+    },
+    {
+      "name": "coredump",
+      "type": "data",
+      "subtype": "coredump",
+      "offset": "0xFF0000",
+      "size": "0x10000",
+      "flags": ""
+    }
+  ],
+  "hwModel": 255,
+  "hwModelSlug": "MESHNOLOGY_W12",
+  "architecture": "esp32-s3",
+  "activelySupported": true,
+  "displayName": "Meshnology W12",
+  "supportLevel": 1,
+  "requiresDfu": true,
+  "partitionScheme": "16MB"
+}

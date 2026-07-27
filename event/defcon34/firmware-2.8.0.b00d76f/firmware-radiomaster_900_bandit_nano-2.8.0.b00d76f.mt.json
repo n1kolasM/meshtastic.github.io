@@ -1,0 +1,92 @@
+{
+  "version": "2.8.0.b00d76f",
+  "build_epoch": 1785110400,
+  "platformioTarget": "radiomaster_900_bandit_nano",
+  "mcu": "esp32",
+  "repo": "meshtastic/firmware",
+  "files": [
+    {
+      "name": "firmware-radiomaster_900_bandit_nano-2.8.0.b00d76f.elf",
+      "md5": "d14fd035482a2e2f11ef147df29065e4",
+      "bytes": 39786672
+    },
+    {
+      "name": "firmware-radiomaster_900_bandit_nano-2.8.0.b00d76f.bin",
+      "md5": "99bc4dd32c2bb5447fead6d857424ca1",
+      "bytes": 2072560,
+      "part_name": "app0"
+    },
+    {
+      "name": "firmware-radiomaster_900_bandit_nano-2.8.0.b00d76f.factory.bin",
+      "md5": "637ac33cb961b493fa72ba4b978407e0",
+      "bytes": 2138096
+    },
+    {
+      "name": "littlefs-radiomaster_900_bandit_nano-2.8.0.b00d76f.bin",
+      "md5": "a693e54dac73c39ec420e0e8da1d5e92",
+      "bytes": 1048576,
+      "part_name": "spiffs"
+    },
+    {
+      "name": "mt-esp32-ota.bin",
+      "md5": "d7376153b9d0034ac5cf534bc0e17fc0",
+      "bytes": 642096,
+      "part_name": "app1"
+    }
+  ],
+  "has_mui": false,
+  "has_inkhud": false,
+  "ram_bytes": 108344,
+  "flash_bytes": 2095678,
+  "part": [
+    {
+      "name": "nvs",
+      "type": "data",
+      "subtype": "nvs",
+      "offset": "0x009000",
+      "size": "0x005000",
+      "flags": ""
+    },
+    {
+      "name": "otadata",
+      "type": "data",
+      "subtype": "ota",
+      "offset": "0x00e000",
+      "size": "0x002000",
+      "flags": ""
+    },
+    {
+      "name": "app",
+      "type": "app",
+      "subtype": "ota_0",
+      "offset": "0x010000",
+      "size": "0x250000",
+      "flags": ""
+    },
+    {
+      "name": "flashApp",
+      "type": "app",
+      "subtype": "ota_1",
+      "offset": "0x260000",
+      "size": "0x0A0000",
+      "flags": ""
+    },
+    {
+      "name": "spiffs",
+      "type": "data",
+      "subtype": "spiffs",
+      "offset": "0x300000",
+      "size": "0x100000",
+      "flags": ""
+    }
+  ],
+  "hwModel": 64,
+  "hwModelSlug": "RADIOMASTER_900_BANDIT_NANO",
+  "architecture": "esp32",
+  "activelySupported": true,
+  "displayName": "RadioMaster 900 Bandit Nano",
+  "supportLevel": 2,
+  "tags": [
+    "RadioMaster"
+  ]
+}
