@@ -1,0 +1,103 @@
+{
+  "version": "2.8.0.dafa583",
+  "build_epoch": 1785196800,
+  "platformioTarget": "t-beam-1w",
+  "mcu": "esp32s3",
+  "repo": "meshtastic/firmware",
+  "files": [
+    {
+      "name": "firmware-t-beam-1w-2.8.0.dafa583.elf",
+      "md5": "43158eb634455a5e810b29a218df10cf",
+      "bytes": 46216904
+    },
+    {
+      "name": "firmware-t-beam-1w-2.8.0.dafa583.bin",
+      "md5": "0c18c0a5daa621f058145f05b4498861",
+      "bytes": 2342960,
+      "part_name": "app0"
+    },
+    {
+      "name": "firmware-t-beam-1w-2.8.0.dafa583.factory.bin",
+      "md5": "1ac7419c9c7bf3c220361bc1b0e3d0ef",
+      "bytes": 2408496
+    },
+    {
+      "name": "littlefs-t-beam-1w-2.8.0.dafa583.bin",
+      "md5": "4ca0f2ca8bd1476e640f4f8245e66cae",
+      "bytes": 1572864,
+      "part_name": "spiffs"
+    },
+    {
+      "name": "mt-esp32s3-ota.bin",
+      "md5": "497d3108c038f8a6b5f4e234a1156c8a",
+      "bytes": 636544,
+      "part_name": "app1"
+    }
+  ],
+  "has_mui": false,
+  "has_inkhud": false,
+  "ram_bytes": 102656,
+  "flash_bytes": 2366220,
+  "part": [
+    {
+      "name": "nvs",
+      "type": "data",
+      "subtype": "nvs",
+      "offset": "0x9000",
+      "size": "0x5000",
+      "flags": ""
+    },
+    {
+      "name": "otadata",
+      "type": "data",
+      "subtype": "ota",
+      "offset": "0xe000",
+      "size": "0x2000",
+      "flags": ""
+    },
+    {
+      "name": "app0",
+      "type": "app",
+      "subtype": "ota_0",
+      "offset": "0x10000",
+      "size": "0x330000",
+      "flags": ""
+    },
+    {
+      "name": "app1",
+      "type": "app",
+      "subtype": "ota_1",
+      "offset": "0x340000",
+      "size": "0x330000",
+      "flags": ""
+    },
+    {
+      "name": "spiffs",
+      "type": "data",
+      "subtype": "spiffs",
+      "offset": "0x670000",
+      "size": "0x180000",
+      "flags": ""
+    },
+    {
+      "name": "coredump",
+      "type": "data",
+      "subtype": "coredump",
+      "offset": "0x7F0000",
+      "size": "0x10000",
+      "flags": ""
+    }
+  ],
+  "hwModel": 122,
+  "hwModelSlug": "TBEAM_1_WATT",
+  "architecture": "esp32s3",
+  "activelySupported": true,
+  "displayName": "LILYGO T-Beam 1W",
+  "supportLevel": 1,
+  "images": [
+    "tbeam-1w.svg"
+  ],
+  "tags": [
+    "LilyGo"
+  ]
+}
