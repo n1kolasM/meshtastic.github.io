@@ -1,0 +1,46 @@
+{
+  "version": "2.8.0.8adc7c3",
+  "build_epoch": 1785283200,
+  "platformioTarget": "rak_wismesh_pod",
+  "mcu": "nrf52840",
+  "repo": "meshtastic/firmware",
+  "files": [
+    {
+      "name": "firmware-rak_wismesh_pod-2.8.0.8adc7c3.elf",
+      "md5": "6d8622241b0c1aa67eaa39dd2b87b2ed",
+      "bytes": 1041356
+    },
+    {
+      "name": "firmware-rak_wismesh_pod-2.8.0.8adc7c3.hex",
+      "md5": "02a5c8c1ac63891171bc7ae555793416",
+      "bytes": 1654237
+    },
+    {
+      "name": "firmware-rak_wismesh_pod-2.8.0.8adc7c3.uf2",
+      "md5": "5ae2a22b8bcd6d71090c5b32745d5486",
+      "bytes": 1176576
+    },
+    {
+      "name": "firmware-rak_wismesh_pod-2.8.0.8adc7c3-ota.zip",
+      "md5": "9f35b1eacec26469e5397d2281cb93fb",
+      "bytes": 589079
+    }
+  ],
+  "has_mui": false,
+  "has_inkhud": false,
+  "ram_bytes": 93404,
+  "flash_bytes": 588096,
+  "hwModel": 105,
+  "hwModelSlug": "WISMESH_TAG",
+  "architecture": "nrf52840",
+  "activelySupported": true,
+  "displayName": "RAK WisMesh Pod",
+  "supportLevel": 1,
+  "images": [
+    "rak_wismesh_tag.svg"
+  ],
+  "tags": [
+    "RAK"
+  ],
+  "requiresDfu": true
+}

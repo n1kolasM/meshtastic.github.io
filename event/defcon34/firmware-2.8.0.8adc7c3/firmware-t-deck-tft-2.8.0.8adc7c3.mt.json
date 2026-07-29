@@ -1,0 +1,105 @@
+{
+  "version": "2.8.0.8adc7c3",
+  "build_epoch": 1785283200,
+  "platformioTarget": "t-deck-tft",
+  "mcu": "esp32s3",
+  "repo": "meshtastic/firmware",
+  "files": [
+    {
+      "name": "firmware-t-deck-tft-2.8.0.8adc7c3.elf",
+      "md5": "c181d160ec0dc33a82523cef2759ac85",
+      "bytes": 59840012
+    },
+    {
+      "name": "firmware-t-deck-tft-2.8.0.8adc7c3.bin",
+      "md5": "0bc51d27a78cb2744845f2ffec0d038a",
+      "bytes": 3806832,
+      "part_name": "app0"
+    },
+    {
+      "name": "firmware-t-deck-tft-2.8.0.8adc7c3.factory.bin",
+      "md5": "d347776ad79e67be0cf86320a024e63b",
+      "bytes": 3872368
+    },
+    {
+      "name": "littlefs-t-deck-tft-2.8.0.8adc7c3.bin",
+      "md5": "1a8a227afd232401a971c5152b9b8c33",
+      "bytes": 3538944,
+      "part_name": "spiffs"
+    },
+    {
+      "name": "mt-esp32s3-ota.bin",
+      "md5": "497d3108c038f8a6b5f4e234a1156c8a",
+      "bytes": 636544,
+      "part_name": "app1"
+    }
+  ],
+  "has_mui": true,
+  "has_inkhud": false,
+  "ram_bytes": 116544,
+  "flash_bytes": 3830096,
+  "part": [
+    {
+      "name": "nvs",
+      "type": "data",
+      "subtype": "nvs",
+      "offset": "0x9000",
+      "size": "0x5000",
+      "flags": ""
+    },
+    {
+      "name": "otadata",
+      "type": "data",
+      "subtype": "ota",
+      "offset": "0xe000",
+      "size": "0x2000",
+      "flags": ""
+    },
+    {
+      "name": "app0",
+      "type": "app",
+      "subtype": "ota_0",
+      "offset": "0x10000",
+      "size": "0x640000",
+      "flags": ""
+    },
+    {
+      "name": "app1",
+      "type": "app",
+      "subtype": "ota_1",
+      "offset": "0x650000",
+      "size": "0x640000",
+      "flags": ""
+    },
+    {
+      "name": "spiffs",
+      "type": "data",
+      "subtype": "spiffs",
+      "offset": "0xc90000",
+      "size": "0x360000",
+      "flags": ""
+    },
+    {
+      "name": "coredump",
+      "type": "data",
+      "subtype": "coredump",
+      "offset": "0xFF0000",
+      "size": "0x10000",
+      "flags": ""
+    }
+  ],
+  "hwModel": 50,
+  "hwModelSlug": "T_DECK",
+  "architecture": "esp32-s3",
+  "activelySupported": true,
+  "displayName": "LILYGO T-Deck",
+  "supportLevel": 1,
+  "images": [
+    "t-deck.svg"
+  ],
+  "tags": [
+    "LilyGo"
+  ],
+  "requiresDfu": true,
+  "partitionScheme": "16MB"
+}
