@@ -1,0 +1,46 @@
+{
+  "version": "2.8.0.9c260ad",
+  "build_epoch": 1785369600,
+  "platformioTarget": "muzi-base",
+  "mcu": "nrf52840",
+  "repo": "meshtastic/firmware",
+  "files": [
+    {
+      "name": "firmware-muzi-base-2.8.0.9c260ad.elf",
+      "md5": "9396f2037a9a6a5c918f731bbd4bf2fa",
+      "bytes": 1293740
+    },
+    {
+      "name": "firmware-muzi-base-2.8.0.9c260ad.hex",
+      "md5": "fc9555d6416b62beacfe324e4825af41",
+      "bytes": 2161168
+    },
+    {
+      "name": "firmware-muzi-base-2.8.0.9c260ad.uf2",
+      "md5": "ecfb6eba43cf6ff80c1d9e4934bf049b",
+      "bytes": 1537024
+    },
+    {
+      "name": "firmware-muzi-base-2.8.0.9c260ad-ota.zip",
+      "md5": "bf34e3e94e43957a2de56a9d4798d08a",
+      "bytes": 769267
+    }
+  ],
+  "has_mui": false,
+  "has_inkhud": false,
+  "ram_bytes": 102292,
+  "flash_bytes": 768320,
+  "hwModel": 93,
+  "hwModelSlug": "MUZI_BASE",
+  "architecture": "nrf52840",
+  "activelySupported": true,
+  "displayName": "muzi BASE",
+  "supportLevel": 1,
+  "images": [
+    "muzi_base.svg"
+  ],
+  "tags": [
+    "muzi"
+  ],
+  "requiresDfu": true
+}

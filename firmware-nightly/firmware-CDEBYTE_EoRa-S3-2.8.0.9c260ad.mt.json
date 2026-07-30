@@ -1,0 +1,93 @@
+{
+  "version": "2.8.0.9c260ad",
+  "build_epoch": 1785369600,
+  "platformioTarget": "CDEBYTE_EoRa-S3",
+  "mcu": "esp32s3",
+  "repo": "meshtastic/firmware",
+  "files": [
+    {
+      "name": "firmware-CDEBYTE_EoRa-S3-2.8.0.9c260ad.elf",
+      "md5": "16a7efccd7817bbab7a31545a342135f",
+      "bytes": 46435436
+    },
+    {
+      "name": "firmware-CDEBYTE_EoRa-S3-2.8.0.9c260ad.bin",
+      "md5": "5a74f5007845ac1f0cb930404cc59d91",
+      "bytes": 2345664,
+      "part_name": "app0"
+    },
+    {
+      "name": "firmware-CDEBYTE_EoRa-S3-2.8.0.9c260ad.factory.bin",
+      "md5": "a24560cdee0f7645d0ce6074d9898197",
+      "bytes": 2411200
+    },
+    {
+      "name": "littlefs-CDEBYTE_EoRa-S3-2.8.0.9c260ad.bin",
+      "md5": "6e0ce8aaa918a6b86063aaf14a43d02d",
+      "bytes": 1048576,
+      "part_name": "spiffs"
+    },
+    {
+      "name": "mt-esp32s3-ota.bin",
+      "md5": "497d3108c038f8a6b5f4e234a1156c8a",
+      "bytes": 636544,
+      "part_name": "app1"
+    }
+  ],
+  "has_mui": false,
+  "has_inkhud": false,
+  "ram_bytes": 101744,
+  "flash_bytes": 2368928,
+  "part": [
+    {
+      "name": "nvs",
+      "type": "data",
+      "subtype": "nvs",
+      "offset": "0x009000",
+      "size": "0x005000",
+      "flags": ""
+    },
+    {
+      "name": "otadata",
+      "type": "data",
+      "subtype": "ota",
+      "offset": "0x00e000",
+      "size": "0x002000",
+      "flags": ""
+    },
+    {
+      "name": "app",
+      "type": "app",
+      "subtype": "ota_0",
+      "offset": "0x010000",
+      "size": "0x250000",
+      "flags": ""
+    },
+    {
+      "name": "flashApp",
+      "type": "app",
+      "subtype": "ota_1",
+      "offset": "0x260000",
+      "size": "0x0A0000",
+      "flags": ""
+    },
+    {
+      "name": "spiffs",
+      "type": "data",
+      "subtype": "spiffs",
+      "offset": "0x300000",
+      "size": "0x100000",
+      "flags": ""
+    }
+  ],
+  "hwModel": 61,
+  "hwModelSlug": "CDEBYTE_EORA_S3",
+  "architecture": "esp32-s3",
+  "activelySupported": true,
+  "displayName": "EBYTE EoRa-S3",
+  "supportLevel": 3,
+  "tags": [
+    "EByte"
+  ],
+  "requiresDfu": true
+}
