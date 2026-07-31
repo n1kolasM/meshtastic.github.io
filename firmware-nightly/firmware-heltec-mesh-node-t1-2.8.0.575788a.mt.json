@@ -1,0 +1,46 @@
+{
+  "version": "2.8.0.575788a",
+  "build_epoch": 1785456000,
+  "platformioTarget": "heltec-mesh-node-t1",
+  "mcu": "nrf52840",
+  "repo": "meshtastic/firmware",
+  "files": [
+    {
+      "name": "firmware-heltec-mesh-node-t1-2.8.0.575788a.elf",
+      "md5": "78780d919577d6a7568c01a12ee977b6",
+      "bytes": 1290612
+    },
+    {
+      "name": "firmware-heltec-mesh-node-t1-2.8.0.575788a.hex",
+      "md5": "1320ceb79baafb8f8c11c68415de3941",
+      "bytes": 2148613
+    },
+    {
+      "name": "firmware-heltec-mesh-node-t1-2.8.0.575788a.uf2",
+      "md5": "90dd54fbfd1ae7d0bb7a28d6308c790d",
+      "bytes": 1527808
+    },
+    {
+      "name": "firmware-heltec-mesh-node-t1-2.8.0.575788a-ota.zip",
+      "md5": "cff81cfb32c9b40b8ac9077a88c67f81",
+      "bytes": 764863
+    }
+  ],
+  "has_mui": false,
+  "has_inkhud": false,
+  "ram_bytes": 103020,
+  "flash_bytes": 763856,
+  "hwModel": 133,
+  "hwModelSlug": "HELTEC_MESH_NODE_T1",
+  "architecture": "nrf52840",
+  "activelySupported": true,
+  "displayName": "Heltec Mesh Node T1",
+  "supportLevel": 1,
+  "images": [
+    "heltec-mesh-node-t1.svg"
+  ],
+  "tags": [
+    "Heltec"
+  ],
+  "requiresDfu": true
+}
