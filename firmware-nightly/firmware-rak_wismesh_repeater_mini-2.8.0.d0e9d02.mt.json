@@ -1,0 +1,46 @@
+{
+  "version": "2.8.0.d0e9d02",
+  "build_epoch": 1785542400,
+  "platformioTarget": "rak_wismesh_repeater_mini",
+  "mcu": "nrf52840",
+  "repo": "meshtastic/firmware",
+  "files": [
+    {
+      "name": "firmware-rak_wismesh_repeater_mini-2.8.0.d0e9d02.elf",
+      "md5": "e5952f05bfb3aafda3f748da70ec9a08",
+      "bytes": 1380688
+    },
+    {
+      "name": "firmware-rak_wismesh_repeater_mini-2.8.0.d0e9d02.hex",
+      "md5": "15e0538e45ccd76f857725e08eec818f",
+      "bytes": 2199815
+    },
+    {
+      "name": "firmware-rak_wismesh_repeater_mini-2.8.0.d0e9d02.uf2",
+      "md5": "96c535ac189be9588a93b92749778492",
+      "bytes": 1564160
+    },
+    {
+      "name": "firmware-rak_wismesh_repeater_mini-2.8.0.d0e9d02-ota.zip",
+      "md5": "0cc79667d48ef5a94dd39aa48a832c70",
+      "bytes": 783103
+    }
+  ],
+  "has_mui": false,
+  "has_inkhud": false,
+  "ram_bytes": 105372,
+  "flash_bytes": 782060,
+  "hwModel": 9,
+  "hwModelSlug": "RAK4631",
+  "architecture": "nrf52840",
+  "activelySupported": true,
+  "displayName": "RAK WisMesh Repeater Mini V2",
+  "supportLevel": 1,
+  "images": [
+    "rak4631.svg"
+  ],
+  "tags": [
+    "RAK"
+  ],
+  "requiresDfu": true
+}

@@ -1,0 +1,39 @@
+{
+  "version": "2.8.0.d0e9d02",
+  "build_epoch": 1785542400,
+  "platformioTarget": "rp2040-lora",
+  "mcu": "rp2040",
+  "repo": "meshtastic/firmware",
+  "files": [
+    {
+      "name": "firmware-rp2040-lora-2.8.0.d0e9d02.elf",
+      "md5": "15f13fe0c4d918b2a21866c8ee44841d",
+      "bytes": 3050724
+    },
+    {
+      "name": "firmware-rp2040-lora-2.8.0.d0e9d02.bin",
+      "md5": "376b72f15b2a3c26b3628eded5991faa",
+      "bytes": 825808,
+      "part_name": "app0"
+    },
+    {
+      "name": "firmware-rp2040-lora-2.8.0.d0e9d02.uf2",
+      "md5": "8dc93b5e9fea576517c2715cc7a1067a",
+      "bytes": 1651712
+    }
+  ],
+  "has_mui": false,
+  "has_inkhud": false,
+  "ram_bytes": 86924,
+  "flash_bytes": 1002844,
+  "hwModel": 30,
+  "hwModelSlug": "RP2040_LORA",
+  "architecture": "rp2040",
+  "activelySupported": true,
+  "displayName": "RP2040 LoRa",
+  "supportLevel": 2,
+  "tags": [
+    "Waveshare"
+  ],
+  "requiresDfu": true
+}
