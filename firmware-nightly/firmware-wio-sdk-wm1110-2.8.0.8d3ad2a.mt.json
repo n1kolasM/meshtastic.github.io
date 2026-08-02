@@ -1,0 +1,42 @@
+{
+  "version": "2.8.0.8d3ad2a",
+  "build_epoch": 1785628800,
+  "platformioTarget": "wio-sdk-wm1110",
+  "mcu": "nrf52840",
+  "repo": "meshtastic/firmware",
+  "files": [
+    {
+      "name": "firmware-wio-sdk-wm1110-2.8.0.8d3ad2a.elf",
+      "md5": "fcc014e576046986a4b11dfac14507f5",
+      "bytes": 1271076
+    },
+    {
+      "name": "firmware-wio-sdk-wm1110-2.8.0.8d3ad2a.hex",
+      "md5": "3f8b56cafab84c9002e5e0c7489453f0",
+      "bytes": 2044527
+    },
+    {
+      "name": "firmware-wio-sdk-wm1110-2.8.0.8d3ad2a.merged.hex",
+      "md5": "1febbc81e43fdf5ce9176a5c54332db0",
+      "bytes": 2482014
+    },
+    {
+      "name": "firmware-wio-sdk-wm1110-2.8.0.8d3ad2a.uf2",
+      "md5": "5f12b7e7b07170201148d546977a4e65",
+      "bytes": 1765376
+    },
+    {
+      "name": "firmware-wio-sdk-wm1110-2.8.0.8d3ad2a-ota.zip",
+      "md5": "c36fc7f8c1af33d1ea6bd0dfb21d27b3",
+      "bytes": 727833
+    }
+  ],
+  "has_mui": false,
+  "has_inkhud": false,
+  "ram_bytes": 98324,
+  "flash_bytes": 726856,
+  "architecture": "nrf52840",
+  "requiresDfu": true,
+  "displayName": "wio-sdk-wm1110",
+  "activelySupported": false
+}
