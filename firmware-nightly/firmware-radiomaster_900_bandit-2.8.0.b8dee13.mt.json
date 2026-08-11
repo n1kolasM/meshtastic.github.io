@@ -1,0 +1,86 @@
+{
+  "version": "2.8.0.b8dee13",
+  "build_epoch": 1786406400,
+  "platformioTarget": "radiomaster_900_bandit",
+  "mcu": "esp32",
+  "repo": "meshtastic/firmware",
+  "files": [
+    {
+      "name": "firmware-radiomaster_900_bandit-2.8.0.b8dee13.elf",
+      "md5": "300802e1b96fbf54f21ebf39640b667d",
+      "bytes": 38546108
+    },
+    {
+      "name": "firmware-radiomaster_900_bandit-2.8.0.b8dee13.bin",
+      "md5": "51deffb23de254a32c981c90eff78de5",
+      "bytes": 1976528,
+      "part_name": "app0"
+    },
+    {
+      "name": "firmware-radiomaster_900_bandit-2.8.0.b8dee13.factory.bin",
+      "md5": "feab5cc930778c6ab180890172281eee",
+      "bytes": 2042064
+    },
+    {
+      "name": "littlefs-radiomaster_900_bandit-2.8.0.b8dee13.bin",
+      "md5": "75ec0d450b3c18b092db9c894bd1e198",
+      "bytes": 1048576,
+      "part_name": "spiffs"
+    },
+    {
+      "name": "mt-esp32-ota.bin",
+      "md5": "d7376153b9d0034ac5cf534bc0e17fc0",
+      "bytes": 642096,
+      "part_name": "app1"
+    }
+  ],
+  "has_mui": false,
+  "has_inkhud": false,
+  "ram_bytes": 108092,
+  "flash_bytes": 2001210,
+  "part": [
+    {
+      "name": "nvs",
+      "type": "data",
+      "subtype": "nvs",
+      "offset": "0x009000",
+      "size": "0x005000",
+      "flags": ""
+    },
+    {
+      "name": "otadata",
+      "type": "data",
+      "subtype": "ota",
+      "offset": "0x00e000",
+      "size": "0x002000",
+      "flags": ""
+    },
+    {
+      "name": "app",
+      "type": "app",
+      "subtype": "ota_0",
+      "offset": "0x010000",
+      "size": "0x250000",
+      "flags": ""
+    },
+    {
+      "name": "flashApp",
+      "type": "app",
+      "subtype": "ota_1",
+      "offset": "0x260000",
+      "size": "0x0A0000",
+      "flags": ""
+    },
+    {
+      "name": "spiffs",
+      "type": "data",
+      "subtype": "spiffs",
+      "offset": "0x300000",
+      "size": "0x100000",
+      "flags": ""
+    }
+  ],
+  "architecture": "esp32",
+  "displayName": "radiomaster_900_bandit",
+  "activelySupported": false
+}
