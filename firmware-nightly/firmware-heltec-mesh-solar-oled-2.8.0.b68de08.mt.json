@@ -1,0 +1,37 @@
+{
+  "version": "2.8.0.b68de08",
+  "build_epoch": 1786492800,
+  "platformioTarget": "heltec-mesh-solar-oled",
+  "mcu": "nrf52840",
+  "repo": "meshtastic/firmware",
+  "files": [
+    {
+      "name": "firmware-heltec-mesh-solar-oled-2.8.0.b68de08.elf",
+      "md5": "44a1d76a226af59502048f8721ffa42b",
+      "bytes": 1297404
+    },
+    {
+      "name": "firmware-heltec-mesh-solar-oled-2.8.0.b68de08.hex",
+      "md5": "4586adad6231c6a2812497a4a1334698",
+      "bytes": 2127025
+    },
+    {
+      "name": "firmware-heltec-mesh-solar-oled-2.8.0.b68de08.uf2",
+      "md5": "e7e09b46c6acaccf66ad830c6559b4d4",
+      "bytes": 1512448
+    },
+    {
+      "name": "firmware-heltec-mesh-solar-oled-2.8.0.b68de08-ota.zip",
+      "md5": "52e6a51e948aa8b105ba59a7b618bd7f",
+      "bytes": 757209
+    }
+  ],
+  "has_mui": false,
+  "has_inkhud": false,
+  "ram_bytes": 111468,
+  "flash_bytes": 756184,
+  "architecture": "nrf52840",
+  "requiresDfu": true,
+  "displayName": "heltec-mesh-solar-oled",
+  "activelySupported": false
+}
