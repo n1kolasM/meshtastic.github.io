@@ -1,0 +1,86 @@
+{
+  "version": "2.8.0.1cf8338",
+  "build_epoch": 1786579200,
+  "platformioTarget": "tlora-t3s3-epaper-inkhud",
+  "mcu": "esp32s3",
+  "repo": "meshtastic/firmware",
+  "files": [
+    {
+      "name": "firmware-tlora-t3s3-epaper-inkhud-2.8.0.1cf8338.elf",
+      "md5": "9952a2032fbfe0ed392bdf9514d287b7",
+      "bytes": 47625872
+    },
+    {
+      "name": "firmware-tlora-t3s3-epaper-inkhud-2.8.0.1cf8338.bin",
+      "md5": "161d0947d8280fc7ff53f708a57ed542",
+      "bytes": 2114112,
+      "part_name": "app0"
+    },
+    {
+      "name": "firmware-tlora-t3s3-epaper-inkhud-2.8.0.1cf8338.factory.bin",
+      "md5": "dce1ed1d7e674f1e2509b779c51b42f7",
+      "bytes": 2179648
+    },
+    {
+      "name": "littlefs-tlora-t3s3-epaper-inkhud-2.8.0.1cf8338.bin",
+      "md5": "9e07c218a730f695b57a50577d826c06",
+      "bytes": 786432,
+      "part_name": "spiffs"
+    },
+    {
+      "name": "mt-esp32s3-ota.bin",
+      "md5": "497d3108c038f8a6b5f4e234a1156c8a",
+      "bytes": 636544,
+      "part_name": "app1"
+    }
+  ],
+  "has_mui": false,
+  "has_inkhud": true,
+  "ram_bytes": 89664,
+  "flash_bytes": 2138927,
+  "part": [
+    {
+      "name": "nvs",
+      "type": "data",
+      "subtype": "nvs",
+      "offset": "0x009000",
+      "size": "0x005000",
+      "flags": ""
+    },
+    {
+      "name": "otadata",
+      "type": "data",
+      "subtype": "ota",
+      "offset": "0x00e000",
+      "size": "0x002000",
+      "flags": ""
+    },
+    {
+      "name": "app",
+      "type": "app",
+      "subtype": "ota_0",
+      "offset": "0x010000",
+      "size": "0x290000",
+      "flags": ""
+    },
+    {
+      "name": "flashApp",
+      "type": "app",
+      "subtype": "ota_1",
+      "offset": "0x2A0000",
+      "size": "0x0A0000",
+      "flags": ""
+    },
+    {
+      "name": "spiffs",
+      "type": "data",
+      "subtype": "spiffs",
+      "offset": "0x340000",
+      "size": "0x0C0000",
+      "flags": ""
+    }
+  ],
+  "architecture": "esp32-s3",
+  "displayName": "tlora-t3s3-epaper-inkhud",
+  "activelySupported": false
+}
