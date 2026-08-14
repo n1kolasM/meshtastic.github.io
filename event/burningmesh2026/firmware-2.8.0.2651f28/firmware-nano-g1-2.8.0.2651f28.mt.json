@@ -1,0 +1,92 @@
+{
+  "version": "2.8.0.2651f28",
+  "build_epoch": 1786665600,
+  "platformioTarget": "nano-g1",
+  "mcu": "esp32",
+  "repo": "meshtastic/firmware",
+  "files": [
+    {
+      "name": "firmware-nano-g1-2.8.0.2651f28.elf",
+      "md5": "ab368e900f2fdf0eda5d329a3e321b10",
+      "bytes": 39138472
+    },
+    {
+      "name": "firmware-nano-g1-2.8.0.2651f28.bin",
+      "md5": "3b4a6c394ab2f3f09fe75a9c974697cc",
+      "bytes": 2032832,
+      "part_name": "app0"
+    },
+    {
+      "name": "firmware-nano-g1-2.8.0.2651f28.factory.bin",
+      "md5": "3f1a9d74fb89baa0cbcc6754f1188e89",
+      "bytes": 2098368
+    },
+    {
+      "name": "littlefs-nano-g1-2.8.0.2651f28.bin",
+      "md5": "bbdfd8c2318246e09cc2446642c1127f",
+      "bytes": 1048576,
+      "part_name": "spiffs"
+    },
+    {
+      "name": "mt-esp32-ota.bin",
+      "md5": "d7376153b9d0034ac5cf534bc0e17fc0",
+      "bytes": 642096,
+      "part_name": "app1"
+    }
+  ],
+  "has_mui": false,
+  "has_inkhud": false,
+  "ram_bytes": 108092,
+  "flash_bytes": 2057514,
+  "part": [
+    {
+      "name": "nvs",
+      "type": "data",
+      "subtype": "nvs",
+      "offset": "0x009000",
+      "size": "0x005000",
+      "flags": ""
+    },
+    {
+      "name": "otadata",
+      "type": "data",
+      "subtype": "ota",
+      "offset": "0x00e000",
+      "size": "0x002000",
+      "flags": ""
+    },
+    {
+      "name": "app",
+      "type": "app",
+      "subtype": "ota_0",
+      "offset": "0x010000",
+      "size": "0x250000",
+      "flags": ""
+    },
+    {
+      "name": "flashApp",
+      "type": "app",
+      "subtype": "ota_1",
+      "offset": "0x260000",
+      "size": "0x0A0000",
+      "flags": ""
+    },
+    {
+      "name": "spiffs",
+      "type": "data",
+      "subtype": "spiffs",
+      "offset": "0x300000",
+      "size": "0x100000",
+      "flags": ""
+    }
+  ],
+  "hwModel": 14,
+  "hwModelSlug": "NANO_G1",
+  "architecture": "esp32",
+  "activelySupported": true,
+  "displayName": "Nano G1",
+  "supportLevel": 3,
+  "tags": [
+    "B&Q"
+  ]
+}
