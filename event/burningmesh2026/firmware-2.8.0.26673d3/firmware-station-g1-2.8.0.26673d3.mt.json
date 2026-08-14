@@ -1,0 +1,92 @@
+{
+  "version": "2.8.0.26673d3",
+  "build_epoch": 1786579200,
+  "platformioTarget": "station-g1",
+  "mcu": "esp32",
+  "repo": "meshtastic/firmware",
+  "files": [
+    {
+      "name": "firmware-station-g1-2.8.0.26673d3.elf",
+      "md5": "a3ced9b4d1db6f6991958cbae154cef4",
+      "bytes": 39219388
+    },
+    {
+      "name": "firmware-station-g1-2.8.0.26673d3.bin",
+      "md5": "646da13c9390b552a7161b092a2d88b6",
+      "bytes": 2041648,
+      "part_name": "app0"
+    },
+    {
+      "name": "firmware-station-g1-2.8.0.26673d3.factory.bin",
+      "md5": "effb8d84a223b9ab77cf26fc678fa3e2",
+      "bytes": 2107184
+    },
+    {
+      "name": "littlefs-station-g1-2.8.0.26673d3.bin",
+      "md5": "11e3dd081bf48595934b7a278f513c6f",
+      "bytes": 1048576,
+      "part_name": "spiffs"
+    },
+    {
+      "name": "mt-esp32-ota.bin",
+      "md5": "d7376153b9d0034ac5cf534bc0e17fc0",
+      "bytes": 642096,
+      "part_name": "app1"
+    }
+  ],
+  "has_mui": false,
+  "has_inkhud": false,
+  "ram_bytes": 108156,
+  "flash_bytes": 2066326,
+  "part": [
+    {
+      "name": "nvs",
+      "type": "data",
+      "subtype": "nvs",
+      "offset": "0x009000",
+      "size": "0x005000",
+      "flags": ""
+    },
+    {
+      "name": "otadata",
+      "type": "data",
+      "subtype": "ota",
+      "offset": "0x00e000",
+      "size": "0x002000",
+      "flags": ""
+    },
+    {
+      "name": "app",
+      "type": "app",
+      "subtype": "ota_0",
+      "offset": "0x010000",
+      "size": "0x250000",
+      "flags": ""
+    },
+    {
+      "name": "flashApp",
+      "type": "app",
+      "subtype": "ota_1",
+      "offset": "0x260000",
+      "size": "0x0A0000",
+      "flags": ""
+    },
+    {
+      "name": "spiffs",
+      "type": "data",
+      "subtype": "spiffs",
+      "offset": "0x300000",
+      "size": "0x100000",
+      "flags": ""
+    }
+  ],
+  "hwModel": 25,
+  "hwModelSlug": "STATION_G1",
+  "architecture": "esp32",
+  "activelySupported": true,
+  "displayName": "Station G1",
+  "supportLevel": 3,
+  "tags": [
+    "B&Q"
+  ]
+}
