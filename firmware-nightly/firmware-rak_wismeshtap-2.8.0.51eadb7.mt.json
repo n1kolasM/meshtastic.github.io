@@ -1,28 +1,28 @@
 {
   "version": "2.8.0.51eadb7",
-  "build_epoch": 1786752000,
+  "build_epoch": 1786838400,
   "platformioTarget": "rak_wismeshtap",
   "mcu": "nrf52840",
   "repo": "meshtastic/firmware",
   "files": [
     {
       "name": "firmware-rak_wismeshtap-2.8.0.51eadb7.elf",
-      "md5": "b22ee37faec1b79380ed28d9073f9b1c",
+      "md5": "585e8e112288fc3a02d3c2cf4febdf34",
       "bytes": 1281212
     },
     {
       "name": "firmware-rak_wismeshtap-2.8.0.51eadb7.hex",
-      "md5": "d2a702a21d4d9b7fb9ddf45a4e542e0f",
+      "md5": "be5d9f83775c9eecef5f86f48ccfa50f",
       "bytes": 2070836
     },
     {
       "name": "firmware-rak_wismeshtap-2.8.0.51eadb7.uf2",
-      "md5": "b55451c600d19a7aa4ae16cbb15aecb1",
+      "md5": "07ede75a3458c7276a5bf657ede90467",
       "bytes": 1472512
     },
     {
       "name": "firmware-rak_wismeshtap-2.8.0.51eadb7-ota.zip",
-      "md5": "51268a48a7056baf005a655b6fa66c1d",
+      "md5": "267c4aa11a18fda32df1468cae9766d2",
       "bytes": 737185
     }
   ],

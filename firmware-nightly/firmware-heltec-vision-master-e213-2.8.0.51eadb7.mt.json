@@ -1,29 +1,29 @@
 {
   "version": "2.8.0.51eadb7",
-  "build_epoch": 1786752000,
+  "build_epoch": 1786838400,
   "platformioTarget": "heltec-vision-master-e213",
   "mcu": "esp32s3",
   "repo": "meshtastic/firmware",
   "files": [
     {
       "name": "firmware-heltec-vision-master-e213-2.8.0.51eadb7.elf",
-      "md5": "c4edcc5fa4b9fb03c1f07f2eb7126652",
+      "md5": "86b862c5c459d7b409abceb639ec6952",
       "bytes": 46994076
     },
     {
       "name": "firmware-heltec-vision-master-e213-2.8.0.51eadb7.bin",
-      "md5": "48bd1d521ade609f5b2b3542944e3af2",
+      "md5": "b288b7a2e3cfff23ff6123a8f6488d34",
       "bytes": 2293136,
       "part_name": "app0"
     },
     {
       "name": "firmware-heltec-vision-master-e213-2.8.0.51eadb7.factory.bin",
-      "md5": "a8367ace619fdfcd62c1fce4b0d08cae",
+      "md5": "7d7332085052174128c6930ff42ac203",
       "bytes": 2358672
     },
     {
       "name": "littlefs-heltec-vision-master-e213-2.8.0.51eadb7.bin",
-      "md5": "e999f8023fd542c3206d5d8f42a1b9d4",
+      "md5": "84370ee877054e16fc25d14fff48688d",
       "bytes": 1572864,
       "part_name": "spiffs"
     },

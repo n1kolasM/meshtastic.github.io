@@ -1,29 +1,29 @@
 {
   "version": "2.8.0.51eadb7",
-  "build_epoch": 1786752000,
+  "build_epoch": 1786838400,
   "platformioTarget": "nano-g1",
   "mcu": "esp32",
   "repo": "meshtastic/firmware",
   "files": [
     {
       "name": "firmware-nano-g1-2.8.0.51eadb7.elf",
-      "md5": "6660653b64d9db3f74836203366abd96",
+      "md5": "3d6aee25a484e3f7273ed1b8c956c987",
       "bytes": 39121260
     },
     {
       "name": "firmware-nano-g1-2.8.0.51eadb7.bin",
-      "md5": "c0f75158005a237f3871f9d94d70447c",
+      "md5": "65eb1ada35032d6238488af34465ec09",
       "bytes": 2029344,
       "part_name": "app0"
     },
     {
       "name": "firmware-nano-g1-2.8.0.51eadb7.factory.bin",
-      "md5": "fdd89d89800bbfd63d9041095c568ddf",
+      "md5": "a0c62a88477d9e972914eb309284c600",
       "bytes": 2094880
     },
     {
       "name": "littlefs-nano-g1-2.8.0.51eadb7.bin",
-      "md5": "8ce759c41135fb5019127955ea97a7c0",
+      "md5": "6bf28e134804df6b905a0a7aa5363e52",
       "bytes": 1048576,
       "part_name": "spiffs"
     },

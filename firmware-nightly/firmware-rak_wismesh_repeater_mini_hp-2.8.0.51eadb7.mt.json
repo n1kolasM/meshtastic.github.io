@@ -1,28 +1,28 @@
 {
   "version": "2.8.0.51eadb7",
-  "build_epoch": 1786752000,
+  "build_epoch": 1786838400,
   "platformioTarget": "rak_wismesh_repeater_mini_hp",
   "mcu": "nrf52840",
   "repo": "meshtastic/firmware",
   "files": [
     {
       "name": "firmware-rak_wismesh_repeater_mini_hp-2.8.0.51eadb7.elf",
-      "md5": "d5d1d828d9f50b78ff898d76189dec85",
+      "md5": "08d6a5072d6690eebb95c9fbee653c3d",
       "bytes": 1193768
     },
     {
       "name": "firmware-rak_wismesh_repeater_mini_hp-2.8.0.51eadb7.hex",
-      "md5": "2f15cbd04b991eca121e8da78afe3bfa",
+      "md5": "d2465b7a613132df132c6bde05719350",
       "bytes": 1902294
     },
     {
       "name": "firmware-rak_wismesh_repeater_mini_hp-2.8.0.51eadb7.uf2",
-      "md5": "fcebba0831ce248b44e3c2d3cd81918e",
+      "md5": "a269aacf8f27b3fbd6c897aa2923c277",
       "bytes": 1352704
     },
     {
       "name": "firmware-rak_wismesh_repeater_mini_hp-2.8.0.51eadb7-ota.zip",
-      "md5": "bcd8029b5840eeb292a72aaa22294e6e",
+      "md5": "3feaf3c1fc6bb2d4ce09e82647dc5965",
       "bytes": 677349
     }
   ],

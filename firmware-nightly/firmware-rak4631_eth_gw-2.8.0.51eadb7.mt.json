@@ -1,35 +1,35 @@
 {
   "version": "2.8.0.51eadb7",
-  "build_epoch": 1786752000,
+  "build_epoch": 1786838400,
   "platformioTarget": "rak4631_eth_gw",
   "mcu": "nrf52840",
   "repo": "meshtastic/firmware",
   "files": [
     {
       "name": "firmware-rak4631_eth_gw-2.8.0.51eadb7.elf",
-      "md5": "a85a43dda79f0760fe2cc8d2a8172fda",
-      "bytes": 1071308
+      "md5": "4b2409ec1947655402346f9de20b6560",
+      "bytes": 1071340
     },
     {
       "name": "firmware-rak4631_eth_gw-2.8.0.51eadb7.hex",
-      "md5": "c4d7fb9ceecb516b460d3c41e2777726",
-      "bytes": 1664137
+      "md5": "297e174da5a43aed524a8eebbc173edd",
+      "bytes": 1664153
     },
     {
       "name": "firmware-rak4631_eth_gw-2.8.0.51eadb7.uf2",
-      "md5": "e38b11e6dbefc985b2edc7833cb1914b",
-      "bytes": 1183232
+      "md5": "7705d000870996ffdfb693c861b34a1c",
+      "bytes": 1183744
     },
     {
       "name": "firmware-rak4631_eth_gw-2.8.0.51eadb7-ota.zip",
-      "md5": "23f1f179693d330da6c1dc4793dd2600",
-      "bytes": 592592
+      "md5": "c3da3bcbe193de02094bbac8cba90fe1",
+      "bytes": 592601
     }
   ],
   "has_mui": false,
   "has_inkhud": false,
   "ram_bytes": 90988,
-  "flash_bytes": 591616,
+  "flash_bytes": 591624,
   "hwModel": 9,
   "hwModelSlug": "RAK4631",
   "architecture": "nrf52840",

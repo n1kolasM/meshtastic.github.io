@@ -1,29 +1,29 @@
 {
   "version": "2.8.0.51eadb7",
-  "build_epoch": 1786752000,
+  "build_epoch": 1786838400,
   "platformioTarget": "t-eth-elite",
   "mcu": "esp32s3",
   "repo": "meshtastic/firmware",
   "files": [
     {
       "name": "firmware-t-eth-elite-2.8.0.51eadb7.elf",
-      "md5": "a9773feaa3c7622e74a3d8580b3a914c",
+      "md5": "a6f9fb8778d0a7157bab67057a7b8761",
       "bytes": 48364184
     },
     {
       "name": "firmware-t-eth-elite-2.8.0.51eadb7.bin",
-      "md5": "4fbf16c0a8bdd88df38afb7e5952f036",
+      "md5": "a281debcb3606797f9a513313bc8bf03",
       "bytes": 2499920,
       "part_name": "app0"
     },
     {
       "name": "firmware-t-eth-elite-2.8.0.51eadb7.factory.bin",
-      "md5": "82b5efc5b71b3189aa7f471e314bbd66",
+      "md5": "60a040d9eb79ebf75edcf7fbd013c1e1",
       "bytes": 2565456
     },
     {
       "name": "littlefs-t-eth-elite-2.8.0.51eadb7.bin",
-      "md5": "95c00eddc33859ef057bb68900b6fc52",
+      "md5": "20e7360c9dd885f8d1d3c56ab586817b",
       "bytes": 3538944,
       "part_name": "spiffs"
     },

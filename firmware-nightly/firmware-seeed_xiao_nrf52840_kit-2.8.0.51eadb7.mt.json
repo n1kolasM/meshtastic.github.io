@@ -1,35 +1,35 @@
 {
   "version": "2.8.0.51eadb7",
-  "build_epoch": 1786752000,
+  "build_epoch": 1786838400,
   "platformioTarget": "seeed_xiao_nrf52840_kit",
   "mcu": "nrf52840",
   "repo": "meshtastic/firmware",
   "files": [
     {
       "name": "firmware-seeed_xiao_nrf52840_kit-2.8.0.51eadb7.elf",
-      "md5": "e69d5635b87286d94194dd02dc027151",
-      "bytes": 1280820
+      "md5": "e8f6a81bf11a9c054631c3b399ae2b97",
+      "bytes": 1280804
     },
     {
       "name": "firmware-seeed_xiao_nrf52840_kit-2.8.0.51eadb7.hex",
-      "md5": "8da8f5d0630c703067680a8da49c97a5",
-      "bytes": 2015605
+      "md5": "9c31b75131c9828df8e22d532aa23a77",
+      "bytes": 2015650
     },
     {
       "name": "firmware-seeed_xiao_nrf52840_kit-2.8.0.51eadb7.uf2",
-      "md5": "fc13d7b7077b589886f02c3bafade714",
+      "md5": "73cbb452c670584dd4f4c0a5b83c2c4d",
       "bytes": 1433600
     },
     {
       "name": "firmware-seeed_xiao_nrf52840_kit-2.8.0.51eadb7-ota.zip",
-      "md5": "8f0faf1186177e5617560cf62e04e939",
-      "bytes": 717599
+      "md5": "ce7a401122f7e9c61f1798670317d3c0",
+      "bytes": 717615
     }
   ],
   "has_mui": false,
   "has_inkhud": false,
   "ram_bytes": 97900,
-  "flash_bytes": 716568,
+  "flash_bytes": 716584,
   "hwModel": 88,
   "hwModelSlug": "XIAO_NRF52_KIT",
   "architecture": "nrf52840",

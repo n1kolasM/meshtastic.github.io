@@ -1,29 +1,29 @@
 {
   "version": "2.8.0.51eadb7",
-  "build_epoch": 1786752000,
+  "build_epoch": 1786838400,
   "platformioTarget": "m5stack-unitc6l",
   "mcu": "esp32c6",
   "repo": "meshtastic/firmware",
   "files": [
     {
       "name": "firmware-m5stack-unitc6l-2.8.0.51eadb7.elf",
-      "md5": "e9c6a7d9407d78d79352eefc5a228d11",
+      "md5": "3adf03dd69ba47b9bf0110d6d5e0a333",
       "bytes": 45347484
     },
     {
       "name": "firmware-m5stack-unitc6l-2.8.0.51eadb7.bin",
-      "md5": "ad6401bc5a98374047f4289be090e599",
+      "md5": "1346ff21830f9f69203662e5c53e783d",
       "bytes": 2532128,
       "part_name": "app0"
     },
     {
       "name": "firmware-m5stack-unitc6l-2.8.0.51eadb7.factory.bin",
-      "md5": "f71337483f4546db5596bfd429b80b60",
+      "md5": "1d1bd344c61a1743cc6e2ad60ddfa320",
       "bytes": 2597664
     },
     {
       "name": "littlefs-m5stack-unitc6l-2.8.0.51eadb7.bin",
-      "md5": "cd3d34d86301f881e5a99c330273b1c8",
+      "md5": "7bb831d540f4951b649464ec091aae97",
       "bytes": 3538944,
       "part_name": "spiffs"
     },

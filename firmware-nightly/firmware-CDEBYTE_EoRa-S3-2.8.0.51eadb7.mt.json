@@ -1,29 +1,29 @@
 {
   "version": "2.8.0.51eadb7",
-  "build_epoch": 1786752000,
+  "build_epoch": 1786838400,
   "platformioTarget": "CDEBYTE_EoRa-S3",
   "mcu": "esp32s3",
   "repo": "meshtastic/firmware",
   "files": [
     {
       "name": "firmware-CDEBYTE_EoRa-S3-2.8.0.51eadb7.elf",
-      "md5": "15afb2fb4b7a5549cfb6556f64455cac",
+      "md5": "6c836fd1711e2e158c447aabd178d41b",
       "bytes": 46794676
     },
     {
       "name": "firmware-CDEBYTE_EoRa-S3-2.8.0.51eadb7.bin",
-      "md5": "d5dac3b378f192fd384468089ba25283",
+      "md5": "1a994fce7fb98c7b3c27ba0ed3e5ba7c",
       "bytes": 2309920,
       "part_name": "app0"
     },
     {
       "name": "firmware-CDEBYTE_EoRa-S3-2.8.0.51eadb7.factory.bin",
-      "md5": "a1546696bd8cb55962fb2b6fadf1d756",
+      "md5": "2fa6384c3d7931f6c66f9ad43019500d",
       "bytes": 2375456
     },
     {
       "name": "littlefs-CDEBYTE_EoRa-S3-2.8.0.51eadb7.bin",
-      "md5": "ef330d6becc915dca0085661573c1add",
+      "md5": "a415aceb678d23d052ebf54963ac21b5",
       "bytes": 1048576,
       "part_name": "spiffs"
     },

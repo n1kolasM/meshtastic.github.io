@@ -1,35 +1,35 @@
 {
   "version": "2.8.0.51eadb7",
-  "build_epoch": 1786752000,
+  "build_epoch": 1786838400,
   "platformioTarget": "thinknode_m6",
   "mcu": "nrf52840",
   "repo": "meshtastic/firmware",
   "files": [
     {
       "name": "firmware-thinknode_m6-2.8.0.51eadb7.elf",
-      "md5": "d06cc43f0531b4c985be99524e62a97d",
-      "bytes": 1284568
+      "md5": "fdd62da020f53fbd764a23aa5752f65a",
+      "bytes": 1284656
     },
     {
       "name": "firmware-thinknode_m6-2.8.0.51eadb7.hex",
-      "md5": "240a0dbdfe5ffc05a369866ab5625821",
-      "bytes": 2030381
+      "md5": "da61790a33661e4abb5a384bbe0bbc9d",
+      "bytes": 2030336
     },
     {
       "name": "firmware-thinknode_m6-2.8.0.51eadb7.uf2",
-      "md5": "20319e074392527b2eade47b7f0526f3",
+      "md5": "f8f28737aac90b08ca97bbc06751adf7",
       "bytes": 1443840
     },
     {
       "name": "firmware-thinknode_m6-2.8.0.51eadb7-ota.zip",
-      "md5": "b2e2860d4b1f4394380fe793bc456f6e",
-      "bytes": 722789
+      "md5": "0a71ef5ddce2a180f6f7690afcb07f44",
+      "bytes": 722773
     }
   ],
   "has_mui": false,
   "has_inkhud": false,
   "ram_bytes": 97908,
-  "flash_bytes": 721824,
+  "flash_bytes": 721808,
   "hwModel": 120,
   "hwModelSlug": "THINKNODE_M6",
   "architecture": "nrf52840",

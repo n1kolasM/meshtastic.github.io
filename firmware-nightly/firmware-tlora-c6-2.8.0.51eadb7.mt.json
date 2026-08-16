@@ -1,29 +1,29 @@
 {
   "version": "2.8.0.51eadb7",
-  "build_epoch": 1786752000,
+  "build_epoch": 1786838400,
   "platformioTarget": "tlora-c6",
   "mcu": "esp32c6",
   "repo": "meshtastic/firmware",
   "files": [
     {
       "name": "firmware-tlora-c6-2.8.0.51eadb7.elf",
-      "md5": "ed60344a831ec1189b1407957e41d289",
+      "md5": "9eef4e75bc244ef7d0094523655b82e7",
       "bytes": 40684964
     },
     {
       "name": "firmware-tlora-c6-2.8.0.51eadb7.bin",
-      "md5": "0b9129249678b68617206e719882b5b1",
+      "md5": "9156b01dcb1340b6e5a880216d4cd76c",
       "bytes": 2326512,
       "part_name": "app0"
     },
     {
       "name": "firmware-tlora-c6-2.8.0.51eadb7.factory.bin",
-      "md5": "8adeec1ab86dd6ed08334b14aa5ce4b2",
+      "md5": "a0341e9e469fbddb42f51bb93a9c542c",
       "bytes": 2392048
     },
     {
       "name": "littlefs-tlora-c6-2.8.0.51eadb7.bin",
-      "md5": "744d1742683052985ebc43e470807537",
+      "md5": "4ac13e23d58694c0648070b66cd9ecbf",
       "bytes": 1048576,
       "part_name": "spiffs"
     },

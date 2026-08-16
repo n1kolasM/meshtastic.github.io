@@ -1,29 +1,29 @@
 {
   "version": "2.8.0.51eadb7",
-  "build_epoch": 1786752000,
+  "build_epoch": 1786838400,
   "platformioTarget": "rak3312",
   "mcu": "esp32s3",
   "repo": "meshtastic/firmware",
   "files": [
     {
       "name": "firmware-rak3312-2.8.0.51eadb7.elf",
-      "md5": "9f9dc91eeba6a693272b58119dd8f0c3",
+      "md5": "297157a36698b5947c9cff779a6c22e7",
       "bytes": 46537460
     },
     {
       "name": "firmware-rak3312-2.8.0.51eadb7.bin",
-      "md5": "53fcae0f27dbee0c7bf3a73914e7ea8d",
+      "md5": "dba508ac9f21f6d3bfdc874183387db6",
       "bytes": 2276528,
       "part_name": "app0"
     },
     {
       "name": "firmware-rak3312-2.8.0.51eadb7.factory.bin",
-      "md5": "09fec40e8bad8e185cb4a19e8bd06cc7",
+      "md5": "edc3fa031102772d5370b528b743e4d5",
       "bytes": 2342064
     },
     {
       "name": "littlefs-rak3312-2.8.0.51eadb7.bin",
-      "md5": "652f071cde7e3cb808e7b75f0ea1e681",
+      "md5": "e468f73e894443abc167cea8ba1bb6d8",
       "bytes": 1048576,
       "part_name": "spiffs"
     },

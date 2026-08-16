@@ -1,29 +1,29 @@
 {
   "version": "2.8.0.51eadb7",
-  "build_epoch": 1786752000,
+  "build_epoch": 1786838400,
   "platformioTarget": "heltec-v4-r8-oled",
   "mcu": "esp32s3",
   "repo": "meshtastic/firmware",
   "files": [
     {
       "name": "firmware-heltec-v4-r8-oled-2.8.0.51eadb7.elf",
-      "md5": "a6c64dca9d08c7ab341e7590e9af5c1a",
+      "md5": "30d12f6b5dc98b906d2a6b6bb0630826",
       "bytes": 46806808
     },
     {
       "name": "firmware-heltec-v4-r8-oled-2.8.0.51eadb7.bin",
-      "md5": "3790279b03977d2512c44394333d177f",
+      "md5": "8cbc9e6e017cdddbf4fe4eb081db6a22",
       "bytes": 2282768,
       "part_name": "app0"
     },
     {
       "name": "firmware-heltec-v4-r8-oled-2.8.0.51eadb7.factory.bin",
-      "md5": "8b9d66aebc56d91ed939db115bb2a9d5",
+      "md5": "0cfcf417cbde4b33bc25486fbf50fc27",
       "bytes": 2348304
     },
     {
       "name": "littlefs-heltec-v4-r8-oled-2.8.0.51eadb7.bin",
-      "md5": "698f66d5f10410e4e3c8f5ef802cfd4f",
+      "md5": "9d3df77c4f35ccdd88c90340eaf9b953",
       "bytes": 3538944,
       "part_name": "spiffs"
     },

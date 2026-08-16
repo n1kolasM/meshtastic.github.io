@@ -1,29 +1,29 @@
 {
   "version": "2.8.0.51eadb7",
-  "build_epoch": 1786752000,
+  "build_epoch": 1786838400,
   "platformioTarget": "meshtastic-diy-v1",
   "mcu": "esp32",
   "repo": "meshtastic/firmware",
   "files": [
     {
       "name": "firmware-meshtastic-diy-v1-2.8.0.51eadb7.elf",
-      "md5": "f0ed9c95d54f090676218c7d3ddaca75",
+      "md5": "4e1aabde9fdcc0d06ffa343667b13b4b",
       "bytes": 39557180
     },
     {
       "name": "firmware-meshtastic-diy-v1-2.8.0.51eadb7.bin",
-      "md5": "a4b75b50e181014e8890093957c265d9",
+      "md5": "e9a1f327f8a7304a28000d490eba9c35",
       "bytes": 2050000,
       "part_name": "app0"
     },
     {
       "name": "firmware-meshtastic-diy-v1-2.8.0.51eadb7.factory.bin",
-      "md5": "57c8b2b1c05c7aca737369e175353578",
+      "md5": "fdca9318e0ce94abe88ef870b13e9cbe",
       "bytes": 2115536
     },
     {
       "name": "littlefs-meshtastic-diy-v1-2.8.0.51eadb7.bin",
-      "md5": "fc9b3709610d5a296873b566c4f92e8c",
+      "md5": "4e73d5ba17231f0787e580a489de7777",
       "bytes": 1048576,
       "part_name": "spiffs"
     },

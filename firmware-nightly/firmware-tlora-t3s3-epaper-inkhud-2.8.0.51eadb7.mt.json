@@ -1,29 +1,29 @@
 {
   "version": "2.8.0.51eadb7",
-  "build_epoch": 1786752000,
+  "build_epoch": 1786838400,
   "platformioTarget": "tlora-t3s3-epaper-inkhud",
   "mcu": "esp32s3",
   "repo": "meshtastic/firmware",
   "files": [
     {
       "name": "firmware-tlora-t3s3-epaper-inkhud-2.8.0.51eadb7.elf",
-      "md5": "26260a029fef5a4c63089d3f75016da8",
+      "md5": "a9d845ca0de880bb502a218457a04e30",
       "bytes": 47545012
     },
     {
       "name": "firmware-tlora-t3s3-epaper-inkhud-2.8.0.51eadb7.bin",
-      "md5": "d1cffd32526daea633aa69311229eb8f",
+      "md5": "a9f4a403d61412385f40dd7353ab64da",
       "bytes": 2056288,
       "part_name": "app0"
     },
     {
       "name": "firmware-tlora-t3s3-epaper-inkhud-2.8.0.51eadb7.factory.bin",
-      "md5": "6d004078d049e2ce1e3bd3aabf16b527",
+      "md5": "cea0bb0230fe7fbafbbdf01f0a25abc8",
       "bytes": 2121824
     },
     {
       "name": "littlefs-tlora-t3s3-epaper-inkhud-2.8.0.51eadb7.bin",
-      "md5": "a5fa7c815896d59d88042616f1d6eda0",
+      "md5": "c32eb052844497b3a74076761368231e",
       "bytes": 786432,
       "part_name": "spiffs"
     },

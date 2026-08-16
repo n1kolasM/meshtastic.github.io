@@ -1,24 +1,24 @@
 {
   "version": "2.8.0.51eadb7",
-  "build_epoch": 1786752000,
+  "build_epoch": 1786838400,
   "platformioTarget": "rak11310",
   "mcu": "rp2040",
   "repo": "meshtastic/firmware",
   "files": [
     {
       "name": "firmware-rak11310-2.8.0.51eadb7.elf",
-      "md5": "6493556b99831afb03033af6ceeaa0f2",
+      "md5": "0464a5b092a253d8259c01cee17b9c3c",
       "bytes": 3006460
     },
     {
       "name": "firmware-rak11310-2.8.0.51eadb7.bin",
-      "md5": "5679f2d1a8698faae70d19f4565660ee",
+      "md5": "25ba50c76aac4f7263651fba0cc9209f",
       "bytes": 819488,
       "part_name": "app0"
     },
     {
       "name": "firmware-rak11310-2.8.0.51eadb7.uf2",
-      "md5": "2a12b239a2fa4494779e3dfe5ae5b5b0",
+      "md5": "78933817677ac9836b0a7a9c74a1257c",
       "bytes": 1639424
     }
   ],

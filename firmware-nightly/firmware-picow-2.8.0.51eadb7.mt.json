@@ -1,24 +1,24 @@
 {
   "version": "2.8.0.51eadb7",
-  "build_epoch": 1786752000,
+  "build_epoch": 1786838400,
   "platformioTarget": "picow",
   "mcu": "rp2040",
   "repo": "meshtastic/firmware",
   "files": [
     {
       "name": "firmware-picow-2.8.0.51eadb7.elf",
-      "md5": "717de115d871f5f03252f68a0c06d121",
+      "md5": "cf541a93967295b5173bba1927d2293e",
       "bytes": 4680280
     },
     {
       "name": "firmware-picow-2.8.0.51eadb7.bin",
-      "md5": "56a0a48bc0850bed7bcf204d76bee831",
+      "md5": "74a575fe39607b026887f8a881121413",
       "bytes": 1263824,
       "part_name": "app0"
     },
     {
       "name": "firmware-picow-2.8.0.51eadb7.uf2",
-      "md5": "4a416df1a95a693fe715ef0d255dd0c5",
+      "md5": "ccdff651741b9980ab2054c95ca63b75",
       "bytes": 2527744
     }
   ],

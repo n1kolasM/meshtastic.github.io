@@ -1,29 +1,29 @@
 {
   "version": "2.8.0.51eadb7",
-  "build_epoch": 1786752000,
+  "build_epoch": 1786838400,
   "platformioTarget": "rak11200",
   "mcu": "esp32",
   "repo": "meshtastic/firmware",
   "files": [
     {
       "name": "firmware-rak11200-2.8.0.51eadb7.elf",
-      "md5": "a8c2f4564b893588e32d6711d9e21aba",
+      "md5": "799b1b885d9e98f340e02b5ce9d0c537",
       "bytes": 37407228
     },
     {
       "name": "firmware-rak11200-2.8.0.51eadb7.bin",
-      "md5": "74dbbd4f0884a05a06bbbe879a929312",
+      "md5": "151a5330a11fdd79650ed1a2e3a7d564",
       "bytes": 1917600,
       "part_name": "app0"
     },
     {
       "name": "firmware-rak11200-2.8.0.51eadb7.factory.bin",
-      "md5": "add007e7bb59c12ff5d13ac480eb6919",
+      "md5": "3433fe46982ff0ab41b940950e212496",
       "bytes": 1983136
     },
     {
       "name": "littlefs-rak11200-2.8.0.51eadb7.bin",
-      "md5": "3d6157577d6cb0ebc1556ed1109d5112",
+      "md5": "e70e6397dd205e2d5b4afb41180d13bb",
       "bytes": 1048576,
       "part_name": "spiffs"
     },

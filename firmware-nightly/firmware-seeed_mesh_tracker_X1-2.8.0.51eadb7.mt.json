@@ -1,35 +1,35 @@
 {
   "version": "2.8.0.51eadb7",
-  "build_epoch": 1786752000,
+  "build_epoch": 1786838400,
   "platformioTarget": "seeed_mesh_tracker_X1",
   "mcu": "nrf52840",
   "repo": "meshtastic/firmware",
   "files": [
     {
       "name": "firmware-seeed_mesh_tracker_X1-2.8.0.51eadb7.elf",
-      "md5": "33a57900093939bef4c73621dd86c3fd",
+      "md5": "416f1804c989a3b06a363d4845aa4438",
       "bytes": 881084
     },
     {
       "name": "firmware-seeed_mesh_tracker_X1-2.8.0.51eadb7.hex",
-      "md5": "c680e9081c1ecffd26661ecbd45e9676",
-      "bytes": 1440875
+      "md5": "c92985a20296766948d00157af011e62",
+      "bytes": 1440814
     },
     {
       "name": "firmware-seeed_mesh_tracker_X1-2.8.0.51eadb7.uf2",
-      "md5": "6c8d70aef1a16839a8ecda71c8a4e4d5",
+      "md5": "90dbabac09807fe835d33e48642608b1",
       "bytes": 1024512
     },
     {
       "name": "firmware-seeed_mesh_tracker_X1-2.8.0.51eadb7-ota.zip",
-      "md5": "357e833f53b8aa4006a1356f3060a981",
-      "bytes": 513259
+      "md5": "f90503cf7d5098f78127a3fbe1e93337",
+      "bytes": 513235
     }
   ],
   "has_mui": false,
   "has_inkhud": false,
   "ram_bytes": 88436,
-  "flash_bytes": 512240,
+  "flash_bytes": 512216,
   "hwModel": 128,
   "hwModelSlug": "MESH_TRACKER_X1",
   "architecture": "nrf52840",

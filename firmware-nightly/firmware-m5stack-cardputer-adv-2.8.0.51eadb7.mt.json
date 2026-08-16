@@ -1,29 +1,29 @@
 {
   "version": "2.8.0.51eadb7",
-  "build_epoch": 1786752000,
+  "build_epoch": 1786838400,
   "platformioTarget": "m5stack-cardputer-adv",
   "mcu": "esp32s3",
   "repo": "meshtastic/firmware",
   "files": [
     {
       "name": "firmware-m5stack-cardputer-adv-2.8.0.51eadb7.elf",
-      "md5": "cb7aa3523ec4119d94c13f12fa0a82ac",
+      "md5": "36bc25c42cc71b80f854560c0b788d7a",
       "bytes": 49526176
     },
     {
       "name": "firmware-m5stack-cardputer-adv-2.8.0.51eadb7.bin",
-      "md5": "064b13d1b6b8f0ce0b626f336a7b6fbe",
+      "md5": "4402294e974a94bb76870ccd841d58c6",
       "bytes": 2414512,
       "part_name": "app0"
     },
     {
       "name": "firmware-m5stack-cardputer-adv-2.8.0.51eadb7.factory.bin",
-      "md5": "0a76c2781a148e4a0dd264f0bba664a2",
+      "md5": "8d05ad419c0d89490a38c13680c694b7",
       "bytes": 2480048
     },
     {
       "name": "littlefs-m5stack-cardputer-adv-2.8.0.51eadb7.bin",
-      "md5": "f93fadaea6dd7483cdca76f91e33d2ab",
+      "md5": "d966344244adf221106935c502753a4b",
       "bytes": 1572864,
       "part_name": "spiffs"
     },

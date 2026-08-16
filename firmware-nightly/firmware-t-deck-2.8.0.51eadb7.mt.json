@@ -1,29 +1,29 @@
 {
   "version": "2.8.0.51eadb7",
-  "build_epoch": 1786752000,
+  "build_epoch": 1786838400,
   "platformioTarget": "t-deck",
   "mcu": "esp32s3",
   "repo": "meshtastic/firmware",
   "files": [
     {
       "name": "firmware-t-deck-2.8.0.51eadb7.elf",
-      "md5": "b1bc715dba44ebf635df4ca95516a876",
+      "md5": "636b9bb29dadc8e99b991cfee5d7aeac",
       "bytes": 51518504
     },
     {
       "name": "firmware-t-deck-2.8.0.51eadb7.bin",
-      "md5": "5053e583628906d7c09126a5acdc8af8",
+      "md5": "ec753204e61901655023f304360ef33f",
       "bytes": 2388864,
       "part_name": "app0"
     },
     {
       "name": "firmware-t-deck-2.8.0.51eadb7.factory.bin",
-      "md5": "699545d5ee2da526a2bab9fe8c71d773",
+      "md5": "0487445e5c9cf95ddb7453cedceb2449",
       "bytes": 2454400
     },
     {
       "name": "littlefs-t-deck-2.8.0.51eadb7.bin",
-      "md5": "591f0831b3c56a3cf4f446d9c0eea5f5",
+      "md5": "50d9191c5d1aaf8e1a91ff03274a2685",
       "bytes": 3538944,
       "part_name": "spiffs"
     },

@@ -1,29 +1,29 @@
 {
   "version": "2.8.0.51eadb7",
-  "build_epoch": 1786752000,
+  "build_epoch": 1786838400,
   "platformioTarget": "r1-neo",
   "mcu": "nrf52840",
   "repo": "meshtastic/firmware",
   "files": [
     {
       "name": "firmware-r1-neo-2.8.0.51eadb7.elf",
-      "md5": "a8503b869def3c3036c882b1607df31a",
+      "md5": "94c1274ef1e1bb1e46d555a2ffa3b0a0",
       "bytes": 979660
     },
     {
       "name": "firmware-r1-neo-2.8.0.51eadb7.hex",
-      "md5": "7398c53f85a80f512ac0b43e199765e3",
+      "md5": "56fdf619c3c4ecdbbd233d592b245201",
       "bytes": 1602262
     },
     {
       "name": "firmware-r1-neo-2.8.0.51eadb7.uf2",
-      "md5": "79f8289c5b96ddf704d686170a1d099f",
+      "md5": "e53b021a343c03b5173b43ff9d7fcef7",
       "bytes": 1139712
     },
     {
       "name": "firmware-r1-neo-2.8.0.51eadb7-ota.zip",
-      "md5": "932b6c53ab490edb50392f8bdc052dd4",
-      "bytes": 570545
+      "md5": "821ae4d9d9bd8b62a06020b8b4dccd34",
+      "bytes": 570544
     }
   ],
   "has_mui": false,

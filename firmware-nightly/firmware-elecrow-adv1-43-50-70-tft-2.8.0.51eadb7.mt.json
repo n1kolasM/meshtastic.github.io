@@ -1,29 +1,29 @@
 {
   "version": "2.8.0.51eadb7",
-  "build_epoch": 1786752000,
+  "build_epoch": 1786838400,
   "platformioTarget": "elecrow-adv1-43-50-70-tft",
   "mcu": "esp32s3",
   "repo": "meshtastic/firmware",
   "files": [
     {
       "name": "firmware-elecrow-adv1-43-50-70-tft-2.8.0.51eadb7.elf",
-      "md5": "860b149a42012c95ebba0be2607aca7b",
+      "md5": "f0fd396f4d457e9a016d1fd1cff39a5b",
       "bytes": 53468344
     },
     {
       "name": "firmware-elecrow-adv1-43-50-70-tft-2.8.0.51eadb7.bin",
-      "md5": "d8681dd0028fccd755efb725a1b0395b",
+      "md5": "4b539b2b94b486fb6cbc8816833cba7c",
       "bytes": 3477840,
       "part_name": "app0"
     },
     {
       "name": "firmware-elecrow-adv1-43-50-70-tft-2.8.0.51eadb7.factory.bin",
-      "md5": "f808491698f70342e3c9414a4952e214",
+      "md5": "4cb53987da3b5e57012ef61b963a197a",
       "bytes": 3543376
     },
     {
       "name": "littlefs-elecrow-adv1-43-50-70-tft-2.8.0.51eadb7.bin",
-      "md5": "342fb34a6b254f7e6da9e6c26229701d",
+      "md5": "3a5a459bf73a2af886d88e159224b93b",
       "bytes": 3538944,
       "part_name": "spiffs"
     },

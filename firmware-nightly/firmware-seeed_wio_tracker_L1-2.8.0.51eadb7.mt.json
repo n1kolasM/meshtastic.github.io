@@ -1,35 +1,35 @@
 {
   "version": "2.8.0.51eadb7",
-  "build_epoch": 1786752000,
+  "build_epoch": 1786838400,
   "platformioTarget": "seeed_wio_tracker_L1",
   "mcu": "nrf52840",
   "repo": "meshtastic/firmware",
   "files": [
     {
       "name": "firmware-seeed_wio_tracker_L1-2.8.0.51eadb7.elf",
-      "md5": "21c9465e7f73e1abe4a49ef8ed9c8665",
-      "bytes": 1284868
+      "md5": "6b1da648dc3a035dc284391d280e69af",
+      "bytes": 1284848
     },
     {
       "name": "firmware-seeed_wio_tracker_L1-2.8.0.51eadb7.hex",
-      "md5": "c049bde50a17facb4c63771da2da2538",
-      "bytes": 2030876
+      "md5": "85881df28b405f8ed7c2fc47dc1b2931",
+      "bytes": 2030831
     },
     {
       "name": "firmware-seeed_wio_tracker_L1-2.8.0.51eadb7.uf2",
-      "md5": "af871105c48dc68ffb44ddca6a1af940",
+      "md5": "1356a7c6bbb5c7cf621083b1eec60345",
       "bytes": 1444352
     },
     {
       "name": "firmware-seeed_wio_tracker_L1-2.8.0.51eadb7-ota.zip",
-      "md5": "02f2cdaddbc305cea8b00734fc640be2",
-      "bytes": 723013
+      "md5": "4c3bd80b0a8e673d11c3eecec8944c5d",
+      "bytes": 722997
     }
   ],
   "has_mui": false,
   "has_inkhud": false,
   "ram_bytes": 106180,
-  "flash_bytes": 722000,
+  "flash_bytes": 721984,
   "hwModel": 99,
   "hwModelSlug": "SEEED_WIO_TRACKER_L1",
   "architecture": "nrf52840",

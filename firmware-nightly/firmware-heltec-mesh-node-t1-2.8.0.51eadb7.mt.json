@@ -1,29 +1,29 @@
 {
   "version": "2.8.0.51eadb7",
-  "build_epoch": 1786752000,
+  "build_epoch": 1786838400,
   "platformioTarget": "heltec-mesh-node-t1",
   "mcu": "nrf52840",
   "repo": "meshtastic/firmware",
   "files": [
     {
       "name": "firmware-heltec-mesh-node-t1-2.8.0.51eadb7.elf",
-      "md5": "dca5d75c4143b45bc43df4a1f238ae47",
-      "bytes": 1287488
+      "md5": "9ac47f971d93e3ea2989703a8c0fface",
+      "bytes": 1287504
     },
     {
       "name": "firmware-heltec-mesh-node-t1-2.8.0.51eadb7.hex",
-      "md5": "810a6672bae03ea71150cf98053c3be5",
+      "md5": "4f065457444c985e9f2008c5c7dc3398",
       "bytes": 2054996
     },
     {
       "name": "firmware-heltec-mesh-node-t1-2.8.0.51eadb7.uf2",
-      "md5": "fbbd16e4dbde1cca9f80135401d0915f",
+      "md5": "fb0e1795a7b526d552e61d6d7cf3d693",
       "bytes": 1461248
     },
     {
       "name": "firmware-heltec-mesh-node-t1-2.8.0.51eadb7-ota.zip",
-      "md5": "1055f348253495de533e4ada20350a2a",
-      "bytes": 731583
+      "md5": "1635c42a30b15b842dce189ec823ca3f",
+      "bytes": 731582
     }
   ],
   "has_mui": false,

@@ -1,29 +1,29 @@
 {
   "version": "2.8.0.51eadb7",
-  "build_epoch": 1786752000,
+  "build_epoch": 1786838400,
   "platformioTarget": "tlora-t3s3-epaper",
   "mcu": "esp32s3",
   "repo": "meshtastic/firmware",
   "files": [
     {
       "name": "firmware-tlora-t3s3-epaper-2.8.0.51eadb7.elf",
-      "md5": "c615c375b43b8ef2018d70a28517b9d6",
+      "md5": "26ebbbd81050bce5c2f5ba4d99b67de7",
       "bytes": 44034812
     },
     {
       "name": "firmware-tlora-t3s3-epaper-2.8.0.51eadb7.bin",
-      "md5": "6234dde4a563e591aadcbba75c9bca72",
+      "md5": "c8b46c130ca2f904f64174383bc16568",
       "bytes": 2121664,
       "part_name": "app0"
     },
     {
       "name": "firmware-tlora-t3s3-epaper-2.8.0.51eadb7.factory.bin",
-      "md5": "0fe824e10cbbaca956f9f49e20c987f9",
+      "md5": "42561330285655274e6db1270d4780b0",
       "bytes": 2187200
     },
     {
       "name": "littlefs-tlora-t3s3-epaper-2.8.0.51eadb7.bin",
-      "md5": "e8090369975fc3fc4d460250302f16e0",
+      "md5": "5321c4eff4068be84278264748de62ee",
       "bytes": 786432,
       "part_name": "spiffs"
     },

@@ -1,35 +1,35 @@
 {
   "version": "2.8.0.51eadb7",
-  "build_epoch": 1786752000,
+  "build_epoch": 1786838400,
   "platformioTarget": "tracker-t1000-e",
   "mcu": "nrf52840",
   "repo": "meshtastic/firmware",
   "files": [
     {
       "name": "firmware-tracker-t1000-e-2.8.0.51eadb7.elf",
-      "md5": "8ca198f45407c1b08355b31eec5d41fc",
-      "bytes": 881060
+      "md5": "1f89023421cad316dda3fe8101ecaf81",
+      "bytes": 881128
     },
     {
       "name": "firmware-tracker-t1000-e-2.8.0.51eadb7.hex",
-      "md5": "5915493ccc450ac01fcfe0322ddcdf40",
-      "bytes": 1437230
+      "md5": "a2fb8f5105eb2593739e2a5720ad657b",
+      "bytes": 1437185
     },
     {
       "name": "firmware-tracker-t1000-e-2.8.0.51eadb7.uf2",
-      "md5": "cd37f321ad96c949401b812f72fd3676",
+      "md5": "f387a72875dbc5d004629b509de7b29f",
       "bytes": 1021952
     },
     {
       "name": "firmware-tracker-t1000-e-2.8.0.51eadb7-ota.zip",
-      "md5": "9af1a13b7301624553ef7941a1a8b3c0",
-      "bytes": 511927
+      "md5": "0828c1703b4f31cbce54679f5d2d21e3",
+      "bytes": 511911
     }
   ],
   "has_mui": false,
   "has_inkhud": false,
   "ram_bytes": 88436,
-  "flash_bytes": 510944,
+  "flash_bytes": 510928,
   "hwModel": 71,
   "hwModelSlug": "TRACKER_T1000_E",
   "architecture": "nrf52840",

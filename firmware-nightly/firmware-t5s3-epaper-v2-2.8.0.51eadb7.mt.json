@@ -1,29 +1,29 @@
 {
   "version": "2.8.0.51eadb7",
-  "build_epoch": 1786752000,
+  "build_epoch": 1786838400,
   "platformioTarget": "t5s3-epaper-v2",
   "mcu": "esp32s3",
   "repo": "meshtastic/firmware",
   "files": [
     {
       "name": "firmware-t5s3-epaper-v2-2.8.0.51eadb7.elf",
-      "md5": "b73a18efcd39c546044c701bf2272abe",
+      "md5": "da6943f6e351e195ac974460541f3cd7",
       "bytes": 48360584
     },
     {
       "name": "firmware-t5s3-epaper-v2-2.8.0.51eadb7.bin",
-      "md5": "ae0b06352a268c154c26698f48043f5a",
+      "md5": "11e16649581df2af84e3966f17bb2e21",
       "bytes": 2357376,
       "part_name": "app0"
     },
     {
       "name": "firmware-t5s3-epaper-v2-2.8.0.51eadb7.factory.bin",
-      "md5": "33071435ac77237ab8a52d46078d6c93",
+      "md5": "caa20c16d0d5bbb82c7f285179673244",
       "bytes": 2422912
     },
     {
       "name": "littlefs-t5s3-epaper-v2-2.8.0.51eadb7.bin",
-      "md5": "e3b9645d5cf4353b0338534166d9de61",
+      "md5": "f3e0ad4bc7891f6fc0c6bfaf6467403a",
       "bytes": 3538944,
       "part_name": "spiffs"
     },

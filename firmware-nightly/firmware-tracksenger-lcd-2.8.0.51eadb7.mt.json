@@ -1,29 +1,29 @@
 {
   "version": "2.8.0.51eadb7",
-  "build_epoch": 1786752000,
+  "build_epoch": 1786838400,
   "platformioTarget": "tracksenger-lcd",
   "mcu": "esp32s3",
   "repo": "meshtastic/firmware",
   "files": [
     {
       "name": "firmware-tracksenger-lcd-2.8.0.51eadb7.elf",
-      "md5": "7c226f44f29eb93d2b7ddc860c75e0b4",
+      "md5": "174709cd8cee6612c91dd55aaedf2a68",
       "bytes": 48929100
     },
     {
       "name": "firmware-tracksenger-lcd-2.8.0.51eadb7.bin",
-      "md5": "2a0e39bcdab058adea4c60612bf90c78",
+      "md5": "23466382f7ddff444dcd557b55654d89",
       "bytes": 2320752,
       "part_name": "app0"
     },
     {
       "name": "firmware-tracksenger-lcd-2.8.0.51eadb7.factory.bin",
-      "md5": "d240b4fe1059e3dc546e6c3fb519db55",
+      "md5": "bd82a07446f3555681314d4dcff05be5",
       "bytes": 2386288
     },
     {
       "name": "littlefs-tracksenger-lcd-2.8.0.51eadb7.bin",
-      "md5": "5b301a799c1d95dcfc9d6972766a6e9d",
+      "md5": "b5833641a8570fffc2127a7389d2cf49",
       "bytes": 1572864,
       "part_name": "spiffs"
     },

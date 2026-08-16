@@ -1,29 +1,29 @@
 {
   "version": "2.8.0.51eadb7",
-  "build_epoch": 1786752000,
+  "build_epoch": 1786838400,
   "platformioTarget": "station-g3",
   "mcu": "esp32s3",
   "repo": "meshtastic/firmware",
   "files": [
     {
       "name": "firmware-station-g3-2.8.0.51eadb7.elf",
-      "md5": "f5857860db5afa41dabc87b6d0173ed3",
+      "md5": "d5f30c047842a51b2442e49d78074b31",
       "bytes": 46451600
     },
     {
       "name": "firmware-station-g3-2.8.0.51eadb7.bin",
-      "md5": "e96c51288f8bf0e47c3c14f9bf35da70",
+      "md5": "222af43bb4d3148fed8c98bf03064389",
       "bytes": 2271696,
       "part_name": "app0"
     },
     {
       "name": "firmware-station-g3-2.8.0.51eadb7.factory.bin",
-      "md5": "f821decb37001b02e15c4dd6ed0fd126",
+      "md5": "ff4b63c9ff63306da2b79927a0a700ec",
       "bytes": 2337232
     },
     {
       "name": "littlefs-station-g3-2.8.0.51eadb7.bin",
-      "md5": "b5dae8274bc865bc9c2cf42cedd34fbb",
+      "md5": "e5053cf6952266f2272ab8460fe520b3",
       "bytes": 3538944,
       "part_name": "spiffs"
     },

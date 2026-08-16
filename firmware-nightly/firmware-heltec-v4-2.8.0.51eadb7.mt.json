@@ -1,29 +1,29 @@
 {
   "version": "2.8.0.51eadb7",
-  "build_epoch": 1786752000,
+  "build_epoch": 1786838400,
   "platformioTarget": "heltec-v4",
   "mcu": "esp32s3",
   "repo": "meshtastic/firmware",
   "files": [
     {
       "name": "firmware-heltec-v4-2.8.0.51eadb7.elf",
-      "md5": "3a17cb5c5d4e5dc45d1c6fe937581d5c",
+      "md5": "107b13a2c0332a5a8102ac9b4676070e",
       "bytes": 46840688
     },
     {
       "name": "firmware-heltec-v4-2.8.0.51eadb7.bin",
-      "md5": "337c524e165d0c91db4ec5624b5f38ab",
+      "md5": "4ff913287d49868a8c394367e3e13108",
       "bytes": 2282304,
       "part_name": "app0"
     },
     {
       "name": "firmware-heltec-v4-2.8.0.51eadb7.factory.bin",
-      "md5": "b3b5fd13b5d992ca7ac71e6daab258ad",
+      "md5": "62e689e317d4b3f1d878567fcb064b47",
       "bytes": 2347840
     },
     {
       "name": "littlefs-heltec-v4-2.8.0.51eadb7.bin",
-      "md5": "751dd8e9338552368ebc9c24ae7b5d4e",
+      "md5": "d5335434468e8f2823f53dcea83b5747",
       "bytes": 3538944,
       "part_name": "spiffs"
     },

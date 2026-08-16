@@ -1,29 +1,29 @@
 {
   "version": "2.8.0.51eadb7",
-  "build_epoch": 1786752000,
+  "build_epoch": 1786838400,
   "platformioTarget": "heltec-v4-r8-tft",
   "mcu": "esp32s3",
   "repo": "meshtastic/firmware",
   "files": [
     {
       "name": "firmware-heltec-v4-r8-tft-2.8.0.51eadb7.elf",
-      "md5": "672f51bed8b4f7fa9630b3db8a73bed8",
+      "md5": "038ee9d5fc40909bf8e10d8dca71e4a2",
       "bytes": 60307284
     },
     {
       "name": "firmware-heltec-v4-r8-tft-2.8.0.51eadb7.bin",
-      "md5": "625c79b73d022395e90cd54d0b504ff6",
+      "md5": "ae94e8bc2969b95a3f76a209374f5c4f",
       "bytes": 3808240,
       "part_name": "app0"
     },
     {
       "name": "firmware-heltec-v4-r8-tft-2.8.0.51eadb7.factory.bin",
-      "md5": "7c09e2c515737b6d32ae77859abfc743",
+      "md5": "e6d08e7ab714e62ce03b2b67786e8a8c",
       "bytes": 3873776
     },
     {
       "name": "littlefs-heltec-v4-r8-tft-2.8.0.51eadb7.bin",
-      "md5": "c099b5db0f6beb31d1f7802146acf392",
+      "md5": "3b5e93cb1a0a8c635389fac06eea6292",
       "bytes": 3538944,
       "part_name": "spiffs"
     },

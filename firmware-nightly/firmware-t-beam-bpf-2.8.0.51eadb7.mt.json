@@ -1,29 +1,29 @@
 {
   "version": "2.8.0.51eadb7",
-  "build_epoch": 1786752000,
+  "build_epoch": 1786838400,
   "platformioTarget": "t-beam-bpf",
   "mcu": "esp32s3",
   "repo": "meshtastic/firmware",
   "files": [
     {
       "name": "firmware-t-beam-bpf-2.8.0.51eadb7.elf",
-      "md5": "eacb223218664c4d9b3195f5aec48e6c",
+      "md5": "9e037651ce9bcce85dc620bbe35600c7",
       "bytes": 46943784
     },
     {
       "name": "firmware-t-beam-bpf-2.8.0.51eadb7.bin",
-      "md5": "b7bca9a4190f380138fc074a24a61798",
+      "md5": "8b4cec4022fb09ad1a07c486ecdb178e",
       "bytes": 2315312,
       "part_name": "app0"
     },
     {
       "name": "firmware-t-beam-bpf-2.8.0.51eadb7.factory.bin",
-      "md5": "cce7d38783ad0315d9706e5be7daea52",
+      "md5": "51641f29cd06cff1a66912da6f69ceb7",
       "bytes": 2380848
     },
     {
       "name": "littlefs-t-beam-bpf-2.8.0.51eadb7.bin",
-      "md5": "691a69bd0f48c96a6833f82a06392271",
+      "md5": "f44bd43cc4b25a9d9ae50e83154078ba",
       "bytes": 3538944,
       "part_name": "spiffs"
     },

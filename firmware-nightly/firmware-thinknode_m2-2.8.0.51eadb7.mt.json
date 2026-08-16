@@ -1,29 +1,29 @@
 {
   "version": "2.8.0.51eadb7",
-  "build_epoch": 1786752000,
+  "build_epoch": 1786838400,
   "platformioTarget": "thinknode_m2",
   "mcu": "esp32s3",
   "repo": "meshtastic/firmware",
   "files": [
     {
       "name": "firmware-thinknode_m2-2.8.0.51eadb7.elf",
-      "md5": "2778c19e3ee14879ec9b21a74a19d464",
+      "md5": "b4d1d3a83d1667043c69119041c81765",
       "bytes": 45987200
     },
     {
       "name": "firmware-thinknode_m2-2.8.0.51eadb7.bin",
-      "md5": "ca9c8ddefd5a79e94cfcb537a4ed8e42",
+      "md5": "f5b17909886aff62a4381917b1fb7e27",
       "bytes": 2216672,
       "part_name": "app0"
     },
     {
       "name": "firmware-thinknode_m2-2.8.0.51eadb7.factory.bin",
-      "md5": "d4183255d8fb5d9d258275cbad53c8d9",
+      "md5": "b70050af43f8bbc632dcc3891aaaf30f",
       "bytes": 2282208
     },
     {
       "name": "littlefs-thinknode_m2-2.8.0.51eadb7.bin",
-      "md5": "15d271bc284cbf81f91b773a1767f822",
+      "md5": "07f5b0d92a30b60fdd1df3eb1c52db93",
       "bytes": 1048576,
       "part_name": "spiffs"
     },

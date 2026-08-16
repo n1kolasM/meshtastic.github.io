@@ -1,28 +1,28 @@
 {
   "version": "2.8.0.51eadb7",
-  "build_epoch": 1786752000,
+  "build_epoch": 1786838400,
   "platformioTarget": "thinknode_m8",
   "mcu": "nrf52840",
   "repo": "meshtastic/firmware",
   "files": [
     {
       "name": "firmware-thinknode_m8-2.8.0.51eadb7.elf",
-      "md5": "a5883204b45fee4d5edf35831997bc9c",
-      "bytes": 1289056
+      "md5": "c077903850024613b69b9aac9973b102",
+      "bytes": 1289024
     },
     {
       "name": "firmware-thinknode_m8-2.8.0.51eadb7.hex",
-      "md5": "1b7a3f5c07819981da3a168ea0f2d6a1",
+      "md5": "c641ceab5f6b1710de761bfeb7fa6b24",
       "bytes": 2052865
     },
     {
       "name": "firmware-thinknode_m8-2.8.0.51eadb7.uf2",
-      "md5": "702f7b65c0b6c3dabf63d239d606a6f0",
+      "md5": "b323e1fc76dd8fe2a04e644d5581e147",
       "bytes": 1459712
     },
     {
       "name": "firmware-thinknode_m8-2.8.0.51eadb7-ota.zip",
-      "md5": "4a547303b5053027b7e164809a42d3e1",
+      "md5": "ebda6e94431341fadd300fc0cf1c8701",
       "bytes": 730781
     }
   ],

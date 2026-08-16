@@ -1,29 +1,29 @@
 {
   "version": "2.8.0.51eadb7",
-  "build_epoch": 1786752000,
+  "build_epoch": 1786838400,
   "platformioTarget": "heltec-wireless-tracker",
   "mcu": "esp32s3",
   "repo": "meshtastic/firmware",
   "files": [
     {
       "name": "firmware-heltec-wireless-tracker-2.8.0.51eadb7.elf",
-      "md5": "9c2a2fd183900ae53fe24f9b452e67a6",
+      "md5": "049b6d9f761828b9375ad6c966297a44",
       "bytes": 48892004
     },
     {
       "name": "firmware-heltec-wireless-tracker-2.8.0.51eadb7.bin",
-      "md5": "8981b76d8bdbbee90dc845bf589d89ce",
+      "md5": "48092c1b983ce77399d299b59f59e7c3",
       "bytes": 2319888,
       "part_name": "app0"
     },
     {
       "name": "firmware-heltec-wireless-tracker-2.8.0.51eadb7.factory.bin",
-      "md5": "7763c7f71ca97c917b5817a5830fdb43",
+      "md5": "41887e0c9659f504fb29a73cdc2d585e",
       "bytes": 2385424
     },
     {
       "name": "littlefs-heltec-wireless-tracker-2.8.0.51eadb7.bin",
-      "md5": "48d802c7b1b2d032c24c240f571baefd",
+      "md5": "50d95ed0a8da3491e1af8d2f56001b7a",
       "bytes": 1572864,
       "part_name": "spiffs"
     },

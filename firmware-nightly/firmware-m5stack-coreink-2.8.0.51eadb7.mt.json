@@ -1,29 +1,29 @@
 {
   "version": "2.8.0.51eadb7",
-  "build_epoch": 1786752000,
+  "build_epoch": 1786838400,
   "platformioTarget": "m5stack-coreink",
   "mcu": "esp32",
   "repo": "meshtastic/firmware",
   "files": [
     {
       "name": "firmware-m5stack-coreink-2.8.0.51eadb7.elf",
-      "md5": "fee2ad15e9aaaad8f1a2f4dad1fde3e1",
+      "md5": "a14e50168a8380ea1c8a550175150d5f",
       "bytes": 43700212
     },
     {
       "name": "firmware-m5stack-coreink-2.8.0.51eadb7.bin",
-      "md5": "c21a8d2b4a111fd16f510b09b0dd99f2",
+      "md5": "1fe631bfa5086d69e733bdeb1c219f79",
       "bytes": 2256304,
       "part_name": "app0"
     },
     {
       "name": "firmware-m5stack-coreink-2.8.0.51eadb7.factory.bin",
-      "md5": "47e75158ea5f9e938f67916a0bf6bf97",
+      "md5": "4cd3e42e045f6d0b70a942de4407d797",
       "bytes": 2321840
     },
     {
       "name": "littlefs-m5stack-coreink-2.8.0.51eadb7.bin",
-      "md5": "73cef2cedaf3494c0c9381ec57fedf4c",
+      "md5": "bc98daa47097e0180c446cd91149ef62",
       "bytes": 1048576,
       "part_name": "spiffs"
     },

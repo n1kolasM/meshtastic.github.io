@@ -1,24 +1,24 @@
 {
   "version": "2.8.0.51eadb7",
-  "build_epoch": 1786752000,
+  "build_epoch": 1786838400,
   "platformioTarget": "pico",
   "mcu": "rp2040",
   "repo": "meshtastic/firmware",
   "files": [
     {
       "name": "firmware-pico-2.8.0.51eadb7.elf",
-      "md5": "9b66044af84ee571f9377922859606a2",
+      "md5": "aa96f12b0d25a156b6e2cef6641fa9a6",
       "bytes": 2962456
     },
     {
       "name": "firmware-pico-2.8.0.51eadb7.bin",
-      "md5": "dc574e90fd752bc2407709726afb7257",
+      "md5": "14a384b80043d2b53d38fe12072931c9",
       "bytes": 796712,
       "part_name": "app0"
     },
     {
       "name": "firmware-pico-2.8.0.51eadb7.uf2",
-      "md5": "66f8ad8d39dcf44f1edeadcf69b47670",
+      "md5": "4da08e50d2281b7eba183fc748a49642",
       "bytes": 1593856
     }
   ],

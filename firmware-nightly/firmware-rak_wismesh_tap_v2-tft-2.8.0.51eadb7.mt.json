@@ -1,29 +1,29 @@
 {
   "version": "2.8.0.51eadb7",
-  "build_epoch": 1786752000,
+  "build_epoch": 1786838400,
   "platformioTarget": "rak_wismesh_tap_v2-tft",
   "mcu": "esp32s3",
   "repo": "meshtastic/firmware",
   "files": [
     {
       "name": "firmware-rak_wismesh_tap_v2-tft-2.8.0.51eadb7.elf",
-      "md5": "9e543042e0f34332fd49a15916b6466f",
+      "md5": "d2c089ba2dbdf9dd26de60e5e5f7e127",
       "bytes": 53778072
     },
     {
       "name": "firmware-rak_wismesh_tap_v2-tft-2.8.0.51eadb7.bin",
-      "md5": "f7798040365673a0af3e16febde8057a",
+      "md5": "6d354e647278e10c6bb99bc6ba68403c",
       "bytes": 3530144,
       "part_name": "app0"
     },
     {
       "name": "firmware-rak_wismesh_tap_v2-tft-2.8.0.51eadb7.factory.bin",
-      "md5": "7daf2226ccb19ca08f1ec7cb860539d5",
+      "md5": "a396bcf9e6a38992918fbc93d3f35c95",
       "bytes": 3595680
     },
     {
       "name": "littlefs-rak_wismesh_tap_v2-tft-2.8.0.51eadb7.bin",
-      "md5": "2f51b8392cf50777dbda38171b57dab3",
+      "md5": "0fe2aa17001bd8385d93a41c7ab059f0",
       "bytes": 1572864,
       "part_name": "spiffs"
     },

@@ -1,29 +1,29 @@
 {
   "version": "2.8.0.51eadb7",
-  "build_epoch": 1786752000,
+  "build_epoch": 1786838400,
   "platformioTarget": "mini-epaper-s3",
   "mcu": "esp32s3",
   "repo": "meshtastic/firmware",
   "files": [
     {
       "name": "firmware-mini-epaper-s3-2.8.0.51eadb7.elf",
-      "md5": "d6f738008a8a0736a2540ef4f76c3b96",
+      "md5": "a13d084404478c0511b9d5e16688699d",
       "bytes": 47369648
     },
     {
       "name": "firmware-mini-epaper-s3-2.8.0.51eadb7.bin",
-      "md5": "61d36ab802aaf9a2c17ce3534b19188f",
+      "md5": "a2d43ec0823b8de30338c0470cad8885",
       "bytes": 2312192,
       "part_name": "app0"
     },
     {
       "name": "firmware-mini-epaper-s3-2.8.0.51eadb7.factory.bin",
-      "md5": "c7659888ba85aec3f15b8b55e3d63452",
+      "md5": "201a2ffdabcc63f185864f8f88253c5e",
       "bytes": 2377728
     },
     {
       "name": "littlefs-mini-epaper-s3-2.8.0.51eadb7.bin",
-      "md5": "2b260236384fa5f71a582f92b8f08d66",
+      "md5": "5e3a385f6f80d1dbab47bb99d083568c",
       "bytes": 1048576,
       "part_name": "spiffs"
     },

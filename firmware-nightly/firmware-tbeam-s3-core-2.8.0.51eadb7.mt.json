@@ -1,29 +1,29 @@
 {
   "version": "2.8.0.51eadb7",
-  "build_epoch": 1786752000,
+  "build_epoch": 1786838400,
   "platformioTarget": "tbeam-s3-core",
   "mcu": "esp32s3",
   "repo": "meshtastic/firmware",
   "files": [
     {
       "name": "firmware-tbeam-s3-core-2.8.0.51eadb7.elf",
-      "md5": "10fb281b8b2bfd209384c379f80ca781",
+      "md5": "d380278a2a4cb1227a1601e651a8e5e0",
       "bytes": 48386728
     },
     {
       "name": "firmware-tbeam-s3-core-2.8.0.51eadb7.bin",
-      "md5": "0d5a596fccb7da385d40c74cf891476b",
+      "md5": "eeec27f3c530d24c48bbcd89508f4eaf",
       "bytes": 2359984,
       "part_name": "app0"
     },
     {
       "name": "firmware-tbeam-s3-core-2.8.0.51eadb7.factory.bin",
-      "md5": "aba1cb4013ff798b5c22c9775bca0686",
+      "md5": "885b7f4fbbe0e66aa3e427ab56e1e93f",
       "bytes": 2425520
     },
     {
       "name": "littlefs-tbeam-s3-core-2.8.0.51eadb7.bin",
-      "md5": "d762871a36fe3ecb74fae6a4c2677d71",
+      "md5": "78df04d06565b80415472b42f5d2df6d",
       "bytes": 1572864,
       "part_name": "spiffs"
     },

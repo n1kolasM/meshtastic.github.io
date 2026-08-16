@@ -1,29 +1,29 @@
 {
   "version": "2.8.0.51eadb7",
-  "build_epoch": 1786752000,
+  "build_epoch": 1786838400,
   "platformioTarget": "m5stack-cores3",
   "mcu": "esp32s3",
   "repo": "meshtastic/firmware",
   "files": [
     {
       "name": "firmware-m5stack-cores3-2.8.0.51eadb7.elf",
-      "md5": "e674912532bf4db13095fcb2dd979259",
+      "md5": "233363371aa60ae57caff99cda3dab4c",
       "bytes": 47182744
     },
     {
       "name": "firmware-m5stack-cores3-2.8.0.51eadb7.bin",
-      "md5": "923a291cd6018ceb4b57f351a09aef4d",
+      "md5": "1d435e86028b82a342bf4ec394cf86a3",
       "bytes": 2298672,
       "part_name": "app0"
     },
     {
       "name": "firmware-m5stack-cores3-2.8.0.51eadb7.factory.bin",
-      "md5": "e0266d13c0825d57cc65485103e485e1",
+      "md5": "beda2bdee8a6701d8b55d220c67ef6fe",
       "bytes": 2364208
     },
     {
       "name": "littlefs-m5stack-cores3-2.8.0.51eadb7.bin",
-      "md5": "486fbf64b9e3bd2214de99f046826c59",
+      "md5": "bb0186942eaa478830696118310ebe7b",
       "bytes": 3538944,
       "part_name": "spiffs"
     },

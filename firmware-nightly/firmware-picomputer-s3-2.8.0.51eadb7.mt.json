@@ -1,29 +1,29 @@
 {
   "version": "2.8.0.51eadb7",
-  "build_epoch": 1786752000,
+  "build_epoch": 1786838400,
   "platformioTarget": "picomputer-s3",
   "mcu": "esp32s3",
   "repo": "meshtastic/firmware",
   "files": [
     {
       "name": "firmware-picomputer-s3-2.8.0.51eadb7.elf",
-      "md5": "64bc2e687e3ebadcbbcbfc0c223af3f7",
+      "md5": "bc750eaa58ea5136fed95914d294a100",
       "bytes": 48910920
     },
     {
       "name": "firmware-picomputer-s3-2.8.0.51eadb7.bin",
-      "md5": "7606240a4dce284c640e132436957b13",
+      "md5": "3444e8a2c440ce8bfddefcd5910a9700",
       "bytes": 2324896,
       "part_name": "app0"
     },
     {
       "name": "firmware-picomputer-s3-2.8.0.51eadb7.factory.bin",
-      "md5": "2fadd80fa249a0a5d9e823fb0ab69f20",
+      "md5": "c6a25be90d016a38a7c0c3f2cc297c92",
       "bytes": 2390432
     },
     {
       "name": "littlefs-picomputer-s3-2.8.0.51eadb7.bin",
-      "md5": "4e73a3e59da196cb0d319521f6ecc183",
+      "md5": "938ce69b65ce520765a82ab61cfbcdf7",
       "bytes": 1572864,
       "part_name": "spiffs"
     },

@@ -1,29 +1,29 @@
 {
   "version": "2.8.0.51eadb7",
-  "build_epoch": 1786752000,
+  "build_epoch": 1786838400,
   "platformioTarget": "heltec_sensor_hub",
   "mcu": "esp32s3",
   "repo": "meshtastic/firmware",
   "files": [
     {
       "name": "firmware-heltec_sensor_hub-2.8.0.51eadb7.elf",
-      "md5": "16ca1308f4974dec625eacee909e6c86",
+      "md5": "f6d7361868b5e716fd4755ed96101017",
       "bytes": 41937060
     },
     {
       "name": "firmware-heltec_sensor_hub-2.8.0.51eadb7.bin",
-      "md5": "1921457f1998010244f9c1a04c9404c1",
+      "md5": "a208f15ec7a251a143395e5108b3c04f",
       "bytes": 2063696,
       "part_name": "app0"
     },
     {
       "name": "firmware-heltec_sensor_hub-2.8.0.51eadb7.factory.bin",
-      "md5": "f86de7cb94dd998a2b71cc40b87a1610",
+      "md5": "1496e8c81c0af97f3333289296566179",
       "bytes": 2129232
     },
     {
       "name": "littlefs-heltec_sensor_hub-2.8.0.51eadb7.bin",
-      "md5": "736d7037cb5890bce3d80d136148750a",
+      "md5": "1690ab07e03d652ce7d4588092692a9c",
       "bytes": 1048576,
       "part_name": "spiffs"
     },

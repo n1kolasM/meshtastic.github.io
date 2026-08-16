@@ -1,29 +1,29 @@
 {
   "version": "2.8.0.51eadb7",
-  "build_epoch": 1786752000,
+  "build_epoch": 1786838400,
   "platformioTarget": "seeed-sensecap-indicator-tft",
   "mcu": "esp32s3",
   "repo": "meshtastic/firmware",
   "files": [
     {
       "name": "firmware-seeed-sensecap-indicator-tft-2.8.0.51eadb7.elf",
-      "md5": "49d43e74cf887c1cbe69bb47379f7baf",
+      "md5": "b881bb9a08256ee155e9fa7d39a0dd47",
       "bytes": 59244004
     },
     {
       "name": "firmware-seeed-sensecap-indicator-tft-2.8.0.51eadb7.bin",
-      "md5": "1cdf1101c3a6aca2cef35845dccebec8",
+      "md5": "54dac7927d5ade5d3a17df5f8910f7ec",
       "bytes": 3778128,
       "part_name": "app0"
     },
     {
       "name": "firmware-seeed-sensecap-indicator-tft-2.8.0.51eadb7.factory.bin",
-      "md5": "e36d1d68bbcd0605cd16b3650eb65026",
+      "md5": "c4e26e5a7720d9fba05477146e92034b",
       "bytes": 3843664
     },
     {
       "name": "littlefs-seeed-sensecap-indicator-tft-2.8.0.51eadb7.bin",
-      "md5": "5ba2cc8019fd4268a89a15691e76cc85",
+      "md5": "2b69ea9d3d5f1083a1638d898b88d5be",
       "bytes": 1572864,
       "part_name": "spiffs"
     },

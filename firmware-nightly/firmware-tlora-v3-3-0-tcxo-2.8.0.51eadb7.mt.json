@@ -1,29 +1,29 @@
 {
   "version": "2.8.0.51eadb7",
-  "build_epoch": 1786752000,
+  "build_epoch": 1786838400,
   "platformioTarget": "tlora-v3-3-0-tcxo",
   "mcu": "esp32",
   "repo": "meshtastic/firmware",
   "files": [
     {
       "name": "firmware-tlora-v3-3-0-tcxo-2.8.0.51eadb7.elf",
-      "md5": "f04345bb06c47864c941c54e56626b42",
+      "md5": "3f45974e787a7490d3a22a09b0c4e116",
       "bytes": 38885444
     },
     {
       "name": "firmware-tlora-v3-3-0-tcxo-2.8.0.51eadb7.bin",
-      "md5": "b2a2a152590d470960a961c1c456b979",
+      "md5": "2d73af4d8b1e7e5d98f201bad57bccfd",
       "bytes": 2015664,
       "part_name": "app0"
     },
     {
       "name": "firmware-tlora-v3-3-0-tcxo-2.8.0.51eadb7.factory.bin",
-      "md5": "f8f19effc5c00d06fae385df1e843606",
+      "md5": "f42b282c73dd61db2336c5dd7cd0d876",
       "bytes": 2081200
     },
     {
       "name": "littlefs-tlora-v3-3-0-tcxo-2.8.0.51eadb7.bin",
-      "md5": "bc4cb605588f619e5e39aee91582bdbd",
+      "md5": "ad3e555792299738c5f050c41dff83dc",
       "bytes": 1048576,
       "part_name": "spiffs"
     },

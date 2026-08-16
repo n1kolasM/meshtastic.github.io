@@ -1,35 +1,35 @@
 {
   "version": "2.8.0.51eadb7",
-  "build_epoch": 1786752000,
+  "build_epoch": 1786838400,
   "platformioTarget": "seeed_wio_tracker_L1_eink",
   "mcu": "nrf52840",
   "repo": "meshtastic/firmware",
   "files": [
     {
       "name": "firmware-seeed_wio_tracker_L1_eink-2.8.0.51eadb7.elf",
-      "md5": "364bba2e31b0af64795b07730dd4a2d0",
-      "bytes": 1289908
+      "md5": "d2112d3365bec0b0206901cde6618466",
+      "bytes": 1289876
     },
     {
       "name": "firmware-seeed_wio_tracker_L1_eink-2.8.0.51eadb7.hex",
-      "md5": "ba59951031e333f0cad840c267e1c21d",
-      "bytes": 2055581
+      "md5": "291208ad9804a73c70bd8ce9c4eeef42",
+      "bytes": 2055610
     },
     {
       "name": "firmware-seeed_wio_tracker_L1_eink-2.8.0.51eadb7.uf2",
-      "md5": "58431ef2f4eaa8418ae8d8313d0568d6",
+      "md5": "35a7014fc5d5f1ae580802becb8cccd9",
       "bytes": 1461760
     },
     {
       "name": "firmware-seeed_wio_tracker_L1_eink-2.8.0.51eadb7-ota.zip",
-      "md5": "f91c2c2522d03dea3251ca8cb2c7c53c",
-      "bytes": 731827
+      "md5": "7348ef808274b632eafd8fb92ec7a1d5",
+      "bytes": 731835
     }
   ],
   "has_mui": false,
   "has_inkhud": false,
   "ram_bytes": 97932,
-  "flash_bytes": 730784,
+  "flash_bytes": 730792,
   "hwModel": 100,
   "hwModelSlug": "SEEED_WIO_TRACKER_L1_EINK",
   "architecture": "nrf52840",

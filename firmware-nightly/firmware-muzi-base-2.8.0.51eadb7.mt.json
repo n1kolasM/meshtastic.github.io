@@ -1,29 +1,29 @@
 {
   "version": "2.8.0.51eadb7",
-  "build_epoch": 1786752000,
+  "build_epoch": 1786838400,
   "platformioTarget": "muzi-base",
   "mcu": "nrf52840",
   "repo": "meshtastic/firmware",
   "files": [
     {
       "name": "firmware-muzi-base-2.8.0.51eadb7.elf",
-      "md5": "9aede9489268326d4f4de8b13c858a5e",
-      "bytes": 1290948
+      "md5": "65f2354145a1f7435c51e9a8f10ed829",
+      "bytes": 1290964
     },
     {
       "name": "firmware-muzi-base-2.8.0.51eadb7.hex",
-      "md5": "6366fd4dae490d80be963e4461c8fe88",
+      "md5": "8be132cb4b7212bbbebc56078179dc9c",
       "bytes": 2069981
     },
     {
       "name": "firmware-muzi-base-2.8.0.51eadb7.uf2",
-      "md5": "43c16256297168b72701074d78ea3e0d",
+      "md5": "33159e755515e046c9e76564b4fd2b1d",
       "bytes": 1472000
     },
     {
       "name": "firmware-muzi-base-2.8.0.51eadb7-ota.zip",
-      "md5": "759a454229797bcb82b794372a064f6f",
-      "bytes": 736851
+      "md5": "8ae53a76806628687567bec6856151db",
+      "bytes": 736850
     }
   ],
   "has_mui": false,

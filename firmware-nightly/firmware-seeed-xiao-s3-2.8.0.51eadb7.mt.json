@@ -1,29 +1,29 @@
 {
   "version": "2.8.0.51eadb7",
-  "build_epoch": 1786752000,
+  "build_epoch": 1786838400,
   "platformioTarget": "seeed-xiao-s3",
   "mcu": "esp32s3",
   "repo": "meshtastic/firmware",
   "files": [
     {
       "name": "firmware-seeed-xiao-s3-2.8.0.51eadb7.elf",
-      "md5": "f71de4b2c167596c895d3d4ef8ad492f",
+      "md5": "c401b2e1664d4677738190b2c2eea800",
       "bytes": 46570776
     },
     {
       "name": "firmware-seeed-xiao-s3-2.8.0.51eadb7.bin",
-      "md5": "c4c7022e297df0ff309a4d3ecf680e4e",
+      "md5": "407e0d81cc883b59305a379ec94f1164",
       "bytes": 2279536,
       "part_name": "app0"
     },
     {
       "name": "firmware-seeed-xiao-s3-2.8.0.51eadb7.factory.bin",
-      "md5": "4009c3e85db3c27ef589a64a22247091",
+      "md5": "fc384d8e42767c16e6e46dbe571ac679",
       "bytes": 2345072
     },
     {
       "name": "littlefs-seeed-xiao-s3-2.8.0.51eadb7.bin",
-      "md5": "3c3e2c1d215b3883682223a75381d639",
+      "md5": "fc9b7f2780f5af1bb7b44fad740e2720",
       "bytes": 1572864,
       "part_name": "spiffs"
     },

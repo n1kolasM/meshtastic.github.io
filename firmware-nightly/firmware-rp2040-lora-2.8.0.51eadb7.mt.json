@@ -1,24 +1,24 @@
 {
   "version": "2.8.0.51eadb7",
-  "build_epoch": 1786752000,
+  "build_epoch": 1786838400,
   "platformioTarget": "rp2040-lora",
   "mcu": "rp2040",
   "repo": "meshtastic/firmware",
   "files": [
     {
       "name": "firmware-rp2040-lora-2.8.0.51eadb7.elf",
-      "md5": "e5025b16adbab127299ae30ad505bd58",
+      "md5": "9cf20bf15156256680819a1cbb0a154e",
       "bytes": 2958188
     },
     {
       "name": "firmware-rp2040-lora-2.8.0.51eadb7.bin",
-      "md5": "4144150459318a245bf1f226ad907070",
+      "md5": "0a2da709686997e87860a53d45819a91",
       "bytes": 794960,
       "part_name": "app0"
     },
     {
       "name": "firmware-rp2040-lora-2.8.0.51eadb7.uf2",
-      "md5": "9ac626621c898da128043567705e8825",
+      "md5": "d57ffd3d031a27fbeb028eff6615a08f",
       "bytes": 1590272
     }
   ],

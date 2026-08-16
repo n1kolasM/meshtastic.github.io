@@ -1,29 +1,29 @@
 {
   "version": "2.8.0.51eadb7",
-  "build_epoch": 1786752000,
+  "build_epoch": 1786838400,
   "platformioTarget": "heltec-vision-master-e290",
   "mcu": "esp32s3",
   "repo": "meshtastic/firmware",
   "files": [
     {
       "name": "firmware-heltec-vision-master-e290-2.8.0.51eadb7.elf",
-      "md5": "7a10d79e3b94782c0a082720e242aa5f",
+      "md5": "1cea0241b0aa3ece7bf4f65be7612a33",
       "bytes": 46949316
     },
     {
       "name": "firmware-heltec-vision-master-e290-2.8.0.51eadb7.bin",
-      "md5": "3191fb3cd5a5ecf7a754f9e83d845818",
+      "md5": "aec5920588192fb0e3e970ef2d0d4882",
       "bytes": 2289264,
       "part_name": "app0"
     },
     {
       "name": "firmware-heltec-vision-master-e290-2.8.0.51eadb7.factory.bin",
-      "md5": "dbc8aa1206c508bd6270f2487b1b1ac0",
+      "md5": "c09128645b57ab32099d2da4a1cadcc7",
       "bytes": 2354800
     },
     {
       "name": "littlefs-heltec-vision-master-e290-2.8.0.51eadb7.bin",
-      "md5": "ed8d8fa41ab16bc66b7facc16053ff5c",
+      "md5": "9d31c6bb783672872a5e6f0732469535",
       "bytes": 1572864,
       "part_name": "spiffs"
     },

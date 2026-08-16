@@ -1,29 +1,29 @@
 {
   "version": "2.8.0.51eadb7",
-  "build_epoch": 1786752000,
+  "build_epoch": 1786838400,
   "platformioTarget": "radiomaster_900_bandit_micro",
   "mcu": "esp32",
   "repo": "meshtastic/firmware",
   "files": [
     {
       "name": "firmware-radiomaster_900_bandit_micro-2.8.0.51eadb7.elf",
-      "md5": "c342da28050d597958971924873da349",
+      "md5": "d1befa5ae76dcbf421e907843297f00d",
       "bytes": 40745628
     },
     {
       "name": "firmware-radiomaster_900_bandit_micro-2.8.0.51eadb7.bin",
-      "md5": "b20cb4000fe1b3fe75e1100f0f59f4b0",
+      "md5": "d15c520fbea9575e2bd6e6eaf12cee60",
       "bytes": 2096080,
       "part_name": "app0"
     },
     {
       "name": "firmware-radiomaster_900_bandit_micro-2.8.0.51eadb7.factory.bin",
-      "md5": "55417eed41a51b89585cea74b56a524b",
+      "md5": "4ccec0656e23e81a1a32c1f12b625681",
       "bytes": 2161616
     },
     {
       "name": "littlefs-radiomaster_900_bandit_micro-2.8.0.51eadb7.bin",
-      "md5": "8ce759c41135fb5019127955ea97a7c0",
+      "md5": "c034e3e699dc13d2312bf2450861c06d",
       "bytes": 1048576,
       "part_name": "spiffs"
     },

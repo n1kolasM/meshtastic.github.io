@@ -1,29 +1,29 @@
 {
   "version": "2.8.0.51eadb7",
-  "build_epoch": 1786752000,
+  "build_epoch": 1786838400,
   "platformioTarget": "heltec-wireless-paper",
   "mcu": "esp32s3",
   "repo": "meshtastic/firmware",
   "files": [
     {
       "name": "firmware-heltec-wireless-paper-2.8.0.51eadb7.elf",
-      "md5": "467b97a46dc1d750926ff59d8ea6fff1",
+      "md5": "d2d8c5f6c69ae124840300eea20c77c3",
       "bytes": 46710088
     },
     {
       "name": "firmware-heltec-wireless-paper-2.8.0.51eadb7.bin",
-      "md5": "d5a18041ae153aa3f93ea3304499671e",
+      "md5": "df0e3895349b16fdd4e7252e42c73520",
       "bytes": 2273376,
       "part_name": "app0"
     },
     {
       "name": "firmware-heltec-wireless-paper-2.8.0.51eadb7.factory.bin",
-      "md5": "38cc65aab386536e2d26346c66606fb3",
+      "md5": "08d4be7be5a93d74d87d1b71f8914aec",
       "bytes": 2338912
     },
     {
       "name": "littlefs-heltec-wireless-paper-2.8.0.51eadb7.bin",
-      "md5": "b7370111c22823b114fbe82704a1dc8f",
+      "md5": "fb4314b9765d79c39271d9f018c760a5",
       "bytes": 1572864,
       "part_name": "spiffs"
     },

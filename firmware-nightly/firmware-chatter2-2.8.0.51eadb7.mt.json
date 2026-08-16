@@ -1,29 +1,29 @@
 {
   "version": "2.8.0.51eadb7",
-  "build_epoch": 1786752000,
+  "build_epoch": 1786838400,
   "platformioTarget": "chatter2",
   "mcu": "esp32",
   "repo": "meshtastic/firmware",
   "files": [
     {
       "name": "firmware-chatter2-2.8.0.51eadb7.elf",
-      "md5": "2679f0212f309be3996c11e7d611630e",
+      "md5": "b2d5a640fed40ccb7c94c779a223f19b",
       "bytes": 41412240
     },
     {
       "name": "firmware-chatter2-2.8.0.51eadb7.bin",
-      "md5": "24e1519b8034aff857a5ba076ef92954",
+      "md5": "94b1b6230924c228ef0458bcf4277b3d",
       "bytes": 2078080,
       "part_name": "app0"
     },
     {
       "name": "firmware-chatter2-2.8.0.51eadb7.factory.bin",
-      "md5": "066020d4de1ec2c29212bd1befc67db1",
+      "md5": "c050fab905df3690dfc914cc49b8b612",
       "bytes": 2143616
     },
     {
       "name": "littlefs-chatter2-2.8.0.51eadb7.bin",
-      "md5": "5b6cfb3d635adefe85fdcc21ffea526a",
+      "md5": "933eb0eaff384ccac7e55fd497c7bf4b",
       "bytes": 1048576,
       "part_name": "spiffs"
     },

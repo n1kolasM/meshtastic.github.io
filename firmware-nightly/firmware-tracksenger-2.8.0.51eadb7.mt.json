@@ -1,29 +1,29 @@
 {
   "version": "2.8.0.51eadb7",
-  "build_epoch": 1786752000,
+  "build_epoch": 1786838400,
   "platformioTarget": "tracksenger",
   "mcu": "esp32s3",
   "repo": "meshtastic/firmware",
   "files": [
     {
       "name": "firmware-tracksenger-2.8.0.51eadb7.elf",
-      "md5": "667b7f6950ca91b09be3f1e275b27e6c",
+      "md5": "4b34ee164a854b4988e1d47e221aeef6",
       "bytes": 48933456
     },
     {
       "name": "firmware-tracksenger-2.8.0.51eadb7.bin",
-      "md5": "a397e240a83ba7e4b8694ad0467eaa86",
+      "md5": "3dc22408410e7fde266719999bf42efa",
       "bytes": 2320944,
       "part_name": "app0"
     },
     {
       "name": "firmware-tracksenger-2.8.0.51eadb7.factory.bin",
-      "md5": "911fd697e281509e30ef1f5fba527275",
+      "md5": "e706d5f076d9c24f847092ea23011bc8",
       "bytes": 2386480
     },
     {
       "name": "littlefs-tracksenger-2.8.0.51eadb7.bin",
-      "md5": "6a02c2cdceb7da133592597d448fce45",
+      "md5": "b4ecaba6977bf4d0244e16d722978e62",
       "bytes": 1572864,
       "part_name": "spiffs"
     },

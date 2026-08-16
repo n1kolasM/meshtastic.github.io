@@ -1,35 +1,35 @@
 {
   "version": "2.8.0.51eadb7",
-  "build_epoch": 1786752000,
+  "build_epoch": 1786838400,
   "platformioTarget": "t-echo-lite",
   "mcu": "nrf52840",
   "repo": "meshtastic/firmware",
   "files": [
     {
       "name": "firmware-t-echo-lite-2.8.0.51eadb7.elf",
-      "md5": "c8d23f249d03a8cbb3ec944689190675",
-      "bytes": 1285920
+      "md5": "1b738cd11ff25d37ceb8bc811644904c",
+      "bytes": 1285952
     },
     {
       "name": "firmware-t-echo-lite-2.8.0.51eadb7.hex",
-      "md5": "f03e31ba970f3a87c8e46f0d4bee5a12",
-      "bytes": 2044106
+      "md5": "1598cd96fc2c98c0210e6945aacd48e0",
+      "bytes": 2044061
     },
     {
       "name": "firmware-t-echo-lite-2.8.0.51eadb7.uf2",
-      "md5": "39e71a47997048b7be8e5a7e65ce8339",
+      "md5": "6124b1654e862a6c3e9dd955c4cab15b",
       "bytes": 1453568
     },
     {
       "name": "firmware-t-echo-lite-2.8.0.51eadb7-ota.zip",
-      "md5": "16de9192b5a4c2295efeb7b04c1fe03a",
-      "bytes": 727663
+      "md5": "7a527f44a57347f63ee0c68e00e21e8b",
+      "bytes": 727647
     }
   ],
   "has_mui": false,
   "has_inkhud": false,
   "ram_bytes": 89060,
-  "flash_bytes": 726704,
+  "flash_bytes": 726688,
   "hwModel": 109,
   "hwModelSlug": "T_ECHO_LITE",
   "architecture": "nrf52840",
