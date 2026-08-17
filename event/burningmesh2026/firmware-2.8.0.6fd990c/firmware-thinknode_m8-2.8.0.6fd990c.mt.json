@@ -1,0 +1,46 @@
+{
+  "version": "2.8.0.6fd990c",
+  "build_epoch": 1786924800,
+  "platformioTarget": "thinknode_m8",
+  "mcu": "nrf52840",
+  "repo": "meshtastic/firmware",
+  "files": [
+    {
+      "name": "firmware-thinknode_m8-2.8.0.6fd990c.elf",
+      "md5": "1b982250933f41db1d86384fe0b91e0a",
+      "bytes": 1290328
+    },
+    {
+      "name": "firmware-thinknode_m8-2.8.0.6fd990c.hex",
+      "md5": "e254bc3240fb83b6592304ebe39f0436",
+      "bytes": 2060981
+    },
+    {
+      "name": "firmware-thinknode_m8-2.8.0.6fd990c.uf2",
+      "md5": "c1c696b34f93b9f41b2bea6998b7eff9",
+      "bytes": 1465856
+    },
+    {
+      "name": "firmware-thinknode_m8-2.8.0.6fd990c-ota.zip",
+      "md5": "81ba30aae48e2cf9a065d09f1d669a38",
+      "bytes": 733669
+    }
+  ],
+  "has_mui": false,
+  "has_inkhud": false,
+  "ram_bytes": 89060,
+  "flash_bytes": 732704,
+  "hwModel": 130,
+  "hwModelSlug": "THINKNODE_M8",
+  "architecture": "nrf52840",
+  "activelySupported": true,
+  "displayName": "Elecrow ThinkNode M8",
+  "supportLevel": 1,
+  "images": [
+    "thinknode_m8.svg"
+  ],
+  "tags": [
+    "Elecrow"
+  ],
+  "requiresDfu": true
+}

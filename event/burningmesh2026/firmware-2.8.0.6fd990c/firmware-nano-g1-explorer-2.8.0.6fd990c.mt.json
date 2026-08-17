@@ -1,0 +1,92 @@
+{
+  "version": "2.8.0.6fd990c",
+  "build_epoch": 1786924800,
+  "platformioTarget": "nano-g1-explorer",
+  "mcu": "esp32",
+  "repo": "meshtastic/firmware",
+  "files": [
+    {
+      "name": "firmware-nano-g1-explorer-2.8.0.6fd990c.elf",
+      "md5": "3685d52034d0ad7f0daca34d71ef6b34",
+      "bytes": 39272144
+    },
+    {
+      "name": "firmware-nano-g1-explorer-2.8.0.6fd990c.bin",
+      "md5": "234db73f04c02793f2607c9ac6b9798d",
+      "bytes": 2040816,
+      "part_name": "app0"
+    },
+    {
+      "name": "firmware-nano-g1-explorer-2.8.0.6fd990c.factory.bin",
+      "md5": "bc506c84159a0329d2e018467f7094a1",
+      "bytes": 2106352
+    },
+    {
+      "name": "littlefs-nano-g1-explorer-2.8.0.6fd990c.bin",
+      "md5": "c7ff1b16837e8fdb32b7626978e3b20f",
+      "bytes": 1048576,
+      "part_name": "spiffs"
+    },
+    {
+      "name": "mt-esp32-ota.bin",
+      "md5": "d7376153b9d0034ac5cf534bc0e17fc0",
+      "bytes": 642096,
+      "part_name": "app1"
+    }
+  ],
+  "has_mui": false,
+  "has_inkhud": false,
+  "ram_bytes": 108172,
+  "flash_bytes": 2065494,
+  "part": [
+    {
+      "name": "nvs",
+      "type": "data",
+      "subtype": "nvs",
+      "offset": "0x009000",
+      "size": "0x005000",
+      "flags": ""
+    },
+    {
+      "name": "otadata",
+      "type": "data",
+      "subtype": "ota",
+      "offset": "0x00e000",
+      "size": "0x002000",
+      "flags": ""
+    },
+    {
+      "name": "app",
+      "type": "app",
+      "subtype": "ota_0",
+      "offset": "0x010000",
+      "size": "0x250000",
+      "flags": ""
+    },
+    {
+      "name": "flashApp",
+      "type": "app",
+      "subtype": "ota_1",
+      "offset": "0x260000",
+      "size": "0x0A0000",
+      "flags": ""
+    },
+    {
+      "name": "spiffs",
+      "type": "data",
+      "subtype": "spiffs",
+      "offset": "0x300000",
+      "size": "0x100000",
+      "flags": ""
+    }
+  ],
+  "hwModel": 17,
+  "hwModelSlug": "NANO_G1_EXPLORER",
+  "architecture": "esp32",
+  "activelySupported": true,
+  "displayName": "Nano G1 Explorer",
+  "supportLevel": 3,
+  "tags": [
+    "B&Q"
+  ]
+}
