@@ -1,0 +1,104 @@
+{
+  "version": "2.8.0.4528018",
+  "build_epoch": 1787616000,
+  "platformioTarget": "heltec-wireless-paper",
+  "mcu": "esp32s3",
+  "repo": "meshtastic/firmware",
+  "files": [
+    {
+      "name": "firmware-heltec-wireless-paper-2.8.0.4528018.elf",
+      "md5": "2320f4de44e2b68535e6492ac28df869",
+      "bytes": 46877884
+    },
+    {
+      "name": "firmware-heltec-wireless-paper-2.8.0.4528018.bin",
+      "md5": "5926aa3f04d34c75cb7326633087bcd0",
+      "bytes": 2282544,
+      "part_name": "app0"
+    },
+    {
+      "name": "firmware-heltec-wireless-paper-2.8.0.4528018.factory.bin",
+      "md5": "39aacd86708cdd7014b2d6b0d07e0078",
+      "bytes": 2348080
+    },
+    {
+      "name": "littlefs-heltec-wireless-paper-2.8.0.4528018.bin",
+      "md5": "cfaaca0547580e94844d67cad2d84c42",
+      "bytes": 1572864,
+      "part_name": "spiffs"
+    },
+    {
+      "name": "mt-esp32s3-ota.bin",
+      "md5": "497d3108c038f8a6b5f4e234a1156c8a",
+      "bytes": 636544,
+      "part_name": "app1"
+    }
+  ],
+  "has_mui": false,
+  "has_inkhud": false,
+  "ram_bytes": 126856,
+  "flash_bytes": 2307359,
+  "part": [
+    {
+      "name": "nvs",
+      "type": "data",
+      "subtype": "nvs",
+      "offset": "0x9000",
+      "size": "0x5000",
+      "flags": ""
+    },
+    {
+      "name": "otadata",
+      "type": "data",
+      "subtype": "ota",
+      "offset": "0xe000",
+      "size": "0x2000",
+      "flags": ""
+    },
+    {
+      "name": "app0",
+      "type": "app",
+      "subtype": "ota_0",
+      "offset": "0x10000",
+      "size": "0x330000",
+      "flags": ""
+    },
+    {
+      "name": "app1",
+      "type": "app",
+      "subtype": "ota_1",
+      "offset": "0x340000",
+      "size": "0x330000",
+      "flags": ""
+    },
+    {
+      "name": "spiffs",
+      "type": "data",
+      "subtype": "spiffs",
+      "offset": "0x670000",
+      "size": "0x180000",
+      "flags": ""
+    },
+    {
+      "name": "coredump",
+      "type": "data",
+      "subtype": "coredump",
+      "offset": "0x7F0000",
+      "size": "0x10000",
+      "flags": ""
+    }
+  ],
+  "hwModel": 49,
+  "hwModelSlug": "HELTEC_WIRELESS_PAPER",
+  "architecture": "esp32-s3",
+  "activelySupported": true,
+  "displayName": "Heltec Wireless Paper",
+  "supportLevel": 1,
+  "images": [
+    "heltec-wireless-paper.svg"
+  ],
+  "tags": [
+    "Heltec"
+  ],
+  "partitionScheme": "8MB"
+}
