@@ -1,0 +1,32 @@
+{
+  "version": "2.8.0.8eda860",
+  "build_epoch": 1787702400,
+  "platformioTarget": "seeed_xiao_rp2350",
+  "mcu": "rp2350",
+  "repo": "meshtastic/firmware",
+  "files": [
+    {
+      "name": "firmware-seeed_xiao_rp2350-2.8.0.8eda860.elf",
+      "md5": "7adcefaf819013f2633ceb64c28a9896",
+      "bytes": 2922376
+    },
+    {
+      "name": "firmware-seeed_xiao_rp2350-2.8.0.8eda860.bin",
+      "md5": "7ff06c6820ca732a514ecc62d947ce37",
+      "bytes": 784476,
+      "part_name": "app0"
+    },
+    {
+      "name": "firmware-seeed_xiao_rp2350-2.8.0.8eda860.uf2",
+      "md5": "fd64509c0b9f62a2f6f1bf85ac9d43a1",
+      "bytes": 1569280
+    }
+  ],
+  "has_mui": false,
+  "has_inkhud": false,
+  "ram_bytes": 83312,
+  "flash_bytes": 1227208,
+  "architecture": "rp2350",
+  "displayName": "seeed_xiao_rp2350",
+  "activelySupported": false
+}
