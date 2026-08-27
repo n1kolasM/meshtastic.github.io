@@ -1,0 +1,96 @@
+{
+  "version": "2.8.0.eb6df1c",
+  "build_epoch": 1787788800,
+  "platformioTarget": "tlora-t3s3-v1",
+  "mcu": "esp32s3",
+  "repo": "meshtastic/firmware",
+  "files": [
+    {
+      "name": "firmware-tlora-t3s3-v1-2.8.0.eb6df1c.elf",
+      "md5": "28969dcd950cb399ebc4d68c1934dcdc",
+      "bytes": 48960056
+    },
+    {
+      "name": "firmware-tlora-t3s3-v1-2.8.0.eb6df1c.bin",
+      "md5": "4cde20332d4bd797c98e105aa244d9e5",
+      "bytes": 2474368,
+      "part_name": "app0"
+    },
+    {
+      "name": "firmware-tlora-t3s3-v1-2.8.0.eb6df1c.factory.bin",
+      "md5": "b8123985d0f20c15dcc68fcb2c7041e4",
+      "bytes": 2539904
+    },
+    {
+      "name": "littlefs-tlora-t3s3-v1-2.8.0.eb6df1c.bin",
+      "md5": "e8cc48c3344f09684c87d267e8ae078b",
+      "bytes": 786432,
+      "part_name": "spiffs"
+    },
+    {
+      "name": "mt-esp32s3-ota.bin",
+      "md5": "497d3108c038f8a6b5f4e234a1156c8a",
+      "bytes": 636544,
+      "part_name": "app1"
+    }
+  ],
+  "has_mui": false,
+  "has_inkhud": false,
+  "ram_bytes": 99712,
+  "flash_bytes": 2499187,
+  "part": [
+    {
+      "name": "nvs",
+      "type": "data",
+      "subtype": "nvs",
+      "offset": "0x009000",
+      "size": "0x005000",
+      "flags": ""
+    },
+    {
+      "name": "otadata",
+      "type": "data",
+      "subtype": "ota",
+      "offset": "0x00e000",
+      "size": "0x002000",
+      "flags": ""
+    },
+    {
+      "name": "app",
+      "type": "app",
+      "subtype": "ota_0",
+      "offset": "0x010000",
+      "size": "0x290000",
+      "flags": ""
+    },
+    {
+      "name": "flashApp",
+      "type": "app",
+      "subtype": "ota_1",
+      "offset": "0x2A0000",
+      "size": "0x0A0000",
+      "flags": ""
+    },
+    {
+      "name": "spiffs",
+      "type": "data",
+      "subtype": "spiffs",
+      "offset": "0x340000",
+      "size": "0x0C0000",
+      "flags": ""
+    }
+  ],
+  "hwModel": 16,
+  "hwModelSlug": "TLORA_T3_S3",
+  "architecture": "esp32-s3",
+  "activelySupported": true,
+  "displayName": "LILYGO T-LoRa T3-S3",
+  "supportLevel": 1,
+  "images": [
+    "tlora-t3s3-v1.svg"
+  ],
+  "tags": [
+    "LilyGo"
+  ],
+  "requiresDfu": true
+}

@@ -1,0 +1,105 @@
+{
+  "version": "2.8.0.eb6df1c",
+  "build_epoch": 1787788800,
+  "platformioTarget": "heltec-vision-master-e213",
+  "mcu": "esp32s3",
+  "repo": "meshtastic/firmware",
+  "files": [
+    {
+      "name": "firmware-heltec-vision-master-e213-2.8.0.eb6df1c.elf",
+      "md5": "fcf348212bd63afd591d5dc853e7f5c6",
+      "bytes": 47859892
+    },
+    {
+      "name": "firmware-heltec-vision-master-e213-2.8.0.eb6df1c.bin",
+      "md5": "56773d8d86fddab7f2bc13d49c84651f",
+      "bytes": 2316528,
+      "part_name": "app0"
+    },
+    {
+      "name": "firmware-heltec-vision-master-e213-2.8.0.eb6df1c.factory.bin",
+      "md5": "2e23a9ebc554b0f2e40bd1b1a1f3b35b",
+      "bytes": 2382064
+    },
+    {
+      "name": "littlefs-heltec-vision-master-e213-2.8.0.eb6df1c.bin",
+      "md5": "ac4f659e9f061f68fa924fe1b2497a98",
+      "bytes": 1572864,
+      "part_name": "spiffs"
+    },
+    {
+      "name": "mt-esp32s3-ota.bin",
+      "md5": "497d3108c038f8a6b5f4e234a1156c8a",
+      "bytes": 636544,
+      "part_name": "app1"
+    }
+  ],
+  "has_mui": false,
+  "has_inkhud": false,
+  "ram_bytes": 99692,
+  "flash_bytes": 2341347,
+  "part": [
+    {
+      "name": "nvs",
+      "type": "data",
+      "subtype": "nvs",
+      "offset": "0x9000",
+      "size": "0x5000",
+      "flags": ""
+    },
+    {
+      "name": "otadata",
+      "type": "data",
+      "subtype": "ota",
+      "offset": "0xe000",
+      "size": "0x2000",
+      "flags": ""
+    },
+    {
+      "name": "app0",
+      "type": "app",
+      "subtype": "ota_0",
+      "offset": "0x10000",
+      "size": "0x330000",
+      "flags": ""
+    },
+    {
+      "name": "app1",
+      "type": "app",
+      "subtype": "ota_1",
+      "offset": "0x340000",
+      "size": "0x330000",
+      "flags": ""
+    },
+    {
+      "name": "spiffs",
+      "type": "data",
+      "subtype": "spiffs",
+      "offset": "0x670000",
+      "size": "0x180000",
+      "flags": ""
+    },
+    {
+      "name": "coredump",
+      "type": "data",
+      "subtype": "coredump",
+      "offset": "0x7F0000",
+      "size": "0x10000",
+      "flags": ""
+    }
+  ],
+  "hwModel": 67,
+  "hwModelSlug": "HELTEC_VISION_MASTER_E213",
+  "architecture": "esp32-s3",
+  "activelySupported": true,
+  "displayName": "Heltec Vision Master E213",
+  "supportLevel": 1,
+  "images": [
+    "heltec-vision-master-e213.svg"
+  ],
+  "tags": [
+    "Heltec"
+  ],
+  "requiresDfu": true,
+  "partitionScheme": "8MB"
+}

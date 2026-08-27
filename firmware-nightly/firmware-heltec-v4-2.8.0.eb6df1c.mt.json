@@ -1,0 +1,105 @@
+{
+  "version": "2.8.0.eb6df1c",
+  "build_epoch": 1787788800,
+  "platformioTarget": "heltec-v4",
+  "mcu": "esp32s3",
+  "repo": "meshtastic/firmware",
+  "files": [
+    {
+      "name": "firmware-heltec-v4-2.8.0.eb6df1c.elf",
+      "md5": "9681291841816f33a6a6a1f80503d9b8",
+      "bytes": 47716628
+    },
+    {
+      "name": "firmware-heltec-v4-2.8.0.eb6df1c.bin",
+      "md5": "adf518b8812b27c14b7bdf42c5770e82",
+      "bytes": 2303344,
+      "part_name": "app0"
+    },
+    {
+      "name": "firmware-heltec-v4-2.8.0.eb6df1c.factory.bin",
+      "md5": "a94a6648cefa04d28bebda14d4cb4549",
+      "bytes": 2368880
+    },
+    {
+      "name": "littlefs-heltec-v4-2.8.0.eb6df1c.bin",
+      "md5": "6ac59daf9c54c9c60ba2e038d0b1e281",
+      "bytes": 3538944,
+      "part_name": "spiffs"
+    },
+    {
+      "name": "mt-esp32s3-ota.bin",
+      "md5": "497d3108c038f8a6b5f4e234a1156c8a",
+      "bytes": 636544,
+      "part_name": "app1"
+    }
+  ],
+  "has_mui": false,
+  "has_inkhud": false,
+  "ram_bytes": 98824,
+  "flash_bytes": 2328159,
+  "part": [
+    {
+      "name": "nvs",
+      "type": "data",
+      "subtype": "nvs",
+      "offset": "0x9000",
+      "size": "0x5000",
+      "flags": ""
+    },
+    {
+      "name": "otadata",
+      "type": "data",
+      "subtype": "ota",
+      "offset": "0xe000",
+      "size": "0x2000",
+      "flags": ""
+    },
+    {
+      "name": "app0",
+      "type": "app",
+      "subtype": "ota_0",
+      "offset": "0x10000",
+      "size": "0x640000",
+      "flags": ""
+    },
+    {
+      "name": "app1",
+      "type": "app",
+      "subtype": "ota_1",
+      "offset": "0x650000",
+      "size": "0x640000",
+      "flags": ""
+    },
+    {
+      "name": "spiffs",
+      "type": "data",
+      "subtype": "spiffs",
+      "offset": "0xc90000",
+      "size": "0x360000",
+      "flags": ""
+    },
+    {
+      "name": "coredump",
+      "type": "data",
+      "subtype": "coredump",
+      "offset": "0xFF0000",
+      "size": "0x10000",
+      "flags": ""
+    }
+  ],
+  "hwModel": 110,
+  "hwModelSlug": "HELTEC_V4",
+  "architecture": "esp32-s3",
+  "activelySupported": true,
+  "displayName": "Heltec V4",
+  "supportLevel": 1,
+  "images": [
+    "heltec_v4.svg"
+  ],
+  "tags": [
+    "Heltec"
+  ],
+  "requiresDfu": true,
+  "partitionScheme": "16MB"
+}

@@ -1,0 +1,105 @@
+{
+  "version": "2.8.0.eb6df1c",
+  "build_epoch": 1787788800,
+  "platformioTarget": "station-g3",
+  "mcu": "esp32s3",
+  "repo": "meshtastic/firmware",
+  "files": [
+    {
+      "name": "firmware-station-g3-2.8.0.eb6df1c.elf",
+      "md5": "c1fe90ad8601a2ee785ef4352c88b20c",
+      "bytes": 47339268
+    },
+    {
+      "name": "firmware-station-g3-2.8.0.eb6df1c.bin",
+      "md5": "d2868b32f34fb01d395cefb65ee8a455",
+      "bytes": 2295216,
+      "part_name": "app0"
+    },
+    {
+      "name": "firmware-station-g3-2.8.0.eb6df1c.factory.bin",
+      "md5": "ebdc5a9cfdd9c0464eaa74fbf2ec5610",
+      "bytes": 2360752
+    },
+    {
+      "name": "littlefs-station-g3-2.8.0.eb6df1c.bin",
+      "md5": "cb3d80d8d169aba4ac71431f079632f6",
+      "bytes": 3538944,
+      "part_name": "spiffs"
+    },
+    {
+      "name": "mt-esp32s3-ota.bin",
+      "md5": "497d3108c038f8a6b5f4e234a1156c8a",
+      "bytes": 636544,
+      "part_name": "app1"
+    }
+  ],
+  "has_mui": false,
+  "has_inkhud": false,
+  "ram_bytes": 99604,
+  "flash_bytes": 2320035,
+  "part": [
+    {
+      "name": "nvs",
+      "type": "data",
+      "subtype": "nvs",
+      "offset": "0x9000",
+      "size": "0x5000",
+      "flags": ""
+    },
+    {
+      "name": "otadata",
+      "type": "data",
+      "subtype": "ota",
+      "offset": "0xe000",
+      "size": "0x2000",
+      "flags": ""
+    },
+    {
+      "name": "app0",
+      "type": "app",
+      "subtype": "ota_0",
+      "offset": "0x10000",
+      "size": "0x640000",
+      "flags": ""
+    },
+    {
+      "name": "app1",
+      "type": "app",
+      "subtype": "ota_1",
+      "offset": "0x650000",
+      "size": "0x640000",
+      "flags": ""
+    },
+    {
+      "name": "spiffs",
+      "type": "data",
+      "subtype": "spiffs",
+      "offset": "0xc90000",
+      "size": "0x360000",
+      "flags": ""
+    },
+    {
+      "name": "coredump",
+      "type": "data",
+      "subtype": "coredump",
+      "offset": "0xFF0000",
+      "size": "0x10000",
+      "flags": ""
+    }
+  ],
+  "hwModel": 134,
+  "hwModelSlug": "STATION_G3",
+  "architecture": "esp32-s3",
+  "activelySupported": true,
+  "displayName": "Station G3",
+  "supportLevel": 2,
+  "images": [
+    "station-g3.svg"
+  ],
+  "tags": [
+    "B&Q"
+  ],
+  "requiresDfu": true,
+  "partitionScheme": "16MB"
+}

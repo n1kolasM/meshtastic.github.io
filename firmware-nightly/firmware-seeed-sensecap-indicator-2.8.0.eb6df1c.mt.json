@@ -1,0 +1,96 @@
+{
+  "version": "2.8.0.eb6df1c",
+  "build_epoch": 1787788800,
+  "platformioTarget": "seeed-sensecap-indicator",
+  "mcu": "esp32s3",
+  "repo": "meshtastic/firmware",
+  "files": [
+    {
+      "name": "firmware-seeed-sensecap-indicator-2.8.0.eb6df1c.elf",
+      "md5": "b346c97805e2b22e890146d74df8a0df",
+      "bytes": 50661728
+    },
+    {
+      "name": "firmware-seeed-sensecap-indicator-2.8.0.eb6df1c.bin",
+      "md5": "6e236153a0eb66d82e4e40fc3743ef3d",
+      "bytes": 2365872,
+      "part_name": "app0"
+    },
+    {
+      "name": "firmware-seeed-sensecap-indicator-2.8.0.eb6df1c.factory.bin",
+      "md5": "6ec10d5cfdb8ecc985ec3f626d485fa6",
+      "bytes": 2431408
+    },
+    {
+      "name": "littlefs-seeed-sensecap-indicator-2.8.0.eb6df1c.bin",
+      "md5": "3a5e319b5188c9ff8c5ffc496308bf82",
+      "bytes": 1572864,
+      "part_name": "spiffs"
+    },
+    {
+      "name": "mt-esp32s3-ota.bin",
+      "md5": "497d3108c038f8a6b5f4e234a1156c8a",
+      "bytes": 636544,
+      "part_name": "app1"
+    }
+  ],
+  "has_mui": false,
+  "has_inkhud": false,
+  "ram_bytes": 105668,
+  "flash_bytes": 2390687,
+  "part": [
+    {
+      "name": "nvs",
+      "type": "data",
+      "subtype": "nvs",
+      "offset": "0x9000",
+      "size": "0x5000",
+      "flags": ""
+    },
+    {
+      "name": "otadata",
+      "type": "data",
+      "subtype": "ota",
+      "offset": "0xe000",
+      "size": "0x2000",
+      "flags": ""
+    },
+    {
+      "name": "app0",
+      "type": "app",
+      "subtype": "ota_0",
+      "offset": "0x10000",
+      "size": "0x5C0000",
+      "flags": ""
+    },
+    {
+      "name": "flashApp",
+      "type": "app",
+      "subtype": "ota_1",
+      "offset": "0x5D0000",
+      "size": "0x0A0000",
+      "flags": ""
+    },
+    {
+      "name": "spiffs",
+      "type": "data",
+      "subtype": "spiffs",
+      "offset": "0x670000",
+      "size": "0x180000",
+      "flags": null
+    }
+  ],
+  "hwModel": 70,
+  "hwModelSlug": "SENSECAP_INDICATOR",
+  "architecture": "esp32-s3",
+  "activelySupported": true,
+  "displayName": "Seeed SenseCAP Indicator",
+  "supportLevel": 1,
+  "images": [
+    "seeed-sensecap-indicator.svg"
+  ],
+  "tags": [
+    "Seeed"
+  ],
+  "partitionScheme": "8MB"
+}
