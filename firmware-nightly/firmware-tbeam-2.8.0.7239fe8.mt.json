@@ -1,0 +1,95 @@
+{
+  "version": "2.8.0.7239fe8",
+  "build_epoch": 1788048000,
+  "platformioTarget": "tbeam",
+  "mcu": "esp32",
+  "repo": "meshtastic/firmware",
+  "files": [
+    {
+      "name": "firmware-tbeam-2.8.0.7239fe8.elf",
+      "md5": "d5505cb3d7b2e46d8faaedda52ad58d1",
+      "bytes": 40589528
+    },
+    {
+      "name": "firmware-tbeam-2.8.0.7239fe8.bin",
+      "md5": "d8fc0af55191e08ec4fce99ecf8a2b16",
+      "bytes": 2078752,
+      "part_name": "app0"
+    },
+    {
+      "name": "firmware-tbeam-2.8.0.7239fe8.factory.bin",
+      "md5": "b8499ca365ca85b874d9ae5a826a2a9d",
+      "bytes": 2144288
+    },
+    {
+      "name": "littlefs-tbeam-2.8.0.7239fe8.bin",
+      "md5": "12bc2e4d842554fd237448ec902982a6",
+      "bytes": 1048576,
+      "part_name": "spiffs"
+    },
+    {
+      "name": "mt-esp32-ota.bin",
+      "md5": "d7376153b9d0034ac5cf534bc0e17fc0",
+      "bytes": 642096,
+      "part_name": "app1"
+    }
+  ],
+  "has_mui": false,
+  "has_inkhud": false,
+  "ram_bytes": 108556,
+  "flash_bytes": 2103426,
+  "part": [
+    {
+      "name": "nvs",
+      "type": "data",
+      "subtype": "nvs",
+      "offset": "0x009000",
+      "size": "0x005000",
+      "flags": ""
+    },
+    {
+      "name": "otadata",
+      "type": "data",
+      "subtype": "ota",
+      "offset": "0x00e000",
+      "size": "0x002000",
+      "flags": ""
+    },
+    {
+      "name": "app",
+      "type": "app",
+      "subtype": "ota_0",
+      "offset": "0x010000",
+      "size": "0x250000",
+      "flags": ""
+    },
+    {
+      "name": "flashApp",
+      "type": "app",
+      "subtype": "ota_1",
+      "offset": "0x260000",
+      "size": "0x0A0000",
+      "flags": ""
+    },
+    {
+      "name": "spiffs",
+      "type": "data",
+      "subtype": "spiffs",
+      "offset": "0x300000",
+      "size": "0x100000",
+      "flags": ""
+    }
+  ],
+  "hwModel": 4,
+  "hwModelSlug": "TBEAM",
+  "architecture": "esp32",
+  "activelySupported": true,
+  "displayName": "LILYGO T-Beam",
+  "supportLevel": 3,
+  "images": [
+    "tbeam.svg"
+  ],
+  "tags": [
+    "LilyGo"
+  ]
+}
