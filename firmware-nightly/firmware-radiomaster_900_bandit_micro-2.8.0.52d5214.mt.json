@@ -1,0 +1,86 @@
+{
+  "version": "2.8.0.52d5214",
+  "build_epoch": 1788134400,
+  "platformioTarget": "radiomaster_900_bandit_micro",
+  "mcu": "esp32",
+  "repo": "meshtastic/firmware",
+  "files": [
+    {
+      "name": "firmware-radiomaster_900_bandit_micro-2.8.0.52d5214.elf",
+      "md5": "235b047fa30d456f88116155960fcb9a",
+      "bytes": 41622496
+    },
+    {
+      "name": "firmware-radiomaster_900_bandit_micro-2.8.0.52d5214.bin",
+      "md5": "6a0558387b49a72bf32fb9ba51ddb5b2",
+      "bytes": 2117840,
+      "part_name": "app0"
+    },
+    {
+      "name": "firmware-radiomaster_900_bandit_micro-2.8.0.52d5214.factory.bin",
+      "md5": "b7a9d536e1677e3e2a669505f6e78a29",
+      "bytes": 2183376
+    },
+    {
+      "name": "littlefs-radiomaster_900_bandit_micro-2.8.0.52d5214.bin",
+      "md5": "36d61421a66b2c4a96b57934c0ce3268",
+      "bytes": 1048576,
+      "part_name": "spiffs"
+    },
+    {
+      "name": "mt-esp32-ota.bin",
+      "md5": "d7376153b9d0034ac5cf534bc0e17fc0",
+      "bytes": 642096,
+      "part_name": "app1"
+    }
+  ],
+  "has_mui": false,
+  "has_inkhud": false,
+  "ram_bytes": 108544,
+  "flash_bytes": 2142514,
+  "part": [
+    {
+      "name": "nvs",
+      "type": "data",
+      "subtype": "nvs",
+      "offset": "0x009000",
+      "size": "0x005000",
+      "flags": ""
+    },
+    {
+      "name": "otadata",
+      "type": "data",
+      "subtype": "ota",
+      "offset": "0x00e000",
+      "size": "0x002000",
+      "flags": ""
+    },
+    {
+      "name": "app",
+      "type": "app",
+      "subtype": "ota_0",
+      "offset": "0x010000",
+      "size": "0x250000",
+      "flags": ""
+    },
+    {
+      "name": "flashApp",
+      "type": "app",
+      "subtype": "ota_1",
+      "offset": "0x260000",
+      "size": "0x0A0000",
+      "flags": ""
+    },
+    {
+      "name": "spiffs",
+      "type": "data",
+      "subtype": "spiffs",
+      "offset": "0x300000",
+      "size": "0x100000",
+      "flags": ""
+    }
+  ],
+  "architecture": "esp32",
+  "displayName": "radiomaster_900_bandit_micro",
+  "activelySupported": false
+}

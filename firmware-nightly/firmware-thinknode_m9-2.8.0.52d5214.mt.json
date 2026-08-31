@@ -1,0 +1,105 @@
+{
+  "version": "2.8.0.52d5214",
+  "build_epoch": 1788134400,
+  "platformioTarget": "thinknode_m9",
+  "mcu": "esp32s3",
+  "repo": "meshtastic/firmware",
+  "files": [
+    {
+      "name": "firmware-thinknode_m9-2.8.0.52d5214.elf",
+      "md5": "f2a5bddd33c107a44af2a4db459e65b0",
+      "bytes": 51317772
+    },
+    {
+      "name": "firmware-thinknode_m9-2.8.0.52d5214.bin",
+      "md5": "65b8d10191e3e1189fb66f0d70bef1f4",
+      "bytes": 2388016,
+      "part_name": "app0"
+    },
+    {
+      "name": "firmware-thinknode_m9-2.8.0.52d5214.factory.bin",
+      "md5": "fe3893082e82b4d4a720d829cf728679",
+      "bytes": 2453552
+    },
+    {
+      "name": "littlefs-thinknode_m9-2.8.0.52d5214.bin",
+      "md5": "14f46847ee3899a28e2d54ef675de34c",
+      "bytes": 3538944,
+      "part_name": "spiffs"
+    },
+    {
+      "name": "mt-esp32s3-ota.bin",
+      "md5": "497d3108c038f8a6b5f4e234a1156c8a",
+      "bytes": 636544,
+      "part_name": "app1"
+    }
+  ],
+  "has_mui": false,
+  "has_inkhud": false,
+  "ram_bytes": 100112,
+  "flash_bytes": 2412831,
+  "part": [
+    {
+      "name": "nvs",
+      "type": "data",
+      "subtype": "nvs",
+      "offset": "0x9000",
+      "size": "0x5000",
+      "flags": ""
+    },
+    {
+      "name": "otadata",
+      "type": "data",
+      "subtype": "ota",
+      "offset": "0xe000",
+      "size": "0x2000",
+      "flags": ""
+    },
+    {
+      "name": "app0",
+      "type": "app",
+      "subtype": "ota_0",
+      "offset": "0x10000",
+      "size": "0x640000",
+      "flags": ""
+    },
+    {
+      "name": "app1",
+      "type": "app",
+      "subtype": "ota_1",
+      "offset": "0x650000",
+      "size": "0x640000",
+      "flags": ""
+    },
+    {
+      "name": "spiffs",
+      "type": "data",
+      "subtype": "spiffs",
+      "offset": "0xc90000",
+      "size": "0x360000",
+      "flags": ""
+    },
+    {
+      "name": "coredump",
+      "type": "data",
+      "subtype": "coredump",
+      "offset": "0xFF0000",
+      "size": "0x10000",
+      "flags": ""
+    }
+  ],
+  "hwModel": 131,
+  "hwModelSlug": "THINKNODE_M9",
+  "architecture": "esp32-s3",
+  "activelySupported": true,
+  "displayName": "ThinkNode M9",
+  "supportLevel": 1,
+  "images": [
+    "thinknode_m9.svg"
+  ],
+  "tags": [
+    "Elecrow"
+  ],
+  "requiresDfu": false,
+  "partitionScheme": "16MB"
+}
